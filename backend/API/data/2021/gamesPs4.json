@@ -1,0 +1,649 @@
+[
+    {
+        "id": 245953,
+        "game": {
+            "id": 148696,
+            "aggregated_rating": 77.5,
+            "cover": {
+                "id": 141558,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3186.jpg"
+            },
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Fighting"
+                }
+            ],
+            "name": "Virtua Fighter 5: Ultimate Showdown",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 49683,
+                    "video_id": "Mrw1UybftlY"
+                }
+            ]
+        },
+        "human": "Jun 01, 2021"
+    },
+    {
+        "id": 247580,
+        "game": {
+            "id": 150389,
+            "name": "Violetti Goottii",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "May 31, 2021"
+    },
+    {
+        "id": 247579,
+        "game": {
+            "id": 150389,
+            "name": "Violetti Goottii",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "May 30, 2021"
+    },
+    {
+        "id": 251882,
+        "game": {
+            "id": 151850,
+            "cover": {
+                "id": 142718,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co324e.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "name": "Dragon Break Classic",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 227064,
+        "game": {
+            "id": 143058,
+            "cover": {
+                "id": 136971,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xor.jpg"
+            },
+            "name": "R-TYPE FINAL 2: Limited Edition + Special Chronicle Box Set",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 29, 2021"
+    },
+    {
+        "id": 241618,
+        "game": {
+            "id": 146426,
+            "cover": {
+                "id": 138570,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yx6.jpg"
+            },
+            "name": "Gunducky Industries++",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 28, 2021"
+    },
+    {
+        "id": 227742,
+        "game": {
+            "id": 143284,
+            "cover": {
+                "id": 136963,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xoj.jpg"
+            },
+            "name": "Atelier Mysterious Trilogy DX: Premium Box",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 22, 2021"
+    },
+    {
+        "id": 227741,
+        "game": {
+            "id": 143283,
+            "cover": {
+                "id": 136964,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xok.jpg"
+            },
+            "name": "Atelier Mysterious Trilogy DX: Special Collection Box",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 22, 2021"
+    },
+    {
+        "id": 240448,
+        "game": {
+            "id": 146183,
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "name": "Alien Destroyer",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 16, 2021"
+    },
+    {
+        "id": 240447,
+        "game": {
+            "id": 146183,
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "name": "Alien Destroyer",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 16, 2021"
+    },
+    {
+        "id": 238526,
+        "game": {
+            "id": 145811,
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "name": "Alvo VR",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 47947,
+                    "video_id": "f5ZPfjNZqWw"
+                }
+            ]
+        },
+        "human": "Apr 13, 2021"
+    },
+    {
+        "id": 236733,
+        "game": {
+            "id": 145358,
+            "cover": {
+                "id": 136030,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wym.jpg"
+            },
+            "name": "Green Lava Studios Volume 1",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 01, 2021"
+    },
+    {
+        "id": 236582,
+        "game": {
+            "id": 145310,
+            "cover": {
+                "id": 136050,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wz6.jpg"
+            },
+            "name": "Easter Candy Break",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 31, 2021"
+    },
+    {
+        "id": 235938,
+        "game": {
+            "id": 145188,
+            "cover": {
+                "id": 135547,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wl7.jpg"
+            },
+            "name": "Baseball: Breakthrough Gaming Arcade",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 28, 2021"
+    },
+    {
+        "id": 224637,
+        "game": {
+            "id": 142371,
+            "cover": {
+                "id": 125417,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ort.jpg"
+            },
+            "name": "SD Gundam G Generation Cross Rays: Platinum Edition",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 25, 2021"
+    },
+    {
+        "id": 246102,
+        "game": {
+            "id": 149285,
+            "cover": {
+                "id": 141433,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co314p.jpg"
+            },
+            "name": "SNK Fighting Legends",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 24, 2021"
+    },
+    {
+        "id": 222171,
+        "game": {
+            "id": 141248,
+            "cover": {
+                "id": 135202,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wbm.jpg"
+            },
+            "genres": [
+                {
+                    "id": 7,
+                    "name": "Music"
+                }
+            ],
+            "name": "Love Live! School Idol Festival ~after school ACTIVITY~ Wai-Wai!Home Meeting!!",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 43229,
+                    "video_id": "nPUJmsJ0qLc"
+                },
+                {
+                    "id": 46935,
+                    "video_id": "Fvz0gPr8tU4"
+                }
+            ]
+        },
+        "human": "Mar 24, 2021"
+    },
+    {
+        "id": 233525,
+        "game": {
+            "id": 144551,
+            "cover": {
+                "id": 133444,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2uys.jpg"
+            },
+            "genres": [
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                }
+            ],
+            "name": "Taishogun: The Rise of Emperor",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46500,
+                    "video_id": "0KXGIS5wWPU"
+                }
+            ]
+        },
+        "human": "Mar 12, 2021"
+    },
+    {
+        "id": 233123,
+        "game": {
+            "id": 139995,
+            "cover": {
+                "id": 133198,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ury.jpg"
+            },
+            "name": "Ciel Nosurge -Ushinawareta Hoshi e Sasagu Uta- DX",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 04, 2021"
+    },
+    {
+        "id": 245852,
+        "game": {
+            "id": 144174,
+            "cover": {
+                "id": 132513,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "name": "Ascendshaft and Endless Shaft",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 03, 2021"
+    },
+    {
+        "id": 245851,
+        "game": {
+            "id": 144174,
+            "cover": {
+                "id": 132513,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "name": "Ascendshaft and Endless Shaft",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 03, 2021"
+    },
+    {
+        "id": 234803,
+        "game": {
+            "id": 144864,
+            "cover": {
+                "id": 134287,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2vm7.jpg"
+            },
+            "genres": [
+                {
+                    "id": 9,
+                    "name": "Puzzle"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "name": "The Five Covens",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46857,
+                    "video_id": "tE7lfd2H958"
+                }
+            ]
+        },
+        "human": "Feb 25, 2021"
+    },
+    {
+        "id": 217644,
+        "game": {
+            "id": 140887,
+            "cover": {
+                "id": 120962,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lc2.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "name": "Kemco RPG Selection Vol. 6",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 43358,
+                    "video_id": "XFAkK0yxrLs"
+                }
+            ]
+        },
+        "human": "Feb 25, 2021"
+    },
+    {
+        "id": 228947,
+        "game": {
+            "id": 143632,
+            "cover": {
+                "id": 131532,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tho.jpg"
+            },
+            "name": "Skateboarding: Breakthrough Gaming Arcade",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Feb 17, 2021"
+    },
+    {
+        "id": 243638,
+        "game": {
+            "id": 135966,
+            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Feb 05, 2021"
+    },
+    {
+        "id": 243637,
+        "game": {
+            "id": 135966,
+            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Jan 29, 2021"
+    },
+    {
+        "id": 226387,
+        "game": {
+            "id": 121064,
+            "cover": {
+                "id": 80974,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qha.jpg"
+            },
+            "genres": [
+                {
+                    "id": 32,
+                    "name": "Indie"
+                }
+            ],
+            "name": "Bullet Roulette VR",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 226384,
+        "game": {
+            "id": 142853,
+            "cover": {
+                "id": 131014,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t3a.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "name": "Space Break",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 240446,
+        "game": {
+            "id": 146182,
+            "name": "The King of Fighters XIV: Ultimate Edition",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Jan 20, 2021"
+    },
+    {
+        "id": 226389,
+        "game": {
+            "id": 142855,
+            "cover": {
+                "id": 131013,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t39.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "name": "Waves Out!",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 45660,
+                    "video_id": "ZlQ0a90em38"
+                }
+            ]
+        },
+        "human": "Jan 20, 2021"
+    }
+]

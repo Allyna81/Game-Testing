@@ -1,0 +1,786 @@
+[
+    {
+        "id": 240323,
+        "game": {
+            "id": 146151,
+            "cover": {
+                "id": 138476,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yuk.jpg"
+            },
+            "name": "The Persistence Enhanced",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Jun 04, 2021"
+    },
+    {
+        "id": 227066,
+        "game": {
+            "id": 143059,
+            "cover": {
+                "id": 136967,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xon.jpg"
+            },
+            "name": "3D Mini Golf",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "May 28, 2021"
+    },
+    {
+        "id": 242406,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 242405,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 230620,
+        "game": {
+            "id": 143999,
+            "aggregated_rating": 82.0,
+            "cover": {
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
+                },
+                {
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
+                },
+                {
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 242404,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 21, 2021"
+    },
+    {
+        "id": 230619,
+        "game": {
+            "id": 143999,
+            "aggregated_rating": 82.0,
+            "cover": {
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
+                },
+                {
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
+                },
+                {
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
+                }
+            ]
+        },
+        "human": "May 21, 2021"
+    },
+    {
+        "id": 242403,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 18, 2021"
+    },
+    {
+        "id": 230618,
+        "game": {
+            "id": 143999,
+            "aggregated_rating": 82.0,
+            "cover": {
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
+                },
+                {
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
+                },
+                {
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
+                }
+            ]
+        },
+        "human": "May 18, 2021"
+    },
+    {
+        "id": 227067,
+        "game": {
+            "id": 143060,
+            "cover": {
+                "id": 136965,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xol.jpg"
+            },
+            "name": "Crazy Chicken Compilation",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "May 07, 2021"
+    },
+    {
+        "id": 247331,
+        "game": {
+            "id": 146149,
+            "cover": {
+                "id": 138405,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ysl.jpg"
+            },
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Racing"
+                },
+                {
+                    "id": 13,
+                    "name": "Simulator"
+                },
+                {
+                    "id": 14,
+                    "name": "Sport"
+                },
+                {
+                    "id": 32,
+                    "name": "Indie"
+                }
+            ],
+            "name": "Wreckfest",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 48911,
+                    "video_id": "Ei1T9KSlQRM"
+                }
+            ]
+        },
+        "human": "May 04, 2021"
+    },
+    {
+        "id": 240870,
+        "game": {
+            "id": 146146,
+            "aggregated_rating": 60.0,
+            "cover": {
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 240869,
+        "game": {
+            "id": 146146,
+            "aggregated_rating": 60.0,
+            "cover": {
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 240868,
+        "game": {
+            "id": 146146,
+            "aggregated_rating": 60.0,
+            "cover": {
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 240306,
+        "game": {
+            "id": 146147,
+            "cover": {
+                "id": 138268,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yos.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced - Collector's Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 226568,
+        "game": {
+            "id": 134584,
+            "aggregated_rating": 90.6153846153846,
+            "cover": {
+                "id": 118488,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2jfc.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "name": "Returnal",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 37063,
+                    "video_id": "Jv4BjWoB-NA"
+                },
+                {
+                    "id": 43591,
+                    "video_id": "E94-hzpdBPU"
+                },
+                {
+                    "id": 46025,
+                    "video_id": "5929rKazHbE"
+                },
+                {
+                    "id": 47116,
+                    "video_id": "d3K3AUXKCnY"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 227052,
+        "game": {
+            "id": 143054,
+            "name": "Panda Hero: Remastered",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Mar 19, 2021"
+    },
+    {
+        "id": 229840,
+        "game": {
+            "id": 143828,
+            "cover": {
+                "id": 141639,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co31af.jpg"
+            },
+            "genres": [
+                {
+                    "id": 13,
+                    "name": "Simulator"
+                },
+                {
+                    "id": 14,
+                    "name": "Sport"
+                }
+            ],
+            "name": "3D Billiards: Pool & Snooker Remastered",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Feb 19, 2021"
+    },
+    {
+        "id": 230617,
+        "game": {
+            "id": 143999,
+            "aggregated_rating": 82.0,
+            "cover": {
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
+                },
+                {
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
+                },
+                {
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
+                }
+            ]
+        },
+        "human": "Feb 18, 2021"
+    },
+    {
+        "id": 218155,
+        "game": {
+            "id": 140979,
+            "aggregated_rating": 88.5714285714286,
+            "cover": {
+                "id": 119915,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2kiz.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "name": "The Nioh Collection",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 42875,
+                    "video_id": "v9CP2GXo3Ew"
+                }
+            ]
+        },
+        "human": "Feb 05, 2021"
+    },
+    {
+        "id": 227975,
+        "game": {
+            "id": 143350,
+            "cover": {
+                "id": 130383,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slr.jpg"
+            },
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Fighting"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "name": "Nioh 2 Remastered – The Complete Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Feb 04, 2021"
+    },
+    {
+        "id": 227974,
+        "game": {
+            "id": 143349,
+            "cover": {
+                "id": 130382,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slq.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                }
+            ],
+            "name": "Nioh Remastered – The Complete Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Feb 04, 2021"
+    },
+    {
+        "id": 226464,
+        "game": {
+            "id": 134587,
+            "aggregated_rating": 67.2857142857143,
+            "cover": {
+                "id": 115206,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2gw6.jpg"
+            },
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Racing"
+                },
+                {
+                    "id": 14,
+                    "name": "Sport"
+                }
+            ],
+            "name": "Destruction AllStars",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 44977,
+                    "video_id": "nNO1k5NCDOk"
+                },
+                {
+                    "id": 44978,
+                    "video_id": "6kP3G5vO49A"
+                },
+                {
+                    "id": 44979,
+                    "video_id": "B0kIMyL96ss"
+                },
+                {
+                    "id": 44980,
+                    "video_id": "bf9jML62DZQ"
+                }
+            ]
+        },
+        "human": "Feb 02, 2021"
+    },
+    {
+        "id": 225938,
+        "game": {
+            "id": 142743,
+            "cover": {
+                "id": 125476,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2otg.jpg"
+            },
+            "genres": [
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "name": "Maiden",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 226962,
+        "game": {
+            "id": 143022,
+            "cover": {
+                "id": 128357,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2r1h.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                },
+                {
+                    "id": 32,
+                    "name": "Indie"
+                }
+            ],
+            "name": "Neon Chrome: Overseer Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46737,
+                    "video_id": "r51ZKqVwfDQ"
+                }
+            ]
+        },
+        "human": "Jan 12, 2021"
+    }
+]

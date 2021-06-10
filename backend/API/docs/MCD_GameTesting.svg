@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="377" height="585" view_box="0 0 377 585"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 08 Jun 2021 06:18:12</desc>
+
+<rect id="frame" x="0" y="0" width="377" height="585" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association REVIEW -->
+<line x1="53" y1="381" x2="187" y2="381" stroke="#4393c3" stroke-width="2"/>
+<text x="102" y="398.0" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<line x1="187" y1="186" x2="187" y2="381" stroke="#4393c3" stroke-width="2"/>
+<text x="192.0" y="271" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-REVIEW">
+	<path d="M 231 279 a 14 14 90 0 1 14 14 V 304 h -116 V 293 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 245 304.0 v 165 a 14 14 90 0 1 -14 14 H 143 a 14 14 90 0 1 -14 -14 V 304.0 H 116" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="129" y="279" width="116" height="204" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="129" y1="304" x2="245" y2="304" stroke="#4393c3" stroke-width="1"/>
+	<text x="162" y="296.7" fill="#000000" font-family="Verdana" font-size="12">REVIEW</text>
+	<text x="136" y="321.7" fill="#000000" font-family="Verdana" font-size="12">content</text>
+	<text x="136" y="338.7" fill="#000000" font-family="Verdana" font-size="12">plateform</text>
+	<text x="136" y="355.7" fill="#000000" font-family="Verdana" font-size="12">gameplay_note</text>
+	<text x="136" y="372.7" fill="#000000" font-family="Verdana" font-size="12">soundtrack_note</text>
+	<text x="136" y="389.8" fill="#000000" font-family="Verdana" font-size="12">graphism_note</text>
+	<text x="136" y="406.8" fill="#000000" font-family="Verdana" font-size="12">global_note</text>
+	<text x="136" y="423.8" fill="#000000" font-family="Verdana" font-size="12">report</text>
+	<text x="136" y="440.8" fill="#000000" font-family="Verdana" font-size="12">up_vote</text>
+	<text x="136" y="457.8" fill="#000000" font-family="Verdana" font-size="12">down_vote</text>
+	<text x="136" y="474.8" fill="#000000" font-family="Verdana" font-size="12">create_date</text>
+</g>
+
+<!-- Association BELONG A -->
+<line x1="187" y1="186" x2="326" y2="186" stroke="#4393c3" stroke-width="2"/>
+<text x="260" y="203.0" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<line x1="326" y1="381" x2="326" y2="186" stroke="#4393c3" stroke-width="2"/>
+<text x="331.0" y="348" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-BELONG A">
+	<path d="M 351 161 a 14 14 90 0 1 14 14 V 186 h -78 V 175 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 365 186.0 v 11 a 14 14 90 0 1 -14 14 H 301 a 14 14 90 0 1 -14 -14 V 186.0 H 78" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="287" y="161" width="78" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="287" y1="186" x2="365" y2="186" stroke="#4393c3" stroke-width="1"/>
+	<text x="294" y="178.7" fill="#000000" font-family="Verdana" font-size="12">BELONG A</text>
+</g>
+
+<!-- Association SEND -->
+<line x1="53" y1="381" x2="53" y2="186" stroke="#4393c3" stroke-width="2"/>
+<text x="58.0" y="305" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<line x1="53" y1="51" x2="53" y2="186" stroke="#4393c3" stroke-width="2"/>
+<text x="58.0" y="110" fill="#b2182b" font-family="Verdana" font-size="12">0,1</text>
+<g id="association-SEND">
+	<path d="M 64 161 a 14 14 90 0 1 14 14 V 186 h -50 V 175 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 78 186.0 v 11 a 14 14 90 0 1 -14 14 H 42 a 14 14 90 0 1 -14 -14 V 186.0 H 50" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="28" y="161" width="50" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="28" y1="186" x2="78" y2="186" stroke="#4393c3" stroke-width="1"/>
+	<text x="35" y="178.7" fill="#000000" font-family="Verdana" font-size="12">SEND</text>
+</g>
+
+<!-- Association PRESENT ON -->
+<line x1="187" y1="186" x2="187" y2="51" stroke="#4393c3" stroke-width="2"/>
+<text x="192.0" y="110" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<line x1="326" y1="51" x2="187" y2="51" stroke="#4393c3" stroke-width="2"/>
+<text x="257" y="68.0" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-PRESENT ON">
+	<path d="M 220 26 a 14 14 90 0 1 14 14 V 51 h -94 V 40 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 234 51.0 v 11 a 14 14 90 0 1 -14 14 H 154 a 14 14 90 0 1 -14 -14 V 51.0 H 94" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="140" y="26" width="94" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="140" y1="51" x2="234" y2="51" stroke="#4393c3" stroke-width="1"/>
+	<text x="147" y="43.7" fill="#000000" font-family="Verdana" font-size="12">PRESENT ON</text>
+</g>
+
+<!-- Entity CATEGORY -->
+<g id="entity-CATEGORY">
+	<g id="frame-CATEGORY">
+		<rect x="287" y="356" width="78" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="287" y="381.0" width="78" height="25" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="287" y="356" width="78" height="50" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="287" y1="381" x2="365" y2="381" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="292" y="373.7" fill="#000000" font-family="Verdana" font-size="12">CATEGORY</text>
+	<text x="292" y="398.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="292" y1="401" x2="327" y2="401" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity PLATEFORM -->
+<g id="entity-PLATEFORM">
+	<g id="frame-PLATEFORM">
+		<rect x="284" y="26" width="84" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="284" y="51.0" width="84" height="25" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="284" y="26" width="84" height="50" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="284" y1="51" x2="368" y2="51" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="289" y="43.7" fill="#000000" font-family="Verdana" font-size="12">PLATEFORM</text>
+	<text x="289" y="68.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="289" y1="71" x2="324" y2="71" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity ADMIN -->
+<g id="entity-ADMIN">
+	<g id="frame-ADMIN">
+		<rect x="153" y="508" width="68" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="153" y="533.0" width="68" height="43" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="153" y="508" width="68" height="68" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="153" y1="533" x2="221" y2="533" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="165" y="525.7" fill="#000000" font-family="Verdana" font-size="12">ADMIN</text>
+	<text x="158" y="550.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<line x1="158" y1="553" x2="192" y2="553" stroke="#000000" stroke-width="1"/>
+	<text x="158" y="567.8" fill="#000000" font-family="Verdana" font-size="12">password</text>
+</g>
+
+<!-- Entity GAME -->
+<g id="entity-GAME">
+	<g id="frame-GAME">
+		<rect x="119" y="118" width="136" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="119" y="143.0" width="136" height="111" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="119" y="118" width="136" height="136" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="119" y1="143" x2="255" y2="143" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="169" y="135.7" fill="#000000" font-family="Verdana" font-size="12">GAME</text>
+	<text x="124" y="160.7" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<line x1="124" y1="163" x2="159" y2="163" stroke="#000000" stroke-width="1"/>
+	<text x="124" y="177.7" fill="#000000" font-family="Verdana" font-size="12">release_date</text>
+	<text x="124" y="194.8" fill="#000000" font-family="Verdana" font-size="12">picture_game</text>
+	<text x="124" y="211.8" fill="#000000" font-family="Verdana" font-size="12">metacritic_score</text>
+	<text x="124" y="228.8" fill="#000000" font-family="Verdana" font-size="12">url_trailer</text>
+	<text x="124" y="245.8" fill="#000000" font-family="Verdana" font-size="12">url_fullscreen_trailer</text>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="9" y="313" width="88" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="9" y="338.0" width="88" height="111" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="9" y="313" width="88" height="136" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="9" y1="338" x2="97" y2="338" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="36" y="330.7" fill="#000000" font-family="Verdana" font-size="12">USER</text>
+	<text x="14" y="355.7" fill="#000000" font-family="Verdana" font-size="12">pseudo</text>
+	<line x1="14" y1="358" x2="58" y2="358" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="372.7" fill="#000000" font-family="Verdana" font-size="12">picture_url</text>
+	<text x="14" y="389.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<text x="14" y="406.8" fill="#000000" font-family="Verdana" font-size="12">password</text>
+	<text x="14" y="423.8" fill="#000000" font-family="Verdana" font-size="12">create_date</text>
+	<text x="14" y="440.8" fill="#000000" font-family="Verdana" font-size="12">update_date</text>
+</g>
+
+<!-- Entity MESSAGE -->
+<g id="entity-MESSAGE">
+	<g id="frame-MESSAGE">
+		<rect x="11" y="9" width="84" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="11" y="34.0" width="84" height="59" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="11" y="9" width="84" height="84" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="11" y1="34" x2="95" y2="34" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="23" y="26.7" fill="#000000" font-family="Verdana" font-size="12">MESSAGE</text>
+	<text x="16" y="51.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<line x1="16" y1="54" x2="50" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="16" y="68.8" fill="#000000" font-family="Verdana" font-size="12">content</text>
+	<text x="16" y="85.8" fill="#000000" font-family="Verdana" font-size="12">create_date</text>
+</g>
+</svg>

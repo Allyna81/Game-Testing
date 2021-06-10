@@ -1,0 +1,40 @@
+[
+    {
+        "id": 226246,
+        "game": {
+            "id": 142821,
+            "cover": {
+                "id": 133244,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ut8.jpg"
+            },
+            "name": "SAMURAI SHODOWN Enhanced",
+            "platforms": [
+                {
+                    "id": 169,
+                    "name": "Xbox Series"
+                }
+            ],
+            "videos": [
+                {
+                    "id": 46430,
+                    "video_id": "44TkmioEzbM"
+                }
+            ]
+        },
+        "human": "Mar 16, 2021"
+    },
+    {
+        "id": 225560,
+        "game": {
+            "id": 142607,
+            "name": "NHL 21: Rewind Bundle",
+            "platforms": [
+                {
+                    "id": 169,
+                    "name": "Xbox Series"
+                }
+            ]
+        },
+        "human": "Jan 06, 2021"
+    }
+]
