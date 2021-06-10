@@ -32,7 +32,9 @@ CREATE TABLE "game" IF NOT EXISTS (
     "metacritic_score" TEXT DEFAULT 'NC',
     "url_trailer" TEXT 
 );
-CREATE TABLE "message" IF NOT EXISTS 
+CREATE TABLE "message" IF NOT EXISTS (
+    "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+)
 CREATE TABLE "review" IF NOT EXISTS
 CREATE TABLE "game_has_plateform" IF NOT EXISTS
 CREATE TABLE "game_has_category" IF NOT EXISTS
