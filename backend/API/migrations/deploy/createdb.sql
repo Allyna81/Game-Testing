@@ -33,8 +33,13 @@ CREATE TABLE "game" IF NOT EXISTS (
     "url_trailer" TEXT 
 );
 CREATE TABLE "message" IF NOT EXISTS (
-    "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
-)
+
+    "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    "email" TEXT NOT NULL,
+    "content" TEXT NOT NULL,
+    "create_date" TIMESTAMPTZ DEFAULT NOW(),
+    "userId" INT REFERENCES "user"("id")
+);
 CREATE TABLE "review" IF NOT EXISTS
 CREATE TABLE "game_has_plateform" IF NOT EXISTS
 CREATE TABLE "game_has_category" IF NOT EXISTS
