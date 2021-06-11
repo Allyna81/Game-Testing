@@ -9,7 +9,7 @@ SELECT * FROM "user" WHERE false;
 SELECT * FROM "game" WHERE false;
 SELECT * FROM "message" WHERE false;
 SELECT * FROM "review" WHERE false;
-SELECT * FROM "game_has_plateform" WHERE false;
+SELECT * FROM "game_has_platform" WHERE false;
 SELECT * FROM "game_has_category" WHERE false;
 
 ROLLBACK;

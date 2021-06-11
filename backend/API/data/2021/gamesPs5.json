@@ -1,55 +1,40 @@
 [
     {
-        "id": 240323,
+        "id": 226962,
         "game": {
-            "id": 146151,
+            "id": 143022,
             "cover": {
-                "id": 138476,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yuk.jpg"
-            },
-            "name": "The Persistence Enhanced",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Jun 04, 2021"
-    },
-    {
-        "id": 227066,
-        "game": {
-            "id": 143059,
-            "cover": {
-                "id": 136967,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xon.jpg"
-            },
-            "name": "3D Mini Golf",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "May 28, 2021"
-    },
-    {
-        "id": 242406,
-        "game": {
-            "id": 146162,
-            "cover": {
-                "id": 138979,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+                "id": 128357,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2r1h.jpg"
             },
             "genres": [
                 {
+                    "id": 5,
+                    "name": "Shooter"
+                },
+                {
                     "id": 12,
                     "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                },
+                {
+                    "id": 32,
+                    "name": "Indie"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "involved_companies": [
+                {
+                    "id": 121877,
+                    "company": {
+                        "id": 27317,
+                        "name": "10tons"
+                    }
+                }
+            ],
+            "name": "Neon Chrome: Overseer Edition",
             "platforms": [
                 {
                     "id": 167,
@@ -58,45 +43,263 @@
             ],
             "videos": [
                 {
-                    "id": 48884,
-                    "video_id": "SJpn9JnrIbk"
+                    "id": 46737,
+                    "video_id": "r51ZKqVwfDQ"
                 }
             ]
         },
-        "human": "May 25, 2021"
+        "human": "Jan 12, 2021"
     },
     {
-        "id": 242405,
+        "id": 225938,
         "game": {
-            "id": 146162,
+            "id": 142743,
             "cover": {
-                "id": 138979,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+                "id": 125476,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2otg.jpg"
             },
             "genres": [
                 {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
+                    "id": 31,
+                    "name": "Adventure"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "involved_companies": [
+                {
+                    "id": 117629,
+                    "company": {
+                        "id": 37,
+                        "name": "Capcom"
+                    }
+                }
+            ],
+            "name": "Maiden",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "A maiden awakens in a dark, damp dungeon. Her only thought, \"I must make my escape!\" \n \nFor this special look at the world of Resident Evil Village you are the maiden. You must swallow your fears and make your way through the horrors to once again find the light. \n \nPlayers will be treated to beautiful visuals with ray-tracing and 3D audio that create an immersive, high-quality survival-horror experience."
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 226464,
+        "game": {
+            "id": 134587,
+            "aggregated_rating": 67.2857142857143,
+            "cover": {
+                "id": 115206,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2gw6.jpg"
+            },
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Racing"
+                },
+                {
+                    "id": 14,
+                    "name": "Sport"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 108475,
+                    "company": {
+                        "id": 8845,
+                        "name": "Lucid Games"
+                    }
+                },
+                {
+                    "id": 108476,
+                    "company": {
+                        "id": 10100,
+                        "name": "Sony Interactive Entertainment"
+                    }
+                }
+            ],
+            "name": "Destruction AllStars",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "Stars and cars collide. \n \nDominate the glittering global phenomenon of Destruction AllStars – the spectacular prime-time sport for dangerous drivers! \nMaster the art of intense vehicle-based combat through timing, tactics and skills to cause colossal amounts of damage, destruction and devastation in vibrant arenas across the globe. \n \nPile-on the destruction from behind the wheel or leap into the arena with a breathtaking reel of parkour action by dodging attacks, taking over vehicles or using abilities to disrupt the onslaught of incoming vehicles. \n \nCause enough mayhem to power up your AllStars game-changing hero vehicle fueled with special abilities. \n \nA roster of 16 blockbuster Destruction AllStars are revved up and ready to compete in the name of entertainment and demolition. So, strap in for intense, explosive and unpredictable levels of free-flowing action and fight to be crowned the Global Destruction Federation Champion. \n \nIt’s time to run, ram and slam. See you in the arena.",
             "videos": [
                 {
-                    "id": 48884,
-                    "video_id": "SJpn9JnrIbk"
+                    "id": 44977,
+                    "video_id": "nNO1k5NCDOk"
+                },
+                {
+                    "id": 44978,
+                    "video_id": "6kP3G5vO49A"
+                },
+                {
+                    "id": 44979,
+                    "video_id": "B0kIMyL96ss"
+                },
+                {
+                    "id": 44980,
+                    "video_id": "bf9jML62DZQ"
                 }
             ]
         },
-        "human": "May 25, 2021"
+        "human": "Feb 02, 2021"
     },
     {
-        "id": 230620,
+        "id": 227974,
+        "game": {
+            "id": 143349,
+            "cover": {
+                "id": 130382,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slq.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 118756,
+                    "company": {
+                        "id": 769,
+                        "name": "Team Ninja"
+                    }
+                },
+                {
+                    "id": 118757,
+                    "company": {
+                        "id": 10100,
+                        "name": "Sony Interactive Entertainment"
+                    }
+                }
+            ],
+            "name": "Nioh Remastered – The Complete Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "Discover the legendary tale of Nioh with all add-ons and expansions, now remastered and enhanced for PS5. In this intense action-RPG adventure, face bloodthirsty warlords and otherworldly demons across Sengoku-era Japan as you master the way of the samurai and Defy Death."
+        },
+        "human": "Feb 04, 2021"
+    },
+    {
+        "id": 227975,
+        "game": {
+            "id": 143350,
+            "cover": {
+                "id": 130383,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slr.jpg"
+            },
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Fighting"
+                },
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 118760,
+                    "company": {
+                        "id": 769,
+                        "name": "Team Ninja"
+                    }
+                },
+                {
+                    "id": 118761,
+                    "company": {
+                        "id": 10100,
+                        "name": "Sony Interactive Entertainment"
+                    }
+                }
+            ],
+            "name": "Nioh 2 Remastered – The Complete Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "In this brutal action-RPG adventure spanning demon-infested Sengoku-era Japan, discover the complete Nioh 2 story, including three huge expansions and exclusive next-gen enhancements. Master the way of the samurai, command powerful Onmyo magic and wield deadly ninjutsu abilities to survive in a world where death is always close at hand…"
+        },
+        "human": "Feb 04, 2021"
+    },
+    {
+        "id": 218155,
+        "game": {
+            "id": 140979,
+            "aggregated_rating": 88.5714285714286,
+            "cover": {
+                "id": 119915,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2kiz.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 113134,
+                    "company": {
+                        "id": 769,
+                        "name": "Team Ninja"
+                    }
+                },
+                {
+                    "id": 113135,
+                    "company": {
+                        "id": 18532,
+                        "name": "Koei Tecmo"
+                    }
+                }
+            ],
+            "name": "The Nioh Collection",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "Defy Death and Unleash your Darkness. \n \nIn this expansive collection, journey through Sengoku-era Japan to face nightmarish foes and legendary warriors in blisteringly fast hardcore combat. Master the way of the samurai in Nioh, then unleash your inner darkness in Nioh 2.",
+            "videos": [
+                {
+                    "id": 42875,
+                    "video_id": "v9CP2GXo3Ew"
+                }
+            ]
+        },
+        "human": "Feb 05, 2021"
+    },
+    {
+        "id": 230617,
         "game": {
             "id": 143999,
             "aggregated_rating": 82.0,
@@ -110,6 +313,22 @@
                     "name": "Role-playing (RPG)"
                 }
             ],
+            "involved_companies": [
+                {
+                    "id": 119926,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                },
+                {
+                    "id": 119927,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                }
+            ],
             "name": "void tRrLM();++ //Void Terrarium++",
             "platforms": [
                 {
@@ -117,6 +336,7 @@
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nSystem Upgrade:\nVoid Terrarium++ looks and performs better than ever on PlayStation®5, and comes bundled with additional content like new emotes, outfits, hairstyles, and Toriko diseases.\n\nLegacy Protocol:\nVoid Terrarium’s amazing visual style, unique roguelike gameplay, and caretaking system all make a return.\n\nHope in a Cold World:\nFrom the creator of A Rose in the Twilight and htoL#NiQ: The Firefly Diary, this harrowing roguelike adventure combines cute visuals with a somber yet whimsical post-apocalyptic story.\n\nThis edition's new content was announced in Japan alongside a DLC pack for the PS4 and Nintendo Switch that included the new diseases, customization feature and interactions with Toriko.\nThe DLC has not been announced internationally.",
             "videos": [
                 {
                     "id": 46003,
@@ -132,163 +352,302 @@
                 }
             ]
         },
-        "human": "May 25, 2021"
+        "human": "Feb 18, 2021"
     },
     {
-        "id": 242404,
+        "id": 229840,
         "game": {
-            "id": 146162,
+            "id": 143828,
             "cover": {
-                "id": 138979,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+                "id": 141639,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co31af.jpg"
             },
             "genres": [
+                {
+                    "id": 13,
+                    "name": "Simulator"
+                },
+                {
+                    "id": 14,
+                    "name": "Sport"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 119718,
+                    "company": {
+                        "id": 14446,
+                        "name": "Joindots"
+                    }
+                }
+            ],
+            "name": "3D Billiards: Pool & Snooker Remastered",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "Step up to the virtual table and show what you can do with a cue! In addition to the pool hall classic eight-ball, you can also play nine-ball, ten-ball and even snooker! Whether alone against the AI or in a duel against a real player on the same console, you'll send balls careening across the table in four selectable, highly-detailed rooms as you work your way up the local high score list.\n\nChoose from ten attractive avatars as you duel against AI opponents of varying difficulty levels. Get pumped up by the engaging pool-playing soundtrack. And listen closely for the authentic sound effects, like the clack of the balls, collisions, breaks and the characteristic way the balls roll across the table. Take aim, put a bit of finesse on your shot and play like a real pro!\n\n• 4 different rooms\n• 4 game types (pool: eight-ball, nine-ball, ten-ball and snooker)\n• 3 ball skins\n• 3 cue skins\n• Multiple difficulty levels\n• Single and multiplayer modes (1-2 players)"
+        },
+        "human": "Feb 19, 2021"
+    },
+    {
+        "id": 227052,
+        "game": {
+            "id": 143054,
+            "name": "Panda Hero: Remastered",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Mar 19, 2021"
+    },
+    {
+        "id": 226568,
+        "game": {
+            "id": 134584,
+            "aggregated_rating": 90.6153846153846,
+            "cover": {
+                "id": 118488,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2jfc.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 102141,
+                    "company": {
+                        "id": 1006,
+                        "name": "Housemarque"
+                    }
+                },
+                {
+                    "id": 111558,
+                    "company": {
+                        "id": 10100,
+                        "name": "Sony Interactive Entertainment"
+                    }
+                }
+            ],
+            "name": "Returnal",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "Returnal combines action with roguelike gameplay into a third-person shooter where players fight to survive a hostile planet that changes with every death. Players can switch instinctively between firing modes by using a single adaptive trigger and can get right back into the action after dying. PS5's immersive 3D audio brings the alien world to life around the player, helping players navigate the intense positional combat.",
+            "videos": [
+                {
+                    "id": 37063,
+                    "video_id": "Jv4BjWoB-NA"
+                },
+                {
+                    "id": 43591,
+                    "video_id": "E94-hzpdBPU"
+                },
+                {
+                    "id": 46025,
+                    "video_id": "5929rKazHbE"
+                },
+                {
+                    "id": 47116,
+                    "video_id": "d3K3AUXKCnY"
+                }
+            ]
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 240306,
+        "game": {
+            "id": 146147,
+            "cover": {
+                "id": 138268,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yos.jpg"
+            },
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "involved_companies": [
+                {
+                    "id": 127175,
+                    "company": {
+                        "id": 709,
+                        "name": "Teyon"
+                    }
+                },
+                {
+                    "id": 127176,
+                    "company": {
+                        "id": 1901,
+                        "name": "Reef Entertainment"
+                    }
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced - Collector's Edition",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
-            "videos": [
-                {
-                    "id": 48884,
-                    "video_id": "SJpn9JnrIbk"
-                }
-            ]
+            "summary": "The Collector’s Edition includes:\n\n- SteelBook case\n- Mini Hardcover Comic\n- 4x A6 Postcards\n- Presented in a Collector’s Box"
         },
-        "human": "May 21, 2021"
+        "human": "Apr 30, 2021"
     },
     {
-        "id": 230619,
+        "id": 240868,
         "game": {
-            "id": 143999,
-            "aggregated_rating": 82.0,
+            "id": 146146,
+            "aggregated_rating": 60.0,
             "cover": {
-                "id": 132084,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
             },
             "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++",
+            "involved_companies": [
+                {
+                    "id": 126522,
+                    "company": {
+                        "id": 1901,
+                        "name": "Reef Entertainment"
+                    }
+                },
+                {
+                    "id": 126523,
+                    "company": {
+                        "id": 709,
+                        "name": "Teyon"
+                    }
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
-            "videos": [
-                {
-                    "id": 46003,
-                    "video_id": "M94XDsF6vz8"
-                },
-                {
-                    "id": 46004,
-                    "video_id": "timmJui6JC8"
-                },
-                {
-                    "id": 49590,
-                    "video_id": "I1BB-csUgMQ"
-                }
-            ]
+            "summary": "Run and gun or sneak and hack through Skynet’s defenses! Interact with a motley group of survivors and change their fates!\n\nGet under the skin of the iconic T-800 series Infiltrator and strike out against Resistance forces with the new INFILTRATOR MODE."
         },
-        "human": "May 21, 2021"
+        "human": "Apr 30, 2021"
     },
     {
-        "id": 242403,
+        "id": 240869,
         "game": {
-            "id": 146162,
+            "id": 146146,
+            "aggregated_rating": 60.0,
             "cover": {
-                "id": 138979,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
             },
             "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "involved_companies": [
+                {
+                    "id": 126522,
+                    "company": {
+                        "id": 1901,
+                        "name": "Reef Entertainment"
+                    }
+                },
+                {
+                    "id": 126523,
+                    "company": {
+                        "id": 709,
+                        "name": "Teyon"
+                    }
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
-            "videos": [
-                {
-                    "id": 48884,
-                    "video_id": "SJpn9JnrIbk"
-                }
-            ]
+            "summary": "Run and gun or sneak and hack through Skynet’s defenses! Interact with a motley group of survivors and change their fates!\n\nGet under the skin of the iconic T-800 series Infiltrator and strike out against Resistance forces with the new INFILTRATOR MODE."
         },
-        "human": "May 18, 2021"
+        "human": "Apr 30, 2021"
     },
     {
-        "id": 230618,
+        "id": 240870,
         "game": {
-            "id": 143999,
-            "aggregated_rating": 82.0,
+            "id": 146146,
+            "aggregated_rating": 60.0,
             "cover": {
-                "id": 132084,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+                "id": 138032,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
             },
             "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                },
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
                 }
             ],
-            "name": "void tRrLM();++ //Void Terrarium++",
+            "involved_companies": [
+                {
+                    "id": 126522,
+                    "company": {
+                        "id": 1901,
+                        "name": "Reef Entertainment"
+                    }
+                },
+                {
+                    "id": 126523,
+                    "company": {
+                        "id": 709,
+                        "name": "Teyon"
+                    }
+                }
+            ],
+            "name": "Terminator: Resistance Enhanced",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
-            "videos": [
-                {
-                    "id": 46003,
-                    "video_id": "M94XDsF6vz8"
-                },
-                {
-                    "id": 46004,
-                    "video_id": "timmJui6JC8"
-                },
-                {
-                    "id": 49590,
-                    "video_id": "I1BB-csUgMQ"
-                }
-            ]
+            "summary": "Run and gun or sneak and hack through Skynet’s defenses! Interact with a motley group of survivors and change their fates!\n\nGet under the skin of the iconic T-800 series Infiltrator and strike out against Resistance forces with the new INFILTRATOR MODE."
         },
-        "human": "May 18, 2021"
-    },
-    {
-        "id": 227067,
-        "game": {
-            "id": 143060,
-            "cover": {
-                "id": 136965,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xol.jpg"
-            },
-            "name": "Crazy Chicken Compilation",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "May 07, 2021"
+        "human": "Apr 30, 2021"
     },
     {
         "id": 247331,
@@ -316,6 +675,22 @@
                     "name": "Indie"
                 }
             ],
+            "involved_companies": [
+                {
+                    "id": 127732,
+                    "company": {
+                        "id": 427,
+                        "name": "Bugbear Entertainment"
+                    }
+                },
+                {
+                    "id": 127733,
+                    "company": {
+                        "id": 10075,
+                        "name": "THQ Nordic"
+                    }
+                }
+            ],
             "name": "Wreckfest",
             "platforms": [
                 {
@@ -323,6 +698,7 @@
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The PS5 port features: 60 FPS. 4K Resolution. Faster Loading Times. Enhanced Lighting. Improved Visual Effects. 24 Player Multiplayer. Controller Haptic Feedback.\n\nWreckfest (previously known by its working title Next Car Game and currently listed on Steam as Next Car Game: Wreckfest) is a racing video game in development by Bugbear Entertainment, creators of the well-known demolition derby-style racing series FlatOut.\n\nWreckfest is described as the spiritual successor to the FlatOut series and a cross between FlatOut, Destruction Derby and cult 1989 PC racer Street Rod.\nA notable feature of the game engine is the use of soft-body damage modelling, which enables location-based damage that affects the driving dynamics of vehicles in a realistic fashion.",
             "videos": [
                 {
                     "id": 48911,
@@ -333,25 +709,14 @@
         "human": "May 04, 2021"
     },
     {
-        "id": 240870,
+        "id": 227067,
         "game": {
-            "id": 146146,
-            "aggregated_rating": 60.0,
+            "id": 143060,
             "cover": {
-                "id": 138032,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
+                "id": 136965,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xol.jpg"
             },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                },
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
-                }
-            ],
-            "name": "Terminator: Resistance Enhanced",
+            "name": "Crazy Chicken Compilation",
             "platforms": [
                 {
                     "id": 167,
@@ -359,181 +724,10 @@
                 }
             ]
         },
-        "human": "Apr 30, 2021"
+        "human": "May 07, 2021"
     },
     {
-        "id": 240869,
-        "game": {
-            "id": 146146,
-            "aggregated_rating": 60.0,
-            "cover": {
-                "id": 138032,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
-            },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                },
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
-                }
-            ],
-            "name": "Terminator: Resistance Enhanced",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Apr 30, 2021"
-    },
-    {
-        "id": 240868,
-        "game": {
-            "id": 146146,
-            "aggregated_rating": 60.0,
-            "cover": {
-                "id": 138032,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yi8.jpg"
-            },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                },
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
-                }
-            ],
-            "name": "Terminator: Resistance Enhanced",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Apr 30, 2021"
-    },
-    {
-        "id": 240306,
-        "game": {
-            "id": 146147,
-            "cover": {
-                "id": 138268,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yos.jpg"
-            },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                },
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
-                }
-            ],
-            "name": "Terminator: Resistance Enhanced - Collector's Edition",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Apr 30, 2021"
-    },
-    {
-        "id": 226568,
-        "game": {
-            "id": 134584,
-            "aggregated_rating": 90.6153846153846,
-            "cover": {
-                "id": 118488,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2jfc.jpg"
-            },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                }
-            ],
-            "name": "Returnal",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ],
-            "videos": [
-                {
-                    "id": 37063,
-                    "video_id": "Jv4BjWoB-NA"
-                },
-                {
-                    "id": 43591,
-                    "video_id": "E94-hzpdBPU"
-                },
-                {
-                    "id": 46025,
-                    "video_id": "5929rKazHbE"
-                },
-                {
-                    "id": 47116,
-                    "video_id": "d3K3AUXKCnY"
-                }
-            ]
-        },
-        "human": "Apr 30, 2021"
-    },
-    {
-        "id": 227052,
-        "game": {
-            "id": 143054,
-            "name": "Panda Hero: Remastered",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Mar 19, 2021"
-    },
-    {
-        "id": 229840,
-        "game": {
-            "id": 143828,
-            "cover": {
-                "id": 141639,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co31af.jpg"
-            },
-            "genres": [
-                {
-                    "id": 13,
-                    "name": "Simulator"
-                },
-                {
-                    "id": 14,
-                    "name": "Sport"
-                }
-            ],
-            "name": "3D Billiards: Pool & Snooker Remastered",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Feb 19, 2021"
-    },
-    {
-        "id": 230617,
+        "id": 230618,
         "game": {
             "id": 143999,
             "aggregated_rating": 82.0,
@@ -547,6 +741,22 @@
                     "name": "Role-playing (RPG)"
                 }
             ],
+            "involved_companies": [
+                {
+                    "id": 119926,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                },
+                {
+                    "id": 119927,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                }
+            ],
             "name": "void tRrLM();++ //Void Terrarium++",
             "platforms": [
                 {
@@ -554,6 +764,7 @@
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nSystem Upgrade:\nVoid Terrarium++ looks and performs better than ever on PlayStation®5, and comes bundled with additional content like new emotes, outfits, hairstyles, and Toriko diseases.\n\nLegacy Protocol:\nVoid Terrarium’s amazing visual style, unique roguelike gameplay, and caretaking system all make a return.\n\nHope in a Cold World:\nFrom the creator of A Rose in the Twilight and htoL#NiQ: The Firefly Diary, this harrowing roguelike adventure combines cute visuals with a somber yet whimsical post-apocalyptic story.\n\nThis edition's new content was announced in Japan alongside a DLC pack for the PS4 and Nintendo Switch that included the new diseases, customization feature and interactions with Toriko.\nThe DLC has not been announced internationally.",
             "videos": [
                 {
                     "id": 46003,
@@ -569,218 +780,342 @@
                 }
             ]
         },
-        "human": "Feb 18, 2021"
+        "human": "May 18, 2021"
     },
     {
-        "id": 218155,
+        "id": 242403,
         "game": {
-            "id": 140979,
-            "aggregated_rating": 88.5714285714286,
+            "id": 146162,
             "cover": {
-                "id": 119915,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2kiz.jpg"
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
             },
             "genres": [
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
-                },
-                {
-                    "id": 25,
-                    "name": "Hack and slash/Beat 'em up"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
                 }
             ],
-            "name": "The Nioh Collection",
+            "involved_companies": [
+                {
+                    "id": 127685,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                },
+                {
+                    "id": 127686,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nDeluxe Edition includes: Void terrarium++ game for PS5, official soundtrack CD",
             "videos": [
                 {
-                    "id": 42875,
-                    "video_id": "v9CP2GXo3Ew"
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
                 }
             ]
         },
-        "human": "Feb 05, 2021"
+        "human": "May 18, 2021"
     },
     {
-        "id": 227975,
+        "id": 230619,
         "game": {
-            "id": 143350,
+            "id": 143999,
+            "aggregated_rating": 82.0,
             "cover": {
-                "id": 130383,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slr.jpg"
-            },
-            "genres": [
-                {
-                    "id": 4,
-                    "name": "Fighting"
-                },
-                {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "Nioh 2 Remastered – The Complete Edition",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Feb 04, 2021"
-    },
-    {
-        "id": 227974,
-        "game": {
-            "id": 143349,
-            "cover": {
-                "id": 130382,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2slq.jpg"
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
             },
             "genres": [
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
-                },
-                {
-                    "id": 25,
-                    "name": "Hack and slash/Beat 'em up"
                 }
             ],
-            "name": "Nioh Remastered – The Complete Edition",
-            "platforms": [
+            "involved_companies": [
                 {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Feb 04, 2021"
-    },
-    {
-        "id": 226464,
-        "game": {
-            "id": 134587,
-            "aggregated_rating": 67.2857142857143,
-            "cover": {
-                "id": 115206,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2gw6.jpg"
-            },
-            "genres": [
-                {
-                    "id": 10,
-                    "name": "Racing"
+                    "id": 119926,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
                 },
                 {
-                    "id": 14,
-                    "name": "Sport"
+                    "id": 119927,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
                 }
             ],
-            "name": "Destruction AllStars",
+            "name": "void tRrLM();++ //Void Terrarium++",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nSystem Upgrade:\nVoid Terrarium++ looks and performs better than ever on PlayStation®5, and comes bundled with additional content like new emotes, outfits, hairstyles, and Toriko diseases.\n\nLegacy Protocol:\nVoid Terrarium’s amazing visual style, unique roguelike gameplay, and caretaking system all make a return.\n\nHope in a Cold World:\nFrom the creator of A Rose in the Twilight and htoL#NiQ: The Firefly Diary, this harrowing roguelike adventure combines cute visuals with a somber yet whimsical post-apocalyptic story.\n\nThis edition's new content was announced in Japan alongside a DLC pack for the PS4 and Nintendo Switch that included the new diseases, customization feature and interactions with Toriko.\nThe DLC has not been announced internationally.",
             "videos": [
                 {
-                    "id": 44977,
-                    "video_id": "nNO1k5NCDOk"
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
                 },
                 {
-                    "id": 44978,
-                    "video_id": "6kP3G5vO49A"
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
                 },
                 {
-                    "id": 44979,
-                    "video_id": "B0kIMyL96ss"
-                },
-                {
-                    "id": 44980,
-                    "video_id": "bf9jML62DZQ"
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
                 }
             ]
         },
-        "human": "Feb 02, 2021"
+        "human": "May 21, 2021"
     },
     {
-        "id": 225938,
+        "id": 242404,
         "game": {
-            "id": 142743,
+            "id": 146162,
             "cover": {
-                "id": 125476,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2otg.jpg"
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
             },
             "genres": [
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                }
-            ],
-            "name": "Maiden",
-            "platforms": [
-                {
-                    "id": 167,
-                    "name": "PlayStation 5"
-                }
-            ]
-        },
-        "human": "Jan 21, 2021"
-    },
-    {
-        "id": 226962,
-        "game": {
-            "id": 143022,
-            "cover": {
-                "id": 128357,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2r1h.jpg"
-            },
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                },
                 {
                     "id": 12,
                     "name": "Role-playing (RPG)"
-                },
-                {
-                    "id": 31,
-                    "name": "Adventure"
-                },
-                {
-                    "id": 32,
-                    "name": "Indie"
                 }
             ],
-            "name": "Neon Chrome: Overseer Edition",
+            "involved_companies": [
+                {
+                    "id": 127685,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                },
+                {
+                    "id": 127686,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
             "platforms": [
                 {
                     "id": 167,
                     "name": "PlayStation 5"
                 }
             ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nDeluxe Edition includes: Void terrarium++ game for PS5, official soundtrack CD",
             "videos": [
                 {
-                    "id": 46737,
-                    "video_id": "r51ZKqVwfDQ"
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
                 }
             ]
         },
-        "human": "Jan 12, 2021"
+        "human": "May 21, 2021"
+    },
+    {
+        "id": 230620,
+        "game": {
+            "id": 143999,
+            "aggregated_rating": 82.0,
+            "cover": {
+                "id": 132084,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tx0.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 119926,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                },
+                {
+                    "id": 119927,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nSystem Upgrade:\nVoid Terrarium++ looks and performs better than ever on PlayStation®5, and comes bundled with additional content like new emotes, outfits, hairstyles, and Toriko diseases.\n\nLegacy Protocol:\nVoid Terrarium’s amazing visual style, unique roguelike gameplay, and caretaking system all make a return.\n\nHope in a Cold World:\nFrom the creator of A Rose in the Twilight and htoL#NiQ: The Firefly Diary, this harrowing roguelike adventure combines cute visuals with a somber yet whimsical post-apocalyptic story.\n\nThis edition's new content was announced in Japan alongside a DLC pack for the PS4 and Nintendo Switch that included the new diseases, customization feature and interactions with Toriko.\nThe DLC has not been announced internationally.",
+            "videos": [
+                {
+                    "id": 46003,
+                    "video_id": "M94XDsF6vz8"
+                },
+                {
+                    "id": 46004,
+                    "video_id": "timmJui6JC8"
+                },
+                {
+                    "id": 49590,
+                    "video_id": "I1BB-csUgMQ"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 242405,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 127685,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                },
+                {
+                    "id": 127686,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nDeluxe Edition includes: Void terrarium++ game for PS5, official soundtrack CD",
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 242406,
+        "game": {
+            "id": 146162,
+            "cover": {
+                "id": 138979,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2z8j.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 127685,
+                    "company": {
+                        "id": 2262,
+                        "name": "NIS America"
+                    }
+                },
+                {
+                    "id": 127686,
+                    "company": {
+                        "id": 1405,
+                        "name": "Nippon Ichi Software"
+                    }
+                }
+            ],
+            "name": "void tRrLM();++ //Void Terrarium++ - Deluxe Edition",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ],
+            "summary": "The last living human is depending on you in Void Terrarium++! Rediscover a bleak yet charming story of a young girl named Toriko and her robot protector, along with extra features such as new afflictions, outfits, and an new environment to explore.\n\nDeluxe Edition includes: Void terrarium++ game for PS5, official soundtrack CD",
+            "videos": [
+                {
+                    "id": 48884,
+                    "video_id": "SJpn9JnrIbk"
+                }
+            ]
+        },
+        "human": "May 25, 2021"
+    },
+    {
+        "id": 227066,
+        "game": {
+            "id": 143059,
+            "cover": {
+                "id": 136967,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xon.jpg"
+            },
+            "name": "3D Mini Golf",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "May 28, 2021"
+    },
+    {
+        "id": 240323,
+        "game": {
+            "id": 146151,
+            "cover": {
+                "id": 138476,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yuk.jpg"
+            },
+            "name": "The Persistence Enhanced",
+            "platforms": [
+                {
+                    "id": 167,
+                    "name": "PlayStation 5"
+                }
+            ]
+        },
+        "human": "Jun 04, 2021"
     }
 ]

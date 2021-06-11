@@ -2,23 +2,23 @@
 
 BEGIN;
 
-CREATE DOMAIN note_accept AS FLOAT
-CHECK (VALUE > 0 & VALUE =< 5);
+CREATE DOMAIN note_accept AS INT
+CHECK (VALUE <= 5);
 
-CREATE TABLE "admin" IF NOT EXISTS (
+CREATE TABLE "admin" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "email" TEXT NOT NULL UNIQUE,
     "password" TEXT NOT NULL
 );
-CREATE TABLE "platform" IF NOT EXISTS (
+CREATE TABLE "platform" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "name" TEXT NOT NULL UNIQUE
 );
-CREATE TABLE "category" IF NOT EXISTS (
+CREATE TABLE "category" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "name" TEXT NOT NULL UNIQUE
 );
-CREATE TABLE "user" IF NOT EXISTS (
+CREATE TABLE "user" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "pseudo" TEXT NOT NULL UNIQUE,
     "picture_url" TEXT,
@@ -27,7 +27,7 @@ CREATE TABLE "user" IF NOT EXISTS (
     "create_date" TIMESTAMPTZ DEFAULT NOW(),
     "update_date" TIMESTAMPTZ
 );
-CREATE TABLE "game" IF NOT EXISTS (
+CREATE TABLE "game" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "name" TEXT NOT NULL UNIQUE,
     "summary" TEXT,
@@ -37,7 +37,7 @@ CREATE TABLE "game" IF NOT EXISTS (
     "metacritic_score" TEXT DEFAULT 'NC',
     "url_trailer" TEXT 
 );
-CREATE TABLE "message" IF NOT EXISTS (
+CREATE TABLE "message" (
 
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "email" TEXT NOT NULL,
@@ -45,13 +45,13 @@ CREATE TABLE "message" IF NOT EXISTS (
     "create_date" TIMESTAMPTZ DEFAULT NOW(),
     "userId" INT REFERENCES "user"("id")
 );
-CREATE TABLE "review" IF NOT EXISTS ( 
+CREATE TABLE "review" ( 
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "content" TEXT,			
-    "gameplay_note"	note_accept NOT NULL,	
-    "soundtrack_note" note_accept NOT NULL,	
-    "graphism_note"	note_accept NOT NULL,	
-    "global_note" note_accept NOT NULL,	
+    "gameplay_note"	note_accept NOT NULL DEFAULT 0,	
+    "soundtrack_note" note_accept NOT NULL DEFAULT 0,	
+    "graphism_note"	note_accept NOT NULL DEFAULT 0,	
+    "global_note" note_accept NOT NULL DEFAULT 0,
     "up_vote" INT DEFAULT 0,
     "down_vote"	 INT DEFAULT 0,	
     "report" INT DEFAULT 0,	
@@ -59,14 +59,14 @@ CREATE TABLE "review" IF NOT EXISTS (
     "update_date" TIMESTAMPTZ,	
     "userId" INT NOT NULL REFERENCES "user"("id"),	
     "gameId" INT NOT NULL REFERENCES "game"("id"),			
-    "plateform"	TEXT NOT NULL
+    "platform"	TEXT NOT NULL
 );
-CREATE TABLE "game_has_plateform" IF NOT EXISTS (
+CREATE TABLE "game_has_platform" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    "plateformId" INT NOT NULL REFERENCES "plateform"("id"),
+    "platformId" INT NOT NULL REFERENCES "platform"("id"),
     "gameId" INT NOT NULL REFERENCES "game"("id")
 );
-CREATE TABLE "game_has_category" IF NOT EXISTS (
+CREATE TABLE "game_has_category" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     "categoryId" INT NOT NULL REFERENCES "category"("id"),
     "gameId" INT NOT NULL REFERENCES "game"("id")
