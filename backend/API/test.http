@@ -7,5 +7,10 @@ GET http://localhost:3000/games
 GET http://localhost:3000/games/category/8
 ### Récupération des jeux par categories
 
-GET http://localhost:3000/games/platform/5'
+GET http://localhost:3000/games/platform/3
 ### Récupération des jeux par plateforme
+
+GET http://localhost:3000/games/2
+### Récupération des données d'un jeu
+
+GET http://localhost:3000/games/1/review
