@@ -1,0 +1,55 @@
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.main-footer {
+    background: rgb(22,22,24);
+    color: white;
+    padding: .1em;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.foot-logo {
+    padding: 2rem;
+    background: url(src\image\logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+
+.foot-item {
+    display: inline;
+    padding: .5rem;
+    line-height: 4rem;
+    color: white;
+    
+}
+
+
+
+.foot-copyright{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.5px;
+    padding: .6rem;
+    text-align: center;
+}
+
+.link-design{
+    color: white;
+}
+
+.foot-item:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+    border-radius: 3rem;
+}
+
+.foot-item:active {
+    background-color: grey;
+    transition:.2s;
+}
