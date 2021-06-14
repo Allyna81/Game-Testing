@@ -18,11 +18,11 @@ module.exports = {
         return result.rows;
     },
     async getAllCategories () {
-        const result = await client.query(`SELECT name FROM category`);
+        const result = await client.query(`SELECT * FROM category`);
         return result.rows;
     },
     async getAllPlatforms () {
-        const result = await client.query(`SELECT name FROM platform`);
+        const result = await client.query(`SELECT * FROM platform`);
         return result.rows;
     },
     async getFiveMoreRecentGames() {
