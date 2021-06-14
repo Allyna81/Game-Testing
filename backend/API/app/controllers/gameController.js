@@ -1,4 +1,3 @@
-const { getAllGames, getAllCategories, getAllPlatforms, getFiveMoreRecentGames, getFiveTopRatedGames, getFiveMorePopularGames, getAllGamesByCategories, getAllGamesByPlatforms } = require('../dataMappers/gamesDataMapper');
 const gamesDataMapper = require('../dataMappers/gamesDataMapper');
 
 module.exports = {

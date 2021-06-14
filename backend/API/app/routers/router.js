@@ -1,6 +1,6 @@
 const express = require('express');
 const gameController = require('../controllers/gameController');
-
+const reviewController = require('../controllers/reviewController');
 
 const router = express.Router();
 /* TODO */
@@ -25,7 +25,6 @@ router.route('/games/platform/:platformId')
 router.route('/games/:id')
     .get(gameController.getAllInfoOfOneGame);
 
-/*router.route('/games/:id/review')
-    .get(reviewController)
-*/
+router.route('/games/:id/review')
+    .get(reviewController.getAllReviewsOfAGame);
 module.exports = router;
