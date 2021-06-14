@@ -1,70 +1,11 @@
 [
     {
-        "id": 245953,
+        "id": 226389,
         "game": {
-            "id": 148696,
-            "aggregated_rating": 77.5,
+            "id": 142855,
             "cover": {
-                "id": 141558,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3186.jpg"
-            },
-            "genres": [
-                {
-                    "id": 4,
-                    "name": "Fighting"
-                }
-            ],
-            "name": "Virtua Fighter 5: Ultimate Showdown",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ],
-            "videos": [
-                {
-                    "id": 49683,
-                    "video_id": "Mrw1UybftlY"
-                }
-            ]
-        },
-        "human": "Jun 01, 2021"
-    },
-    {
-        "id": 247580,
-        "game": {
-            "id": 150389,
-            "name": "Violetti Goottii",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "May 31, 2021"
-    },
-    {
-        "id": 247579,
-        "game": {
-            "id": 150389,
-            "name": "Violetti Goottii",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "May 30, 2021"
-    },
-    {
-        "id": 251882,
-        "game": {
-            "id": 151850,
-            "cover": {
-                "id": 142718,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co324e.jpg"
+                "id": 131013,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t39.jpg"
             },
             "genres": [
                 {
@@ -72,163 +13,44 @@
                     "name": "Arcade"
                 }
             ],
-            "name": "Dragon Break Classic",
-            "platforms": [
+            "involved_companies": [
                 {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 30, 2021"
-    },
-    {
-        "id": 227064,
-        "game": {
-            "id": 143058,
-            "cover": {
-                "id": 136971,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xor.jpg"
-            },
-            "name": "R-TYPE FINAL 2: Limited Edition + Special Chronicle Box Set",
-            "platforms": [
+                    "id": 117903,
+                    "company": {
+                        "id": 25423,
+                        "name": "Gammera Nest"
+                    }
+                },
                 {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 29, 2021"
-    },
-    {
-        "id": 241618,
-        "game": {
-            "id": 146426,
-            "cover": {
-                "id": 138570,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yx6.jpg"
-            },
-            "name": "Gunducky Industries++",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 28, 2021"
-    },
-    {
-        "id": 227742,
-        "game": {
-            "id": 143284,
-            "cover": {
-                "id": 136963,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xoj.jpg"
-            },
-            "name": "Atelier Mysterious Trilogy DX: Premium Box",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 22, 2021"
-    },
-    {
-        "id": 227741,
-        "game": {
-            "id": 143283,
-            "cover": {
-                "id": 136964,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xok.jpg"
-            },
-            "name": "Atelier Mysterious Trilogy DX: Special Collection Box",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 22, 2021"
-    },
-    {
-        "id": 240448,
-        "game": {
-            "id": 146183,
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
+                    "id": 137729,
+                    "company": {
+                        "id": 34716,
+                        "name": "Crevice"
+                    }
                 }
             ],
-            "name": "Alien Destroyer",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 16, 2021"
-    },
-    {
-        "id": 240447,
-        "game": {
-            "id": 146183,
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                }
-            ],
-            "name": "Alien Destroyer",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Apr 16, 2021"
-    },
-    {
-        "id": 238526,
-        "game": {
-            "id": 145811,
-            "genres": [
-                {
-                    "id": 5,
-                    "name": "Shooter"
-                }
-            ],
-            "name": "Alvo VR",
+            "name": "Waves Out!",
             "platforms": [
                 {
                     "id": 48,
                     "name": "PlayStation 4"
                 }
             ],
+            "summary": "“Waves Out!” is here! The rampant magnetic game that will make you want to ask for more! You will take control of Magnetin, the little but courageous metallic friend with magnetic powers. With its help, you will be able to attract the spheres tinted with your color to the goal holes so you can add points to the scoreboard. Challenge a second player or try your skills in the Time Trial! Use wisely your magnetic powers to achieve victory, and don’t forget the special powers that will appear all over the arena!",
             "videos": [
                 {
-                    "id": 47947,
-                    "video_id": "f5ZPfjNZqWw"
+                    "id": 45660,
+                    "video_id": "ZlQ0a90em38"
                 }
             ]
         },
-        "human": "Apr 13, 2021"
+        "human": "Jan 20, 2021"
     },
     {
-        "id": 236733,
+        "id": 240446,
         "game": {
-            "id": 145358,
-            "cover": {
-                "id": 136030,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wym.jpg"
-            },
-            "name": "Green Lava Studios Volume 1",
+            "id": 146182,
+            "name": "The King of Fighters XIV: Ultimate Edition",
             "platforms": [
                 {
                     "id": 48,
@@ -236,17 +58,81 @@
                 }
             ]
         },
-        "human": "Apr 01, 2021"
+        "human": "Jan 20, 2021"
     },
     {
-        "id": 236582,
+        "id": 226384,
         "game": {
-            "id": 145310,
+            "id": 142853,
             "cover": {
-                "id": 136050,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wz6.jpg"
+                "id": 131014,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t3a.jpg"
             },
-            "name": "Easter Candy Break",
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 117899,
+                    "company": {
+                        "id": 31459,
+                        "name": "Smobile"
+                    }
+                }
+            ],
+            "name": "Space Break",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Space Break is an arcade game that lets the user break alien bricks with a unique alien saucer paddle and ball. Unique animated Aliens levels, Mini-Bosses and powerups to collect while you progress through the levels. Thirty Levels to play in and battle mini bosses on your way to victory. Single player retro-arcade fun!"
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 226387,
+        "game": {
+            "id": 121064,
+            "cover": {
+                "id": 80974,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qha.jpg"
+            },
+            "genres": [
+                {
+                    "id": 32,
+                    "name": "Indie"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 83793,
+                    "company": {
+                        "id": 20209,
+                        "name": "Fibrum Limited"
+                    }
+                }
+            ],
+            "name": "Bullet Roulette VR",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Four suspisios persons with mysterious past are sitting around the table in the gloomy dark bar playing Russian Roulette. Beware of other players, because they don't look like someone who plan to play fair. Be tricky and become the last survivor!"
+        },
+        "human": "Jan 21, 2021"
+    },
+    {
+        "id": 243637,
+        "game": {
+            "id": 135966,
+            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
             "platforms": [
                 {
                     "id": 48,
@@ -254,17 +140,13 @@
                 }
             ]
         },
-        "human": "Mar 31, 2021"
+        "human": "Jan 29, 2021"
     },
     {
-        "id": 235938,
+        "id": 243638,
         "game": {
-            "id": 145188,
-            "cover": {
-                "id": 135547,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wl7.jpg"
-            },
-            "name": "Baseball: Breakthrough Gaming Arcade",
+            "id": 135966,
+            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
             "platforms": [
                 {
                     "id": 48,
@@ -272,17 +154,217 @@
                 }
             ]
         },
-        "human": "Mar 28, 2021"
+        "human": "Feb 05, 2021"
     },
     {
-        "id": 224637,
+        "id": 228947,
         "game": {
-            "id": 142371,
+            "id": 143632,
             "cover": {
-                "id": 125417,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ort.jpg"
+                "id": 131532,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tho.jpg"
             },
-            "name": "SD Gundam G Generation Cross Rays: Platinum Edition",
+            "involved_companies": [
+                {
+                    "id": 119379,
+                    "company": {
+                        "id": 31951,
+                        "name": "Breakthrough Gaming LLC"
+                    }
+                }
+            ],
+            "name": "Skateboarding: Breakthrough Gaming Arcade",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Do your best and skate to get a high score in this 2D side scrolling skateboarding game from Breakthrough Gaming! As a skater, you'll need to perform tricks in the skate park to score points! So what will the score be for your run this time? \n \nThe lesson for this game is: God wants us to enjoy this life He's given us and to have fun doing the right thing! Skateboarding in real life and in a video game can be lots of fun, so that's a way you can enjoy the life God has given you! So live for God and don't forget to have fun! Check out Psalm Chapter 118 in the Bible to read more about this!"
+        },
+        "human": "Feb 17, 2021"
+    },
+    {
+        "id": 217644,
+        "game": {
+            "id": 140887,
+            "cover": {
+                "id": 120962,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lc2.jpg"
+            },
+            "genres": [
+                {
+                    "id": 12,
+                    "name": "Role-playing (RPG)"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 114069,
+                    "company": {
+                        "id": 1281,
+                        "name": "Kemco"
+                    }
+                },
+                {
+                    "id": 116567,
+                    "company": {
+                        "id": 13655,
+                        "name": "Exe-Create Inc."
+                    }
+                }
+            ],
+            "name": "Kemco RPG Selection Vol. 6",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Kemco RPG Selection Vol. 6 is a bundle of multiple games in the J-RPG genre.",
+            "videos": [
+                {
+                    "id": 43358,
+                    "video_id": "XFAkK0yxrLs"
+                }
+            ]
+        },
+        "human": "Feb 25, 2021"
+    },
+    {
+        "id": 234803,
+        "game": {
+            "id": 144864,
+            "cover": {
+                "id": 134287,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2vm7.jpg"
+            },
+            "genres": [
+                {
+                    "id": 9,
+                    "name": "Puzzle"
+                },
+                {
+                    "id": 31,
+                    "name": "Adventure"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 122137,
+                    "company": {
+                        "id": 32669,
+                        "name": "RB Games"
+                    }
+                }
+            ],
+            "name": "The Five Covens",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "In the land of Gaarth there are five families of warlocks, each with its own unique ability. Our character is a young witch belonging to the family that dominates levitation. The villain seeks to control the other powers to establish himself as absolute ruler. To this end, she invites our character to her castle with the premise of a celebration by way of deception. At the entrance she is arrested. She wakes up in a dungeon and must find a way to escape using her abilities. At all times we will be supported by our inseparable companion, the raven. \n \nTo face the challenges of the dungeons, including enemies and puzzles of all kinds, Brenda will strengthen herself before her final battle against the evil leader Kenot.",
+            "videos": [
+                {
+                    "id": 46857,
+                    "video_id": "tE7lfd2H958"
+                }
+            ]
+        },
+        "human": "Feb 25, 2021"
+    },
+    {
+        "id": 245851,
+        "game": {
+            "id": 144174,
+            "cover": {
+                "id": 132513,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 135980,
+                    "company": {
+                        "id": 13239,
+                        "name": "the voices games"
+                    }
+                }
+            ],
+            "name": "Ascendshaft and Endless Shaft",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "2 games in one Ascendshaft and Endless Shaft\n\nAscendshaft:\nWhile exploring deep underground caves on an alien planet, worldwide seismic activity triggers a cave in which leaves only one narrow channel of ascent\n\nA tale of action, horror, romance.... and betrayal\n\nEndless Shaft:\nTake control of the Perpetually Descending Man as he plummets ever downwards in five never ending shafts, each providing a unique challenge.\n\nAvoid bats, rocks, missiles and more.\n\nCompete to achieve the highest score on the online leaderboards (android version only).\n\nProcedurally generated levels.\n\nSpecial boulder throw and dive abilities add more nuance to the gameplay than you would expect.\n\nFearsome boss level to be unlocked."
+        },
+        "human": "Mar 03, 2021"
+    },
+    {
+        "id": 245852,
+        "game": {
+            "id": 144174,
+            "cover": {
+                "id": 132513,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
+            },
+            "genres": [
+                {
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 135980,
+                    "company": {
+                        "id": 13239,
+                        "name": "the voices games"
+                    }
+                }
+            ],
+            "name": "Ascendshaft and Endless Shaft",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "2 games in one Ascendshaft and Endless Shaft\n\nAscendshaft:\nWhile exploring deep underground caves on an alien planet, worldwide seismic activity triggers a cave in which leaves only one narrow channel of ascent\n\nA tale of action, horror, romance.... and betrayal\n\nEndless Shaft:\nTake control of the Perpetually Descending Man as he plummets ever downwards in five never ending shafts, each providing a unique challenge.\n\nAvoid bats, rocks, missiles and more.\n\nCompete to achieve the highest score on the online leaderboards (android version only).\n\nProcedurally generated levels.\n\nSpecial boulder throw and dive abilities add more nuance to the gameplay than you would expect.\n\nFearsome boss level to be unlocked."
+        },
+        "human": "Mar 03, 2021"
+    },
+    {
+        "id": 233123,
+        "game": {
+            "id": 139995,
+            "cover": {
+                "id": 133198,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ury.jpg"
+            },
+            "involved_companies": [
+                {
+                    "id": 121044,
+                    "company": {
+                        "id": 858,
+                        "name": "Koei Tecmo Games"
+                    }
+                }
+            ],
+            "name": "Ciel Nosurge -Ushinawareta Hoshi e Sasagu Uta- DX",
             "platforms": [
                 {
                     "id": 48,
@@ -290,7 +372,91 @@
                 }
             ]
         },
-        "human": "Mar 25, 2021"
+        "human": "Mar 04, 2021"
+    },
+    {
+        "id": 233525,
+        "game": {
+            "id": 144551,
+            "cover": {
+                "id": 133444,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2uys.jpg"
+            },
+            "genres": [
+                {
+                    "id": 25,
+                    "name": "Hack and slash/Beat 'em up"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 121628,
+                    "company": {
+                        "id": 32520,
+                        "name": "LGS Games Productions"
+                    }
+                }
+            ],
+            "name": "Taishogun: The Rise of Emperor",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Heian-Jidai's 12th century period many internal tensions occur with the increasing power of the clans increasing alongside the imperial court, where mysterious supernatural phenomena occur. \n \nOver the years, two powerful clans have fought intense conflicts overpower. \n \nWhere one of them led by the legendary Shogun Hōjō Tokimasa achieved great and important victories against the other enemies. \n \nHowever, regional leaders continued to have great power and influence. Where they made a secret alliance with occult forces to defeat and assassinate the legendary Shogun and takes his post from him as military chief. \n \nHowever, after his assassination he all military power was placed in the hands of his daughter Hōjō Masako. \n \nGenpei's war with Masako then begins, with a mission to defeat all enemy demons and clans that conspire to assassinate the legendary Tokimasa. \n \nFeatures: \n \n- Ray-Tracing \n- Epic Combates \n- Dynamic Sound \n- Amazing Graphics \n- Gigantic Environment (Open World) \n- Dynamic Weather (Rain, Storm, Snow, Fog)",
+            "videos": [
+                {
+                    "id": 46500,
+                    "video_id": "0KXGIS5wWPU"
+                }
+            ]
+        },
+        "human": "Mar 12, 2021"
+    },
+    {
+        "id": 222171,
+        "game": {
+            "id": 141248,
+            "cover": {
+                "id": 135202,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wbm.jpg"
+            },
+            "genres": [
+                {
+                    "id": 7,
+                    "name": "Music"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 113841,
+                    "company": {
+                        "id": 26,
+                        "name": "Square Enix"
+                    }
+                }
+            ],
+            "name": "Love Live! School Idol Festival ~after school ACTIVITY~ Wai-Wai!Home Meeting!!",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Enjoy live performances from μ's, Aqours, and Saint Snow on a \"big screen\" with the PlayStation 4's beautiful 3D graphics!",
+            "videos": [
+                {
+                    "id": 43229,
+                    "video_id": "nPUJmsJ0qLc"
+                },
+                {
+                    "id": 46935,
+                    "video_id": "Fvz0gPr8tU4"
+                }
+            ]
+        },
+        "human": "Mar 24, 2021"
     },
     {
         "id": 246102,
@@ -311,339 +477,439 @@
         "human": "Mar 24, 2021"
     },
     {
-        "id": 222171,
+        "id": 224637,
         "game": {
-            "id": 141248,
+            "id": 142371,
             "cover": {
-                "id": 135202,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wbm.jpg"
+                "id": 125417,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ort.jpg"
             },
-            "genres": [
+            "name": "SD Gundam G Generation Cross Rays: Platinum Edition",
+            "platforms": [
                 {
-                    "id": 7,
-                    "name": "Music"
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Mar 25, 2021"
+    },
+    {
+        "id": 235938,
+        "game": {
+            "id": 145188,
+            "cover": {
+                "id": 135547,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wl7.jpg"
+            },
+            "involved_companies": [
+                {
+                    "id": 122819,
+                    "company": {
+                        "id": 31951,
+                        "name": "Breakthrough Gaming LLC"
+                    }
                 }
             ],
-            "name": "Love Live! School Idol Festival ~after school ACTIVITY~ Wai-Wai!Home Meeting!!",
+            "name": "Baseball: Breakthrough Gaming Arcade",
             "platforms": [
                 {
                     "id": 48,
                     "name": "PlayStation 4"
                 }
             ],
-            "videos": [
+            "summary": "In Breakthrough Gaming Arcade - Baseball, you're one of the super stars of the local baseball team! Be the outfielder and catch those baseballs! This game illustrates the need to pay attention to the important things in life! Based on 1st Thessalonians Chapter 5 in the Bible! \n \n[Game Features] \n-Simple game play and controls \n-Classic styled arcade fun \n-Biblical message \n-A game in the Breakthrough Gaming Arcade series"
+        },
+        "human": "Mar 28, 2021"
+    },
+    {
+        "id": 236582,
+        "game": {
+            "id": 145310,
+            "cover": {
+                "id": 136050,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wz6.jpg"
+            },
+            "involved_companies": [
                 {
-                    "id": 43229,
-                    "video_id": "nPUJmsJ0qLc"
+                    "id": 123194,
+                    "company": {
+                        "id": 31459,
+                        "name": "Smobile"
+                    }
+                }
+            ],
+            "name": "Easter Candy Break",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Easter Candy Break is an arcade game that lets the user break candy with a unique candy paddle and ball. Unique animated candy levels, Mini-Bosses and powerups to collect while you progress through the levels. Thirty Levels to play in and battle mini bosses on your way to victory. Single player retro-arcade fun!"
+        },
+        "human": "Mar 31, 2021"
+    },
+    {
+        "id": 236733,
+        "game": {
+            "id": 145358,
+            "cover": {
+                "id": 136030,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2wym.jpg"
+            },
+            "involved_companies": [
+                {
+                    "id": 123275,
+                    "company": {
+                        "id": 31592,
+                        "name": "Limited Run Games"
+                    }
                 },
                 {
-                    "id": 46935,
-                    "video_id": "Fvz0gPr8tU4"
-                }
-            ]
-        },
-        "human": "Mar 24, 2021"
-    },
-    {
-        "id": 233525,
-        "game": {
-            "id": 144551,
-            "cover": {
-                "id": 133444,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2uys.jpg"
-            },
-            "genres": [
-                {
-                    "id": 25,
-                    "name": "Hack and slash/Beat 'em up"
+                    "id": 123276,
+                    "company": {
+                        "id": 8610,
+                        "name": "Green Lava Studios"
+                    }
                 }
             ],
-            "name": "Taishogun: The Rise of Emperor",
+            "name": "Green Lava Studios Volume 1",
             "platforms": [
                 {
                     "id": 48,
                     "name": "PlayStation 4"
                 }
             ],
-            "videos": [
-                {
-                    "id": 46500,
-                    "video_id": "0KXGIS5wWPU"
-                }
-            ]
+            "summary": "All of your favorite Green Lava Studios experiences on one physical disc for the PS4. This is an open pre-order for a limited time. Includes My Name Is Mayo, My Name Is Mayo 2, and Mr. Massagy. \n \nMy Name Is Mayo: Before you judge a mayo, you must walk a mile in its flask! Step into the world of Mayo, as you walk through a philosophical journey that requires tapping like a maniac. In this clicker game maybe you can even open the flask! \n \nMy Name Is Mayo 2: This is a clicker game about a mayonnaise jar. It’s also creamy, dreamy and properly sequel-y! Right in the middle of the Next-Gen hardware hurricane, comes the true next-gen game everyone’s been waiting for! ...Not this one; but it’s close! This... is the touching story about a disorganized Mayo jar, who just can’t get its sheets together. \n \nMr. Massagy: Use your dating skills to get a well-earned Massage through your gamepad controller! Everybody is someone like Johnny deep inside! So walk on his shoes and get back into the speed-dating game. Use your Linger app to choose from 9 eligible bachelorettes and get the ultimate reward: A well-earned controller rumble massage."
         },
-        "human": "Mar 12, 2021"
+        "human": "Apr 01, 2021"
     },
     {
-        "id": 233123,
+        "id": 238526,
         "game": {
-            "id": 139995,
-            "cover": {
-                "id": 133198,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ury.jpg"
-            },
-            "name": "Ciel Nosurge -Ushinawareta Hoshi e Sasagu Uta- DX",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Mar 04, 2021"
-    },
-    {
-        "id": 245852,
-        "game": {
-            "id": 144174,
-            "cover": {
-                "id": 132513,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
-            },
+            "id": 145811,
             "genres": [
                 {
-                    "id": 33,
-                    "name": "Arcade"
+                    "id": 5,
+                    "name": "Shooter"
                 }
             ],
-            "name": "Ascendshaft and Endless Shaft",
-            "platforms": [
+            "involved_companies": [
                 {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Mar 03, 2021"
-    },
-    {
-        "id": 245851,
-        "game": {
-            "id": 144174,
-            "cover": {
-                "id": 132513,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2u8x.jpg"
-            },
-            "genres": [
-                {
-                    "id": 33,
-                    "name": "Arcade"
-                }
-            ],
-            "name": "Ascendshaft and Endless Shaft",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Mar 03, 2021"
-    },
-    {
-        "id": 234803,
-        "game": {
-            "id": 144864,
-            "cover": {
-                "id": 134287,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2vm7.jpg"
-            },
-            "genres": [
-                {
-                    "id": 9,
-                    "name": "Puzzle"
+                    "id": 124362,
+                    "company": {
+                        "id": 20251,
+                        "name": "Mardonpol Inc."
+                    }
                 },
                 {
-                    "id": 31,
-                    "name": "Adventure"
+                    "id": 124363,
+                    "company": {
+                        "id": 33287,
+                        "name": "OutsideIn Entertainment"
+                    }
                 }
             ],
-            "name": "The Five Covens",
+            "name": "Alvo VR",
             "platforms": [
                 {
                     "id": 48,
                     "name": "PlayStation 4"
                 }
             ],
+            "summary": "Alvo Is an online VR Tactical Shooter.\n\nSquad up with new or existing friends and utilize the in-game voice chat to strategize your next move. Are you going to hold one location or attack the enemy in a run-and-gun style? The choice is yours. Filled with heated combat, explosions, and tactical gameplay there’s something here for everyone. Enlist in the ALVO army today!",
             "videos": [
                 {
-                    "id": 46857,
-                    "video_id": "tE7lfd2H958"
+                    "id": 47947,
+                    "video_id": "f5ZPfjNZqWw"
                 }
             ]
         },
-        "human": "Feb 25, 2021"
+        "human": "Apr 13, 2021"
     },
     {
-        "id": 217644,
+        "id": 240447,
         "game": {
-            "id": 140887,
+            "id": 146183,
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 125761,
+                    "company": {
+                        "id": 25099,
+                        "name": "RandomSpin-Games"
+                    }
+                }
+            ],
+            "name": "Alien Destroyer",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Alien robots are attacking. The last piece of land is rapidly collapsing. Destroy all enemies and survive."
+        },
+        "human": "Apr 16, 2021"
+    },
+    {
+        "id": 240448,
+        "game": {
+            "id": 146183,
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "Shooter"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 125761,
+                    "company": {
+                        "id": 25099,
+                        "name": "RandomSpin-Games"
+                    }
+                }
+            ],
+            "name": "Alien Destroyer",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Alien robots are attacking. The last piece of land is rapidly collapsing. Destroy all enemies and survive."
+        },
+        "human": "Apr 16, 2021"
+    },
+    {
+        "id": 227741,
+        "game": {
+            "id": 143283,
             "cover": {
-                "id": 120962,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lc2.jpg"
+                "id": 136964,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xok.jpg"
+            },
+            "name": "Atelier Mysterious Trilogy DX: Special Collection Box",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 22, 2021"
+    },
+    {
+        "id": 227742,
+        "game": {
+            "id": 143284,
+            "cover": {
+                "id": 136963,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xoj.jpg"
+            },
+            "name": "Atelier Mysterious Trilogy DX: Premium Box",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 22, 2021"
+    },
+    {
+        "id": 241618,
+        "game": {
+            "id": 146426,
+            "cover": {
+                "id": 138570,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2yx6.jpg"
+            },
+            "involved_companies": [
+                {
+                    "id": 127142,
+                    "company": {
+                        "id": 13239,
+                        "name": "the voices games"
+                    }
+                }
+            ],
+            "name": "Gunducky Industries++",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Contact with our forces has been lost. I presume they have all been destroyed by the robot uprising. Keeping low in valleys and amongst buildings to stay out of range of their anti aircraft weapons, I have no choice but to fly my plane to the robot factory in an effort to destroy their manufacturing facilities once and for all.\n\nUpdated version of Gunducky Industries with improved graphics and extra gameplay elements.\n\nFly your plane with arcade flight simulator controls through narrow levels shooting enemy robots and dodging amongst obstacles such as trees and ancient ruins.\n\n8 levels over four different environments: River Valley, Ancient Ruins, City and within the Robot Factory\n\nSlower moving physical bullets mandating considered aiming."
+        },
+        "human": "Apr 28, 2021"
+    },
+    {
+        "id": 227064,
+        "game": {
+            "id": 143058,
+            "cover": {
+                "id": 136971,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xor.jpg"
+            },
+            "name": "R-TYPE FINAL 2: Limited Edition + Special Chronicle Box Set",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "Apr 29, 2021"
+    },
+    {
+        "id": 251882,
+        "game": {
+            "id": 151850,
+            "cover": {
+                "id": 142718,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co324e.jpg"
             },
             "genres": [
                 {
-                    "id": 12,
-                    "name": "Role-playing (RPG)"
+                    "id": 33,
+                    "name": "Arcade"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 137739,
+                    "company": {
+                        "id": 31459,
+                        "name": "Smobile"
+                    }
+                }
+            ],
+            "name": "Dragon Break Classic",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ],
+            "summary": "Dragon Break Classic is an arcade game that lets the user break pixel fantasy characters with a unique shield paddle and ball. Unique animated fantasy pixel levels, Mini-Bosses and powerups to collect while you progress through the levels. Thirty Levels to play in and battle mini bosses on your way to victory. Single player retro-arcade fun!"
+        },
+        "human": "Apr 30, 2021"
+    },
+    {
+        "id": 247579,
+        "game": {
+            "id": 150389,
+            "involved_companies": [
+                {
+                    "id": 137025,
+                    "company": {
+                        "id": 13239,
+                        "name": "the voices games"
+                    }
+                }
+            ],
+            "name": "Violetti Goottii",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "May 30, 2021"
+    },
+    {
+        "id": 247580,
+        "game": {
+            "id": 150389,
+            "involved_companies": [
+                {
+                    "id": 137025,
+                    "company": {
+                        "id": 13239,
+                        "name": "the voices games"
+                    }
+                }
+            ],
+            "name": "Violetti Goottii",
+            "platforms": [
+                {
+                    "id": 48,
+                    "name": "PlayStation 4"
+                }
+            ]
+        },
+        "human": "May 31, 2021"
+    },
+    {
+        "id": 245953,
+        "game": {
+            "id": 148696,
+            "aggregated_rating": 77.5,
+            "cover": {
+                "id": 141558,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3186.jpg"
+            },
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Fighting"
+                }
+            ],
+            "involved_companies": [
+                {
+                    "id": 136038,
+                    "company": {
+                        "id": 112,
+                        "name": "Sega"
+                    }
                 },
                 {
-                    "id": 31,
-                    "name": "Adventure"
+                    "id": 136193,
+                    "company": {
+                        "id": 830,
+                        "name": "Sega AM2"
+                    }
+                },
+                {
+                    "id": 136194,
+                    "company": {
+                        "id": 19080,
+                        "name": "Ryu ga Gotoku Studios"
+                    }
+                },
+                {
+                    "id": 136217,
+                    "company": {
+                        "id": 112,
+                        "name": "Sega"
+                    }
                 }
             ],
-            "name": "Kemco RPG Selection Vol. 6",
+            "name": "Virtua Fighter 5: Ultimate Showdown",
             "platforms": [
                 {
                     "id": 48,
                     "name": "PlayStation 4"
                 }
             ],
+            "summary": "The legendary fighting series returns with Virtua Fighter 5: Ultimate Showdown! Challenge the greatest fighters in the world in the ultimate remaster of the classic 3D fighter, now featuring gorgeous HD graphics, new online features, and all the bone-crunching, martial arts combat of the renowned original. Battle through classic VF modes like “Arcade” or “Rank Match,” create your own custom online tournaments with up to 16 friends, or learn from the best with the new “Spectator Mode.” Master your fighting style to defeat all challengers in the Fifth World Fighting Tournament and become a Virtua Fighter legend!",
             "videos": [
                 {
-                    "id": 43358,
-                    "video_id": "XFAkK0yxrLs"
+                    "id": 49683,
+                    "video_id": "Mrw1UybftlY"
                 }
             ]
         },
-        "human": "Feb 25, 2021"
-    },
-    {
-        "id": 228947,
-        "game": {
-            "id": 143632,
-            "cover": {
-                "id": 131532,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2tho.jpg"
-            },
-            "name": "Skateboarding: Breakthrough Gaming Arcade",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Feb 17, 2021"
-    },
-    {
-        "id": 243638,
-        "game": {
-            "id": 135966,
-            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Feb 05, 2021"
-    },
-    {
-        "id": 243637,
-        "game": {
-            "id": 135966,
-            "name": "Re:ZERO – Starting Life in Another World: The Prophecy of the Throne - Limited Edition",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Jan 29, 2021"
-    },
-    {
-        "id": 226387,
-        "game": {
-            "id": 121064,
-            "cover": {
-                "id": 80974,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1qha.jpg"
-            },
-            "genres": [
-                {
-                    "id": 32,
-                    "name": "Indie"
-                }
-            ],
-            "name": "Bullet Roulette VR",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Jan 21, 2021"
-    },
-    {
-        "id": 226384,
-        "game": {
-            "id": 142853,
-            "cover": {
-                "id": 131014,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t3a.jpg"
-            },
-            "genres": [
-                {
-                    "id": 33,
-                    "name": "Arcade"
-                }
-            ],
-            "name": "Space Break",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Jan 21, 2021"
-    },
-    {
-        "id": 240446,
-        "game": {
-            "id": 146182,
-            "name": "The King of Fighters XIV: Ultimate Edition",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ]
-        },
-        "human": "Jan 20, 2021"
-    },
-    {
-        "id": 226389,
-        "game": {
-            "id": 142855,
-            "cover": {
-                "id": 131013,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t39.jpg"
-            },
-            "genres": [
-                {
-                    "id": 33,
-                    "name": "Arcade"
-                }
-            ],
-            "name": "Waves Out!",
-            "platforms": [
-                {
-                    "id": 48,
-                    "name": "PlayStation 4"
-                }
-            ],
-            "videos": [
-                {
-                    "id": 45660,
-                    "video_id": "ZlQ0a90em38"
-                }
-            ]
-        },
-        "human": "Jan 20, 2021"
+        "human": "Jun 01, 2021"
     }
 ]

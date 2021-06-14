@@ -1,29 +1,5 @@
 [
     {
-        "id": 226246,
-        "game": {
-            "id": 142821,
-            "cover": {
-                "id": 133244,
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ut8.jpg"
-            },
-            "name": "SAMURAI SHODOWN Enhanced",
-            "platforms": [
-                {
-                    "id": 169,
-                    "name": "Xbox Series"
-                }
-            ],
-            "videos": [
-                {
-                    "id": 46430,
-                    "video_id": "44TkmioEzbM"
-                }
-            ]
-        },
-        "human": "Mar 16, 2021"
-    },
-    {
         "id": 225560,
         "game": {
             "id": 142607,
@@ -36,5 +12,39 @@
             ]
         },
         "human": "Jan 06, 2021"
+    },
+    {
+        "id": 226246,
+        "game": {
+            "id": 142821,
+            "cover": {
+                "id": 133244,
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ut8.jpg"
+            },
+            "involved_companies": [
+                {
+                    "id": 121124,
+                    "company": {
+                        "id": 1474,
+                        "name": "SNK"
+                    }
+                }
+            ],
+            "name": "SAMURAI SHODOWN Enhanced",
+            "platforms": [
+                {
+                    "id": 169,
+                    "name": "Xbox Series"
+                }
+            ],
+            "summary": "SAMURAI SHODOWN Special Edition returns as a brand-new game featuring high-end visuals and gameplay for Xbox Series X|S! The physical Special Edition includes the Season 1 Pass AND the new DLC Cham Cham character. \n \nSAMURAI SHODOWN has enjoyed worldwide success as a blade-wielding fighting game series since its first release in 1993. Faithfully reproducing the game mechanics and atmosphere that contributed to the success of the series, SAMURAI SHODOWN includes a revolutionary feature that learns players’ game actions and patterns in order to create CPU-controlled “ghost” characters. With its story set one year before the very first installment, warriors and combatants from various backgrounds and with their own goals are about to battle to fulfill their destinies!",
+            "videos": [
+                {
+                    "id": 46430,
+                    "video_id": "44TkmioEzbM"
+                }
+            ]
+        },
+        "human": "Mar 16, 2021"
     }
 ]
