@@ -1,0 +1,11 @@
+GET http://localhost:3000/
+### Récupération de l'écran d'accueil
+
+GET http://localhost:3000/games
+### Récupération de tout les jeux
+
+GET http://localhost:3000/games/category/8
+### Récupération des jeux par categories
+
+GET http://localhost:3000/games/platform/5'
+### Récupération des jeux par plateforme

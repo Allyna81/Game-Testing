@@ -1,4 +1,4 @@
-const client = require('./client');
+const client = require('../client');
 
 module.exports = {
     async getAllGames () {
@@ -100,12 +100,6 @@ module.exports = {
         WHERE "game"."id" = $1
         GROUP BY "game"."id"`, [id]);
         return result.rows[0];
-    },
-    async getAllReviewsOfOneGame(gameId) {
-        const result = await client.query(`
-        SELECT * FROM "review" 
-        WHERE "gameId" = $1`[gameId]);
-        return result.rows;
     },
     async getAllGamesByCategories(id) {
         const result = await client.query(`
