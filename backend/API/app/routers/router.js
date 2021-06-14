@@ -5,13 +5,7 @@ const reviewController = require('../controllers/reviewController');
 const router = express.Router();
 /* TODO */
 router.route('/')
-    .get(
-        gameController.getFiveMorePopularGames,
-        gameController.getFiveMoreRecentGames,
-        gameController.getFiveTopRatedGames,
-        gameController.getAllCategories,
-        gameController.getAllPlatforms
-        );
+    .get(gameController.homePage);
 /* TODO */
 router.route('/games')
     .get(gameController.getAllGames);

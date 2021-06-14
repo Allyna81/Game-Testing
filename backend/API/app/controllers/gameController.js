@@ -1,6 +1,22 @@
 const gamesDataMapper = require('../dataMappers/gamesDataMapper');
 
 module.exports = {
+    async homePage(_,res) {
+        try {
+            const gamesMoreRecent = await gamesDataMapper.getFiveMoreRecentGames();
+            const gamesTopRated = await gamesDataMapper.getFiveTopRatedGames();
+            const gamesMorePopular = await gamesDataMapper.getFiveMorePopularGames();
+            const categories = await gamesDataMapper.getAllCategories();
+            const platforms = await gamesDataMapper.getAllPlatforms();
+            res.status(200).json({ gamesMoreRecent },{ gamesTopRated },{ gamesMorePopular },{ categories },{ platforms });
+
+
+        } catch(error) {
+            console.error(error);
+            res.status(500).json('Error server')
+        }
+
+    },
     async getAllGames(_,res) {
         try {
             const games = await gamesDataMapper.getAllGames();
