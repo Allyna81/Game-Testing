@@ -14,3 +14,24 @@ GET http://localhost:3000/games/2
 ### Récupération des données d'un jeu
 
 GET http://localhost:3000/games/1/review
+### Récupération de toutes les reviews d'un jeu
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+
+{
+    "pseudo": "ChrisCD",
+    "email": "abcdefgg@gmail.com",
+    "password": "1234567",
+    "passwordConfirm": "1234567"
+}
+### Inscription d'un membre
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "",
+    "password": ""
+}
