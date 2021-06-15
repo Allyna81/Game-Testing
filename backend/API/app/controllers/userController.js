@@ -119,19 +119,21 @@ module.exports = {
             }
 },
     async getProfile(req,res) {
-        console.log(req.user)
+        
         try{
         const data = await userDataMapper.getProfile(req.user);
         const reviews = await reviewDataMapper.getAllReviewsOfUser(data.id);
+
         return res.status(200).json({
             pseudo : data.pseudo,
             picture_url : data.picture_url,
             email: data.email,
             create_date : data.create_date,
-        reviews});
+            reviews
+        });
     } catch (error) {
         console.error(error);
         return res.status(500).json('Erreur serveur')
     }
-    }
+}
 }

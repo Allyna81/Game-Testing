@@ -12,5 +12,23 @@ module.exports = {
         SELECT * FROM "review" 
         WHERE "userId" = $1`,[userId]);
         return result.rows;
+    },
+    async insertReviewOnGame(data,userId,gameId){
+        const result = await client.query(`
+        INSERT INTO "review" ("content","gameplay_note","soundtrack_note","graphism_note","global_note","userId","gameId","platform")
+        VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING *`,
+
+        [
+            data.content,
+            data.gameplay_note,
+            data.soundtrack_note,
+            data.graphism_note,
+            data.global_note,
+            userId,
+            gameId,
+            data.platform,
+        ]);
+
+        return result.rows[0]
     }
 }
