@@ -1,4 +1,5 @@
 const client = require('../client');
+const { getProfile } = require('../controllers/userController');
 
 module.exports = {
    async getEmailInDatabase(email) {
@@ -19,6 +20,10 @@ module.exports = {
    },
    async FindUserInDatabase(email) {
         const result = await client.query('SELECT * FROM "user" WHERE email = $1',[email])
-        return result.rows[0]
+        return result.rows[0];
+   },
+   async getProfile(pseudo) {
+       const result = await client.query('SELECT * FROM "user" WHERE pseudo = $1', [pseudo]);
+       return result.rows[0];
    }
 }

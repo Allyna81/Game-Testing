@@ -32,6 +32,11 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "",
-    "password": ""
+    "email": "abcdefgg@gmail.com",
+    "password": "1234567"
 }
+### Login d'un membre
+
+GET http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q2hyaXNDRA.oRqHT656OrzSTZcaCZXlezHIvpM6PALziACRxxdZbCw

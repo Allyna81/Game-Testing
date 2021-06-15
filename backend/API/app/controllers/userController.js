@@ -1,6 +1,8 @@
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 const emailValidator = require('email-validator');
 const userDataMapper = require('../dataMappers/userDataMapper');
+const reviewDataMapper = require('../dataMappers/reviewDataMapper');
 
 module.exports = {
     async signUp (req,res,next) {
@@ -9,7 +11,12 @@ module.exports = {
 
             const errors = [];
             const formData = req.body;
-            console.log(formData);
+            
+            if(formData.pseudo == null || formData.email == null || formData.password == null ||
+                formData.passwordConfirm == null) {
+                    return res.status(400).json('Error , missing parameters')
+                }
+
             if (!formData.pseudo) {
                 errors.push({
                     fieldname: 'pseudo',
@@ -64,6 +71,9 @@ module.exports = {
         try {
 
             const formData = req.body;
+            if(formData.email == null || formData.password == null) {
+                    return res.status(400).json('Error , missing parameters')
+                }
             const errors = [];
 
             if (!emailValidator.validate(formData.email)) {
@@ -100,10 +110,28 @@ module.exports = {
                 res.status(400).json({ errors });
                 return next();
             }
-            return res.json("User connect");
+            const accessToken = jwt.sign(user.pseudo,process.env.JWT_SIGN_SECRET);
+            return res.json ({ accessToken });
+
         } catch (error) {         
                 console.error(error);
                 return res.status(500).json('Error server');
             }
+},
+    async getProfile(req,res) {
+        console.log(req.user)
+        try{
+        const data = await userDataMapper.getProfile(req.user);
+        const reviews = await reviewDataMapper.getAllReviewsOfUser(data.id);
+        return res.status(200).json({
+            pseudo : data.pseudo,
+            picture_url : data.picture_url,
+            email: data.email,
+            create_date : data.create_date,
+        reviews});
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json('Erreur serveur')
+    }
     }
 }

@@ -1,4 +1,5 @@
 const express = require('express');
+const auth = require('../middleware/auth');
 const gameController = require('../controllers/gameController');
 const reviewController = require('../controllers/reviewController');
 const userController = require('../controllers/userController');
@@ -21,5 +22,7 @@ router.route('/signup')
     .post(userController.signUp);
 router.route('/login')
     .post(userController.login);
+router.route('/profile')
+    .get(auth.authenticateToken,userController.getProfile);
 
 module.exports = router;
