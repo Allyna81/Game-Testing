@@ -1,12 +1,14 @@
 // == Import npm
 import React from 'react';
-
+import Register from 'src/containers/Register';
 // == Composant
-const App = () => (
-  <div>
-    <h1>Terrain prêt </h1>
-  </div>
-);
+function App() {
+  return (
+    <div>
+      <Register />
+    </div>
+  );
+}
 
 // == Export
 export default App;
