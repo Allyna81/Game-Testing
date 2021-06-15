@@ -1,0 +1,23 @@
+
+.game {
+    border-radius   : 10px;
+    width           : 170px;
+    height          : 283px;
+    filter          : drop-shadow(5px 15px 30px rgba(16, 16, 17, 0.7));
+    background-color: #3A3A3C;
+    border          : 1px solid #383838;
+    box-sizing      : border-box;
+    margin          : 40px 10px 40px 15px;
+}
+
+.game-img{
+    position: absolute;
+    left    : -1px;
+    top     : -1px;
+
+    border-radius: 10px;
+}
+
+.search-container {
+   color: #3A3A3C;
+}
