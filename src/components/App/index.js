@@ -15,9 +15,9 @@ import AboutUs from '../AboutUs';
 
 //* defining the routes
 const App = () => (
-  <div className="ui container">
+  <div>
     <Router>
-      <div>
+      <div className="header">
         <Route path="/" exact component={Home} />
         <Route path="/games" component={Games} />
         <Route path="/games/:categoryId" component={GamesByCategory} />

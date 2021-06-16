@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import './style.css';
-import fakeimg from './gameimg.svg';
 
 const SearchBar = () => {
   const [term, setTerm] = useState('');
@@ -26,17 +25,10 @@ const SearchBar = () => {
 
   useEffect(() => {
     const search = async () => {
-      const { data } = await axios.get('https://salouacorsproxy.herokuapp.com/https://api.igdb.com/v4/games/', {
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          Accept: 'application/json',
-          'Client-ID': 'plbo27qmimbe14tlxxhdgobp10x6qv',
-          Authorization: 'Bearer o3j1a03faukeyjaxi9196xmydxd6lq',
+      const { data } = await axios.get('https://jsonplaceholder.typicode.com/photos', {
+        params: {
+          query: debouncedTerm,
         },
-        body: {
-          search: debouncedTerm,
-        },
-        data: 'fields age_ratings,aggregated_rating,aggregated_rating_count,alternative_names,artworks,bundles,category,checksum,collection,cover,created_at,dlcs,expanded_games,expansions,external_games,first_release_date,follows,forks,franchise,franchises,game_engines,game_modes,genres,hypes,involved_companies,keywords,multiplayer_modes,name,parent_game,platforms,player_perspectives,ports,rating,rating_count,release_dates,remakes,remasters,screenshots,similar_games,slug,standalone_expansions,status,storyline,summary,tags,themes,total_rating,total_rating_count,updated_at,url,version_parent,version_title,videos,websites;',
       });
       setResults(data);
     };
@@ -44,15 +36,17 @@ const SearchBar = () => {
   }, [debouncedTerm]);
 
   const renderedResults = results.map((result) => (
-    <div className="game" key={result.id}>
-      <img className="game-img" src={fakeimg} alt="fakegame img" />
-    </div>
 
+    <div className="game" key={result.id}>
+      <img src={result.url} alt="fake img" className="game-img" />
+
+      <h1 className="game-title">{result.title}</h1>
+    </div>
   ));
 
   return (
     <div>
-      <div className="ui form">
+      <div className="searchbar-container">
         <div className="searchbar">
           <input
             value={term}
@@ -64,7 +58,7 @@ const SearchBar = () => {
           <i aria-hidden="true" className="search icon" />
         </div>
       </div>
-      <div className="ui celled list">
+      <div className="">
         {renderedResults}
       </div>
     </div>
