@@ -22,11 +22,7 @@ const Form = ({
         name={name}
 
       />
-      <label
-        htmlFor="name"
-      >
-        {placeholder}
-      </label>
+
     </div>
   );
 };

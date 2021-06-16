@@ -7,16 +7,17 @@ const Register = ({
   pseudo,
   email,
   password,
+  passwordConfirm,
   changeForm,
-  handleLogin,
+  handleRegistration,
 }) => {
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    handleLogin();
+    handleRegistration();
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="register-form">
       <Form
         name="pseudo"
         placeholder="Pseudo"
@@ -38,6 +39,13 @@ const Register = ({
         type="password"
         value={password}
       />
+      <Form
+        name="passwordConfirm"
+        placeholder="Confirm your Password"
+        onChange={changeForm}
+        type="password"
+        value={passwordConfirm}
+      />
       <button
         type="submit"
       >
@@ -50,9 +58,10 @@ const Register = ({
 Register.propTypes = {
   pseudo: PropTypes.string.isRequired,
   password: PropTypes.string.isRequired,
+  passwordConfirm: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   changeForm: PropTypes.func.isRequired,
-  handleLogin: PropTypes.func.isRequired,
+  handleRegistration: PropTypes.func.isRequired,
 };
 
 Register.defaultProps = {
