@@ -1,6 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
+=======
+import MainPage from 'src/containers/MainPage';
+>>>>>>> mainPage
 
 import Home from '../Games/Home';
 import GameDetails from '../Games/GameDetails';
@@ -30,6 +34,7 @@ const App = () => (
         <Route path="/profile" component={UserProfile} />
       </div>
     </Router>
+    <MainPage />
   </div>
 );
 
