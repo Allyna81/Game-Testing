@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import 'semantic-ui-css/semantic.min.css';
+import App from 'src/components/App';
+import store from 'src/store';
 
-import App from './components/App';
-import reducers from './reducers';
-
-const store = createStore(reducers);
-
+// rajouter browserRouter au besoin pour route dynamique REACT
 ReactDOM.render(
   <Provider store={store}>
     <App />
