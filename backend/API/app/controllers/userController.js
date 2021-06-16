@@ -118,7 +118,7 @@ module.exports = {
 },
     async getProfile(req,res) {
         
-        try{
+        try {
         const data = await userDataMapper.getProfile(req.user);
         const reviews = await reviewDataMapper.getAllReviewsOfUser(data.id);
 
@@ -135,6 +135,7 @@ module.exports = {
     }
 },
     async updateProfile(req,res,next) {
+
         try {
 
             const user = await userDataMapper.getIdOfMember(req.user);
@@ -153,5 +154,26 @@ module.exports = {
             console.error(error)
             res.status(500).json("Error server");
         }
-}
+},
+    async sendMessage(req,res,next) {
+
+        try {
+
+            const data = req.body;
+
+            if(!data) {
+                return next();
+            }
+            if (!emailValidator.validate(data.email)) {
+                return res.status(400).json('Email is not valid');
+            }
+
+            const message = await userDataMapper.messageToAdmin(data)
+            res.status(201).json("Message is sended");
+
+        } catch (error) {
+            console.error(error);
+            res.status(500).json('Error server')
+        }
+    }
 }

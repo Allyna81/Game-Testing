@@ -1,5 +1,4 @@
 const gamesDataMapper = require('../dataMappers/gamesDataMapper');
-
 module.exports = {
     async homePage(_,res) {
         try {
@@ -13,7 +12,7 @@ module.exports = {
 
         } catch(error) {
             console.error(error);
-            res.status(500).json('Error server')
+            res.status(500).json('Error server');
         }
 
     },
@@ -22,8 +21,8 @@ module.exports = {
             const games = await gamesDataMapper.getAllGames();
             res.status(200).json(games);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
     },
     async getAllCategories (_ , res) {
@@ -31,8 +30,8 @@ module.exports = {
             const categories = await gamesDataMapper.getAllCategories();
             res.status(200).json(categories);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
     },
     async getAllPlatforms (_,res) {
@@ -40,8 +39,8 @@ module.exports = {
             const platforms = await gamesDataMapper.getAllPlatforms();
             res.status(200).json(platforms);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
 
     },
@@ -50,8 +49,8 @@ module.exports = {
             const gamesMoreRecent = await gamesDataMapper.getFiveMoreRecentGames();
             res.status(200).json(gamesMoreRecent);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
     },
     async getFiveTopRatedGames(_,res) {
@@ -59,8 +58,8 @@ module.exports = {
             const gamesTopRated = await gamesDataMapper.getFiveTopRatedGames();
             res.status(200).json(gamesTopRated);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
     },
     async getFiveMorePopularGames(_,res) {
@@ -68,8 +67,8 @@ module.exports = {
             const gamesMorePopular = await gamesDataMapper.getFiveMorePopularGames();
             res.status(200).json(gamesMorePopular);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         } 
     },
     async getAllInfoOfOneGame (req,res,next) {
@@ -88,8 +87,8 @@ module.exports = {
             }
             res.status(200).json(game);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         } 
     },
     async getAllGamesByCategories(req,res,next){
@@ -108,8 +107,8 @@ module.exports = {
             }
             res.status(200).json(gamesByCategories);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         } 
 
     },
@@ -130,8 +129,8 @@ module.exports = {
             }
             res.status(200).json(gamesByPlatform);
         } catch (error) {
-            console.error(error)
-            res.status(500).json("Error server")
+            console.error(error);
+            res.status(500).json("Error server");
         }
     }
 

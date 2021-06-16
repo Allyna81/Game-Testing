@@ -22,10 +22,8 @@ router.route('/signup')
     .post(userController.signUp);
 router.route('/login')
     .post(userController.login);
-/* TODO 
 router.route('/contact')
-    .post(userController.sendMessageToAdmin);
-*/
+    .post(userController.sendMessage);
 /* ACCES MEMBRE */
 router.route('/profile')
     .get(auth.authenticateToken,userController.getProfile)
