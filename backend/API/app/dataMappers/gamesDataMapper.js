@@ -5,20 +5,17 @@ const axios = require('axios');
 module.exports = {
     /* REFACTO POUR POINTER SUR L'API les reviews */
     async getAllGames () {
-        const result = await client.query(`
-        SELECT 
-            game.*,
-            ARRAY_AGG( DISTINCT "platform"."name"),
-            ARRAY_AGG( DISTINCT "category"."name"),
-            AVG("review"."global_note") AS average
-        FROM game
-            JOIN "game_has_category" ON "game_has_category"."gameId" = "game"."id"
-            JOIN "category" ON "category"."id" = "game_has_category"."categoryId"
-            JOIN "game_has_platform" ON "game_has_platform"."gameId" = "game"."id"
-            JOIN "platform" ON "platform"."id" = "game_has_platform"."platformId"
-            JOIN "review" ON "game"."id" = "review"."gameId"
-        GROUP BY game.id`);
-        return result.rows;
+        const games = await axios({
+            url: "https://api.igdb.com/v4/games",
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Authorization': 'Bearer '+ process.env.AUTHORIZATION,
+                'Client-ID': process.env.CLIENT_ID  
+            },
+            data: "fields involved_companies.company.name,name,genres.name,platforms.name,cover.url;limit 100;"
+          });
+          return games.data;
     },
     async getAllCategories () {
         const response = await axios({
