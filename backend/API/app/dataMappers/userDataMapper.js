@@ -18,15 +18,15 @@ module.exports = {
         return result.rows[0];
    },
    async FindUserInDatabase(email) {
-        const result = await client.query('SELECT * FROM "user" WHERE email = $1',[email])
+        const result = await client.query(`SELECT * FROM "user" WHERE email = '$1'`,[email])
         return result.rows[0];
    },
    async getProfile(pseudo) {
-       const result = await client.query('SELECT * FROM "user" WHERE pseudo = $1', [pseudo]);
+       const result = await client.query(`SELECT * FROM "user" WHERE pseudo = '$1'`, [pseudo]);
        return result.rows[0];
    },
    async getIdOfMember(pseudo) {
-    const result = await client.query('SELECT id FROM "user" WHERE pseudo = $1', [pseudo]);
+    const result = await client.query(`SELECT id FROM "user" WHERE pseudo = '$1'`, [pseudo]);
     return result.rows[0];
    }
 }
