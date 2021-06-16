@@ -38,5 +38,25 @@ module.exports = {
             console.error(error);
             return res.status(500).json('Server error')
         }
+    },
+    async updateReview (req,res,next) {
+
+        try {
+            const reviewId = req.params.reviewId;
+            const data = req.body;
+            if(!data) {
+                return next();
+            }
+            for(const property in data){
+                await reviewDataMapper.updateReview(property,data[property],reviewId);
+            }
+            res.json(`review has modified .`);
+
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
     }
 }

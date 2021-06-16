@@ -30,5 +30,9 @@ module.exports = {
         ]);
 
         return result.rows[0]
+    },
+    async updateReview(field,value,id) {
+        const result = await client.query(`UPDATE "review" SET ${field} = $1 WHERE "id" = $2 RETURNING *`,[value,id]);
+        return result.rows[0];
     }
 }

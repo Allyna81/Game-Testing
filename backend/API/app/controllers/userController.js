@@ -71,9 +71,7 @@ module.exports = {
         try {
 
             const formData = req.body;
-            if(formData.email == null || formData.password == null) {
-                    return res.status(400).json('Error , missing parameters')
-                }
+            console.log(formData);
             const errors = [];
 
             if (!emailValidator.validate(formData.email)) {
@@ -82,7 +80,7 @@ module.exports = {
                     message: `email are invalid syntax.`
                 });
             }
-
+            console.log(formData.email);
             if (formData.password.length < 6) {
                 errors.push({
                     fieldname: 'password',
@@ -90,14 +88,14 @@ module.exports = {
                 });
             }
             const user = await userDataMapper.FindUserInDatabase(formData.email);
-
+            console.log("Hello 2");
             if (!user) {
                 errors.push({
                     fieldname: 'user',
                     message: `user not found.`
                 });
             }
-
+            console.log(errors)
             const isPasswordValid = await bcrypt.compare(formData.password, user.password);
 
             if (!isPasswordValid) {
@@ -135,5 +133,25 @@ module.exports = {
         console.error(error);
         return res.status(500).json('Erreur serveur')
     }
+},
+    async updateProfile(req,res,next) {
+        try {
+
+            const user = await userDataMapper.getIdOfMember(req.user);
+            const data = req.body;
+            if(!data) {
+                return next();
+            }
+            for(const property in data){
+                await userDataMapper.updateProfile(property,data[property],user.id)
+            }
+            res.json(`Profile has modified .`);
+
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
 }
 }

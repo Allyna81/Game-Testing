@@ -22,10 +22,17 @@ router.route('/signup')
     .post(userController.signUp);
 router.route('/login')
     .post(userController.login);
-
+/* TODO 
+router.route('/contact')
+    .post(userController.sendMessageToAdmin);
+*/
 /* ACCES MEMBRE */
 router.route('/profile')
-    .get(auth.authenticateToken,userController.getProfile);
+    .get(auth.authenticateToken,userController.getProfile)
+    .patch(auth.authenticateToken,userController.updateProfile);
 router.route('/games/:id/review')
-    .post(auth.authenticateToken,reviewController.postReview)
+    .post(auth.authenticateToken,reviewController.postReview);
+router.route('/games/:id/review/:reviewId')
+    .patch(auth.authenticateToken,reviewController.updateReview);
+
 module.exports = router;

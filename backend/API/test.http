@@ -21,10 +21,10 @@ Content-Type: application/json
 
 
 {
-    "pseudo": "ABCD",
-    "email": "gggggg@gmail.com",
-    "password": "000000",
-    "passwordConfirm": "000000"
+    "pseudo": "CBDF",
+    "email": "hhhhhhh@gmail.com",
+    "password": "111111",
+    "passwordConfirm": "111111"
 }
 ### Inscription d'un membre
 
@@ -32,25 +32,44 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "gggggg@gmail.com",
-    "password": "000000"
+    "email": "hhhhhhh@gmail.com",
+    "password": "111111"
 }
 ### Login d'un membre
 
 GET http://localhost:3000/profile
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.QUJDRA._CNNnQ3Zeub2V0_KxxPJGcLQ4hEiK5QQGWFFsJbwUBw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Connexion à son profil
 
-POST http://localhost:3000/games/1/review
+POST http://localhost:3000/games/2/review
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.QUJDRA._CNNnQ3Zeub2V0_KxxPJGcLQ4hEiK5QQGWFFsJbwUBw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 
 {
-            "content":"Super jeu , ca déchire !!",
-            "gameplay_note" : 5,
-            "soundtrack_note" : 4,
-            "graphism_note" : 5,
-            "global_note" : 5,
-            "platform" : "Switch"
+            "content":"NUL !!",
+            "gameplay_note" : 2,
+            "soundtrack_note" : 1,
+            "graphism_note" : 2,
+            "global_note" : 1,
+            "platform" : "PC"
+}
+### Poster un avis
+
+PATCH http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+
+{
+    "picture_url" : "abcdefghij/dpjad.jpg"
+}
+### Modifier son profil
+
+PATCH http://localhost:3000/games/2/review/9
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+
+{
+    "content" : "Finalement pas mal ...",
+    "global_note": 4
 }
