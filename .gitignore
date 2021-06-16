@@ -1,4 +1,6 @@
-backend/node_modules/
+backend/API/node_modules/
+API/node_modules/
+node_modules/
 backend/API/data/
 backend/API/.env
 backend/API/sqitch.conf
