@@ -5,12 +5,13 @@ import './style.scss';
 
 const gameCard = () => (
   <Card>
-    <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+    <Image src="https://react.semantic-ui.com/images/avatar/large/matthew.png" wrapped ui={false} />
     <Card.Content>
       <Card.Header className="card-title">Assassin's Creed Valhalla</Card.Header>
       <Card.Meta>
-        <span className='develop-by'>Ubisoft</span>
+        <span className="develop-by">Ubisoft</span>
       </Card.Meta>
+
       <Card.Content>
         <div className="ui mini label platform">
           PS5

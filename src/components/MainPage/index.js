@@ -4,7 +4,7 @@ import { Card, Header, Button } from 'semantic-ui-react';
 import GameCard from './GameCard';
 import './style.scss';
 
-const mainPage = () => (
+const mainPage = ({ viewAllGamesButton }) => (
   <div className="main">
     <div className="main-card-category">
       <Header as='h2'>Most Popular</Header>
@@ -18,7 +18,7 @@ const mainPage = () => (
     </div>
     <div className="main-card-category">
       <Header as='h2'>Top Rated</Header>
-      <Button>View All</Button>
+      <Button onClick={viewAllGamesButton}>View All</Button>
     </div>
     <div>
       <Card.Group itemsPerRow={2}>

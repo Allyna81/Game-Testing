@@ -1,10 +1,11 @@
 // == Import npm
 import React from 'react';
+import MainPage from 'src/containers/MainPage';
 
 // == Composant
 const App = () => (
   <div>
-    <h1>Terrain prêt </h1>
+    <MainPage />
   </div>
 );
 
