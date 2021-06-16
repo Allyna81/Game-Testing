@@ -16,8 +16,7 @@ function Footer() {
             </ul>
         </nav>
           <div className="row">
-            <p className="foot-copyright">
-            Game Testing Interactive Entertainment GT., &copy;{new Date().getFullYear()} </p>
+            <p className="foot-copyright">Game Testing Interactive Entertainment GT., &copy;{new Date().getFullYear()} </p>
           </div>
         </div>
       </div>
