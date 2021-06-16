@@ -1,19 +1,13 @@
 import React from 'react';
-<<<<<<< HEAD
+
 import 'semantic-ui-css/semantic.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from '../footer';
 import privacy from '../footer/privacy';
 import website from '../footer/website';
 import about from '../footer/about';
-=======
-<<<<<<< HEAD
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import 'semantic-ui-css/semantic.min.css';
-=======
-import MainPage from 'src/containers/MainPage';
->>>>>>> mainPage
->>>>>>> 09c696f1cc7c6c629dabaa2aa6a2367edcb421d4
+
+import MainPage from '../MainPage';
 
 import Home from '../Games/Home';
 import GameDetails from '../Games/GameDetails';
@@ -28,16 +22,6 @@ import AboutUs from '../AboutUs';
 
 //* defining the routes
 const App = () => (
-<<<<<<< HEAD
-  <Router>
-    <Footer />
-    <Switch>
-      <Route path="/privacy" component={privacy} />
-      <Route path="/website" component={website} />
-      <Route path="/about" component={about} />
-    </Switch>
-  </Router>
-=======
   <div>
     <Router>
       <div className="header">
@@ -54,8 +38,15 @@ const App = () => (
       </div>
     </Router>
     <MainPage />
+    <Router>
+      <Footer />
+      <Switch>
+        <Route path="/privacy" component={privacy} />
+        <Route path="/website" component={website} />
+        <Route path="/about" component={about} />
+      </Switch>
+    </Router>
   </div>
->>>>>>> 09c696f1cc7c6c629dabaa2aa6a2367edcb421d4
 );
 
 // == Export
