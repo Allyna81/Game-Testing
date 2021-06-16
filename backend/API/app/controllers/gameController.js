@@ -8,7 +8,7 @@ module.exports = {
             const gamesMorePopular = await gamesDataMapper.getFiveMorePopularGames();
             const categories = await gamesDataMapper.getAllCategories();
             const platforms = await gamesDataMapper.getAllPlatforms();
-            res.status(200).json({ gamesMoreRecent },{ gamesTopRated },{ gamesMorePopular },{ categories },{ platforms });
+            res.status(200).json({ gamesMoreRecent , gamesTopRated , gamesMorePopular , categories , platforms });
 
 
         } catch(error) {

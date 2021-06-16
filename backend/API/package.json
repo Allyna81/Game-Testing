@@ -21,7 +21,11 @@
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "joi": "^17.4.0",
+<<<<<<< HEAD:backend/package.json
     "nodemon": "^2.0.7",
+=======
+    "jsonwebtoken": "^8.5.1",
+>>>>>>> backendStructure:backend/API/package.json
     "pg": "^8.6.0"
   }
 }

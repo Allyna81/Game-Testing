@@ -14,3 +14,62 @@ GET http://localhost:3000/games/2
 ### Récupération des données d'un jeu
 
 GET http://localhost:3000/games/1/review
+### Récupération de toutes les reviews d'un jeu
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+
+{
+    "pseudo": "CBDF",
+    "email": "hhhhhhh@gmail.com",
+    "password": "111111",
+    "passwordConfirm": "111111"
+}
+### Inscription d'un membre
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "hhhhhhh@gmail.com",
+    "password": "111111"
+}
+### Login d'un membre
+
+GET http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+### Connexion à son profil
+
+POST http://localhost:3000/games/2/review
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+
+{
+            "content":"NUL !!",
+            "gameplay_note" : 2,
+            "soundtrack_note" : 1,
+            "graphism_note" : 2,
+            "global_note" : 1,
+            "platform" : "PC"
+}
+### Poster un avis
+
+PATCH http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+
+{
+    "picture_url" : "abcdefghij/dpjad.jpg"
+}
+### Modifier son profil
+
+PATCH http://localhost:3000/games/2/review/9
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+
+{
+    "content" : "Finalement pas mal ...",
+    "global_note": 4
+}

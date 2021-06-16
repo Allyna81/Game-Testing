@@ -1,4 +1,5 @@
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
+const userDataMapper = require('../dataMappers/userDataMapper');
 
 module.exports = {
     async getAllReviewsOfAGame (req,res,next) {
@@ -20,5 +21,42 @@ module.exports = {
             console.error(error)
             res.status(500).json("Error server")
         } 
+    },
+    async postReview (req,res,next) {
+        try {
+            const gameId = parseInt(req.params.id, 10);
+            const userId = await userDataMapper.getIdOfMember(req.user);
+            const data = req.body;
+            if(!data){
+                return next();
+             }
+
+            const review = await reviewDataMapper.insertReviewOnGame(data,userId.id,gameId);
+            res.status(201).json(review);
+
+        } catch (error) {
+            console.error(error);
+            return res.status(500).json('Server error')
+        }
+    },
+    async updateReview (req,res,next) {
+
+        try {
+            const reviewId = req.params.reviewId;
+            const data = req.body;
+            if(!data) {
+                return next();
+            }
+            for(const property in data){
+                await reviewDataMapper.updateReview(property,data[property],reviewId);
+            }
+            res.json(`review has modified .`);
+
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
     }
 }
