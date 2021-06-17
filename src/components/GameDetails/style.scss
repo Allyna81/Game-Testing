@@ -26,6 +26,13 @@ body {
   justify-content: space-between;
 }
 
+.meta-text {
+  display: flex;
+  width: auto;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
+}
+
 .score-container {
   display: flex;
   flex-direction: column;
@@ -40,22 +47,33 @@ body {
   flex-direction: row;
   align-items: baseline;
 }
+.rating-container p {
+  color: #AAAAAA;
+}
 
 .ui.disabled.rating {
   margin-right: 2em;
-  width: 3em;
 }
 
 .ui.large.label.metascore {
   margin-right: 0.5em;
+  font-size: 2em;
+  background-color: #1C1C1E;
+  color: #3AB54A;
+  border: solid 0.1em #3AB54A;
+  border-radius: 43%;
+  ;
 }
 
-.ui.card, .ui.cards>.card {
+.ui.card, .ui.cards>.card .back{
   width: auto;
+  background-color: #1C1C1E;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
-.ui.header {
-  color:red;
+.ui.header.history-header {
+  color:#AAAAAA;
 }
 
 .ui.text.container {
@@ -67,4 +85,10 @@ body {
   overflow: scroll;
   height: 50vh;
   overflow-x: hidden;
+  color: #AAAAAA;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) .game-title-header{
+  font-size: 2em;
+  width: 250px;
 }

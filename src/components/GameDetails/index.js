@@ -11,12 +11,12 @@ const GameDetails = () => (
         placeholder= 'https://img.phonandroid.com/2020/11/ac-valhalla-benchmark-video.jpg'
         source='youtube'
       />
-      <Card >
+      <Card className="back">
       <Card.Content>
-        <Card.Header>Assassin's Creed Valhalla</Card.Header>
+        <Card.Header className="game-title-header">Assassin's Creed Valhalla</Card.Header>
         <Card.Meta>
           <span className="develop-by"> by Ubisoft</span>
-          <p>Metascore</p>
+          <p className="meta-text">Metascore</p>
         </Card.Meta>
       <CardContent>
         <div className="metascore-container">
@@ -41,7 +41,7 @@ const GameDetails = () => (
         </div>
       </CardContent>
       <Container text>
-      <Header as='h2'>History</Header>
+      <Header className="history-header" as='h2'>History</Header>
       <p className="history-text"> 
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
