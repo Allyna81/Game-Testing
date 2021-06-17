@@ -51,5 +51,9 @@ module.exports = {
        ROUND(AVG("global_note")) AS global_note_global
        FROM "review" WHERE "gameId"=$1;`,[gameId]);
        return result.rows[0]
+    },
+    async reportReview(id) {
+        const result = await client.query(`UPDATE "review" SET "report" = ("report"+1) WHERE "id" = $1 RETURNING *`,[id]);
+        return result.rows[0]
     }
 }

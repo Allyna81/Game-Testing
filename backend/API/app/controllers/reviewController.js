@@ -1,3 +1,4 @@
+const { reportReview } = require('../dataMappers/reviewDataMapper');
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
 const userDataMapper = require('../dataMappers/userDataMapper');
 
@@ -58,5 +59,21 @@ module.exports = {
             console.error(error)
             res.status(500).json("Error server");
         }
+    },
+    async reportReview(req,res) {
+        try {
+            const reviewId = parseInt(req.params.reviewId,10);
+            if(!reviewId) {
+                return next();
+            }
+            const report = await reviewDataMapper.reportReview(reviewId);
+            res.status(200).json(`review has reported .`);
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
+
     }
 }

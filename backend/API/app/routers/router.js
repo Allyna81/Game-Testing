@@ -33,4 +33,10 @@ router.route('/games/:id/review')
 router.route('/games/:id/review/:reviewId')
     .patch(auth.authenticateToken,reviewController.updateReview);
 
+router.route('/games/:id/review/:reviewId/report')
+    .patch(auth.authenticateToken,reviewController.reportReview);
+/* Route pour upvote */
+
+/* Route pour downvote */
+
 module.exports = router;
