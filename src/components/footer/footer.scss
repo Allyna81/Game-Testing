@@ -19,7 +19,7 @@ footer{
 
 .foot-logo {
     padding: 2rem;
-    /*background: url(src\image\logo.png);*/
+    /* background: url(src\image\logo.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 5rem;
@@ -64,6 +64,11 @@ footer{
     background-color: rgb(27,27,29);
     padding:2rem;
 
+}
+
+.main-about{
+    background-color: rgb(27,27,29);
+    padding:2rem;
 }
 
 .container-privacy{
@@ -113,3 +118,17 @@ footer{
 .space-privacy{
     height:8rem;
 }
+
+.space-about {
+    height:8rem;
+}
+
+.container-about {
+    color: white;
+    background-color: rgb(58,58,60);
+    border: 1px solid rgb(58,58,60);
+    border-radius: 3.5rem;
+    padding: 4rem;
+    box-shadow : 0px 0px 40px 0px #000000 ;
+}
+
