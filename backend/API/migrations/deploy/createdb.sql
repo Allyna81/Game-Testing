@@ -58,7 +58,7 @@ CREATE TABLE "review" (
     "create_date" TIMESTAMPTZ DEFAULT NOW(),	
     "update_date" TIMESTAMPTZ,	
     "userId" INT NOT NULL REFERENCES "user"("id"),	
-    "gameId" INT NOT NULL REFERENCES "game"("id"),			
+    "gameId" INT NOT NULL,			
     "platform"	TEXT NOT NULL
 );
 CREATE TABLE "game_has_platform" (

@@ -34,5 +34,22 @@ module.exports = {
     async updateReview(field,value,id) {
         const result = await client.query(`UPDATE "review" SET ${field} = $1 WHERE "id" = $2 RETURNING *`,[value,id]);
         return result.rows[0];
+    },
+    async getPopularityOfOneGame(gameId) {
+       const result = await client.query(`
+       SELECT COUNT(*),
+       ROUND(AVG("gameplay_note")) AS gameplay_note_global,
+       ROUND(AVG("soundtrack_note")) AS soundtrack_note_global,  
+       ROUND(AVG("graphism_note")) AS graphism_note_global, 
+       ROUND(AVG("global_note")) AS global_note_global
+       FROM "review" WHERE "gameId"=$1;`,[gameId]);
+       return result.rows[0]; 
+    },
+    async getGlobalNote(gameId){
+    const result = await client.query(`
+       SELECT COUNT(*), 
+       ROUND(AVG("global_note")) AS global_note_global
+       FROM "review" WHERE "gameId"=$1;`,[gameId]);
+       return result.rows[0]
     }
 }
