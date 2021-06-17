@@ -1,0 +1,70 @@
+body {
+  background-color: #1C1C1E;
+}
+.game-details-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #1C1C1E;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.metascore-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: 2em;
+}
+
+.rating-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.ui.disabled.rating {
+  margin-right: 2em;
+  width: 3em;
+}
+
+.ui.large.label.metascore {
+  margin-right: 0.5em;
+}
+
+.ui.card, .ui.cards>.card {
+  width: auto;
+}
+
+.ui.header {
+  color:red;
+}
+
+.ui.text.container {
+  margin-top: 2em;
+}
+
+.history-text {
+  display: block;
+  overflow: scroll;
+  height: 50vh;
+  overflow-x: hidden;
+}

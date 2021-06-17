@@ -1,16 +1,20 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import { Card, Image, Rating } from 'semantic-ui-react';
+import { Card, Rating } from 'semantic-ui-react';
 import './style.scss';
+import { Link } from 'react-router-dom';
 
 const gameCard = () => (
   <Card>
     <div className="game-img-container">
-    <img 
-      src="https://image.jeuxvideo.com/medias/158826/1588264398-815-jaquette-avant.jpg"
-      alt="logo"
-      />
+    <Link to={'/games/:id'}> 
+      <img 
+        src="https://image.jeuxvideo.com/medias/158826/1588264398-815-jaquette-avant.jpg"
+        alt="logo"
+        />
+        </Link>
     </div>
+    
     <Card.Content className="info-container">
       <Card.Header className="card-title">Assassin's Creed Valhalla</Card.Header>
       <Card.Meta>
