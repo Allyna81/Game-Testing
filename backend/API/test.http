@@ -4,13 +4,13 @@ GET http://localhost:3000/
 GET http://localhost:3000/games
 ### Récupération de tout les jeux
 
-GET http://localhost:3000/games/category/8
+GET http://localhost:3000/games/category/31
 ### Récupération des jeux par categories
 
-GET http://localhost:3000/games/platform/3
+GET http://localhost:3000/games/platform/6
 ### Récupération des jeux par plateforme
 
-GET http://localhost:3000/games/2
+GET http://localhost:3000/games/79
 ### Récupération des données d'un jeu
 
 GET http://localhost:3000/games/1/review
@@ -72,4 +72,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u
 {
     "content" : "Finalement pas mal ...",
     "global_note": 4
+}
+### Modifier une review
+POST http://localhost:3000/contact
+Content-Type: application/json
+
+{
+    "email":"superuser@gmail.fr",
+    "content":"Le site est top , pouvez-vous rajouter encore plus de fonctionnalités ?"
 }

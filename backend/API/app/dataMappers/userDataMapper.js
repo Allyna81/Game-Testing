@@ -32,5 +32,16 @@ module.exports = {
    async updateProfile(field,value,id) {
     const result = await client.query(`UPDATE "user" SET ${field} = $1 WHERE "id" = $2 RETURNING *`,[value,id]);
     return result.rows[0];
-    }
+   },
+   async messageToAdmin(data) {
+    const result = await client.query(
+        `INSERT INTO "message" (email,content)
+         VALUES ($1,$2) RETURNING *`,
+         [
+             data.email,
+             data.content
+         ]
+     );
+
+   }
 }
