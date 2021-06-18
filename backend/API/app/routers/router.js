@@ -48,18 +48,18 @@ router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/downvote')
 
 /* ACCES ADMIN */
 
-/* 
-
-TODO 
+/* TODO */
 
 router.route('/admin/login')
-    .post();
+    .post(adminController.adminLogin);
+    
+/* TODO */
 router.route('/admin/reports')
-    .get();
+    .get(adminController.getAllReports);
 router.route('/admin/messages')
-    .get();
+    .get(adminController.getAllMessage);
 router.route('/admin/reports/:reviewId')
-    .delete()
-    .patch();
-*/
+    .delete(adminController.deleteReview)
+    .patch(adminController.cleanBadReport);
+
 module.exports = router;

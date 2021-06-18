@@ -3,9 +3,9 @@ const adminDataMapper = require('../dataMappers/adminDataMapper')
 
 module.exports = {
 
-    async adminLogin(req,res) {
+    async adminLogin(req,res){
 
-        /* TODO */
+            /* TODO */
 
     },
     async getAllReports(_,res){
@@ -47,7 +47,7 @@ module.exports = {
         }   
 
     },
-    async cleanBadReports(req,res){
+    async cleanBadReport(req,res){
 
         try {
 

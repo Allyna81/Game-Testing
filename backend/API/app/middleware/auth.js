@@ -13,8 +13,6 @@ module.exports = {
             }
             req.user = user;
         })
-        
-        console.log('Hello je suis là')
         next();    
     }
 

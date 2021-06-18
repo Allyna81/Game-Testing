@@ -90,7 +90,7 @@ module.exports = {
           });
           return recentGames.data;
     },
-    async getAllInformationsofOneGame (gameId) {
+    async getAllInformationsofOneGame(gameId) {
         const game = await axios({
             url: "https://api.igdb.com/v4/games",
             method: 'POST',

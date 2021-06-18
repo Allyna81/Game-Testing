@@ -94,7 +94,7 @@ module.exports = {
             res.status(500).json("Error server");
         } 
     },
-    async getAllGamesByCategories(req,res,next){
+    async getAllGamesByCategories(req,res,next) {
 
         try {
             const categoryId = parseInt(req.params.categoryId,10);
