@@ -44,7 +44,6 @@ module.exports = {
           });
           return platforms.data;
     },
-    /* REFACTO POUR POINTER SUR L'API les reviews */
     async getFiveMoreRecentGames() {
         const recentGames = await axios({
             url: "https://api.igdb.com/v4/games",
@@ -129,5 +128,5 @@ module.exports = {
             data: `fields release_dates.date,involved_companies.company.name,name,genres.name,platforms.name,cover.url;where platforms.id = ${platformId};sort release_dates.date desc;limit 100;`
           });
           return gamesByPlatform.data;
-        }
     }
+}
