@@ -10,13 +10,13 @@ router.route('/')
     .get(gameController.homePage);
 router.route('/games')
     .get(gameController.getAllGames);
-router.route('/games/category/:categoryId')
+router.route('/games/category/:categoryId(\\d+)')
     .get(gameController.getAllGamesByCategories);
-router.route('/games/platform/:platformId')
+router.route('/games/platform/:platformId(\\d+)')
     .get(gameController.getAllGamesByPlatforms);
-router.route('/games/:id')
+router.route('/games/:id(\\d+)')
     .get(gameController.getAllInfoOfOneGame);
-router.route('/games/:id/review')
+router.route('/games/:id(\\d+)/review')
     .get(reviewController.getAllReviewsOfAGame);
 router.route('/search')
     .post(gameController.searchGame);
@@ -26,19 +26,23 @@ router.route('/login')
     .post(userController.login);
 router.route('/contact')
     .post(userController.sendMessage);
+
 /* ACCES MEMBRE */
 router.route('/profile')
     .get(auth.authenticateToken,userController.getProfile)
     .patch(auth.authenticateToken,userController.updateProfile);
-router.route('/games/:id/review')
+router.route('/games/:id(\\d+)/review')
     .post(auth.authenticateToken,reviewController.postReview);
-router.route('/games/:id/review/:reviewId')
+router.route('/games/:id(\\d+)/review/:reviewId(\\d+)')
     .patch(auth.authenticateToken,reviewController.updateReview);
 
-router.route('/games/:id/review/:reviewId/report')
+router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/report')
     .patch(auth.authenticateToken,reviewController.reportReview);
-/* Route pour upvote */
 
-/* Route pour downvote */
+router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/upvote')
+    .patch(auth.authenticateToken,reviewController.upVoteReview);
+
+router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/downvote')
+    .patch(auth.authenticateToken,reviewController.downVoteReview);
 
 module.exports = router;

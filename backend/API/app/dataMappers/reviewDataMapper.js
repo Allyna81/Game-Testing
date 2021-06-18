@@ -4,7 +4,8 @@ module.exports = {
     async getAllReviewsOfOneGame(gameId) {
         const result = await client.query(`
         SELECT * FROM "review" 
-        WHERE "gameId" = $1`,[gameId]);
+        WHERE "gameId" = $1
+        ORDER BY "up_vote" DESC`,[gameId]);
         return result.rows;
     },
     async getAllReviewsOfUser(userId){
@@ -54,6 +55,14 @@ module.exports = {
     },
     async reportReview(id) {
         const result = await client.query(`UPDATE "review" SET "report" = ("report"+1) WHERE "id" = $1 RETURNING *`,[id]);
+        return result.rows[0]
+    },
+    async upVoteReview(id) {
+        const result = await client.query(`UPDATE "review" SET "up_vote" = ("up_vote"+1) WHERE "id" = $1 RETURNING *`,[id]);
+        return result.rows[0]
+    },
+    async downVoteReview(id) {
+        const result = await client.query(`UPDATE "review" SET "down_vote" = ("down_vote"+1) WHERE "id" = $1 RETURNING *`,[id]);
         return result.rows[0]
     }
 }
