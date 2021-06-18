@@ -18,6 +18,8 @@ router.route('/games/:id')
     .get(gameController.getAllInfoOfOneGame);
 router.route('/games/:id/review')
     .get(reviewController.getAllReviewsOfAGame);
+router.route('/search')
+    .post(gameController.searchGame);
 router.route('/signup')
     .post(userController.signUp);
 router.route('/login')

@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const emailValidator = require('email-validator');
 const userDataMapper = require('../dataMappers/userDataMapper');
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
+const sanitizeHtml = require('sanitize-html');
 
 module.exports = {
     async signUp (req,res,next) {
@@ -56,7 +57,7 @@ module.exports = {
                 res.status(400).json({ errors });
                 return next();
             }
-            
+            formData.name = sanitizeHtml(formData.name.name);
             formData.password = await bcrypt.hash(formData.password, 10);
             const newUser = await userDataMapper.createUser(formData);
             return res.status(201).json("User has created");
@@ -167,7 +168,7 @@ module.exports = {
             if (!emailValidator.validate(data.email)) {
                 return res.status(400).json('Email is not valid');
             }
-
+            formData.content = sanitizeHtml(formData.content);
             const message = await userDataMapper.messageToAdmin(data)
             res.status(201).json("Message is sended");
 

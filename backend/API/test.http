@@ -87,3 +87,10 @@ PATCH http://localhost:3000/games/520/review/1/report
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Récupération de toutes les reviews d'un jeu
+
+POST http://localhost:3000/search
+Content-Type: application/json
+
+{
+    "name" : "Metal Gear Solid"
+}
