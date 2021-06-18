@@ -10,10 +10,10 @@ GET http://localhost:3000/games/category/31
 GET http://localhost:3000/games/platform/6
 ### Récupération des jeux par plateforme
 
-GET http://localhost:3000/games/79
+GET http://localhost:3000/games/520
 ### Récupération des données d'un jeu
 
-GET http://localhost:3000/games/1/review
+GET http://localhost:3000/games/520/review
 ### Récupération de toutes les reviews d'un jeu
 
 POST http://localhost:3000/signup
@@ -42,16 +42,16 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Connexion à son profil
 
-POST http://localhost:3000/games/2/review
+POST http://localhost:3000/games/444/review
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 
 {
-            "content":"NUL !!",
-            "gameplay_note" : 2,
-            "soundtrack_note" : 1,
-            "graphism_note" : 2,
-            "global_note" : 1,
+            "content":"Génial !!",
+            "gameplay_note" : 5,
+            "soundtrack_note" : 5,
+            "graphism_note" : 5,
+            "global_note" : 5,
             "platform" : "PC"
 }
 ### Poster un avis
@@ -81,3 +81,9 @@ Content-Type: application/json
     "email":"superuser@gmail.fr",
     "content":"Le site est top , pouvez-vous rajouter encore plus de fonctionnalités ?"
 }
+### message pour admin
+
+PATCH http://localhost:3000/games/520/review/1/report
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+### Récupération de toutes les reviews d'un jeu

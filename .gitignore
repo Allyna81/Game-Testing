@@ -5,3 +5,4 @@ node_modules/
 backend/API/data/
 backend/API/.env
 backend/API/sqitch.conf
+.env

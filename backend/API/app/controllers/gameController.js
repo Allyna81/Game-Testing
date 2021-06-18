@@ -1,4 +1,5 @@
 const gamesDataMapper = require('../dataMappers/gamesDataMapper');
+const reviewDataMapper = require('../dataMappers/reviewDataMapper');
 module.exports = {
     async homePage(_,res) {
         try {
@@ -81,11 +82,12 @@ module.exports = {
             }
 
             const game = await gamesDataMapper.getAllInformationsofOneGame(gameId);
+            const popularity = await reviewDataMapper.getPopularityOfOneGame(gameId);
 
             if(!game) {
                 res.status(404).json("Ressource not found");
             }
-            res.status(200).json(game);
+            res.status(200).json({game,popularity});
         } catch (error) {
             console.error(error);
             res.status(500).json("Error server");
