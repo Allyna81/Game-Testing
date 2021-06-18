@@ -11,7 +11,7 @@ const mainPage = ({ viewAllGamesButton }) => (
       <Button onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>
     </div>
     <div>
-      <Card.Group itemsPerRow={2}>
+      <Card.Group className="" itemsPerRow={2}>
         <GameCard />
         <GameCard />
       </Card.Group>

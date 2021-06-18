@@ -1,18 +1,23 @@
 import React from 'react';
 import { CardContent } from 'semantic-ui-react';
-import { Rating, Embed, Container, Card, Header } from 'semantic-ui-react';
+import { Rating, Embed, Container, Card, Header, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 const GameDetails = () => (
   <div className="game-details-main">
-      <Container>
-      <Embed
+      <Embed className="youtube-video"
         id='ssrNcwxALS4'
         placeholder= 'https://img.phonandroid.com/2020/11/ac-valhalla-benchmark-video.jpg'
         source='youtube'
       />
+      <Link to={'/'}>
+        <div className="back-page-icon">
+          <Icon link name='angle left' />
+        </div>
+      </Link>
       <Card className="back">
-      <Card.Content>
+      <Card.Content className="test">
         <Card.Header className="game-title-header">Assassin's Creed Valhalla</Card.Header>
         <Card.Meta>
           <span className="develop-by"> by Ubisoft</span>
@@ -59,7 +64,6 @@ const GameDetails = () => (
       </Container>
       </Card.Content>
       </Card>
-      </Container>
   </div>
 );
 

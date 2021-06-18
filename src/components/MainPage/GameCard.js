@@ -5,7 +5,7 @@ import './style.scss';
 import { Link } from 'react-router-dom';
 
 const gameCard = () => (
-  <Card>
+  <Card className="main-card">
     <div className="game-img-container">
     <Link to={'/games/:id'}> 
       <img 

@@ -55,6 +55,10 @@ body {
   margin-right: 2em;
 }
 
+.ui.embed>.icon:before {
+  font-size: 4rem;
+}
+
 .ui.large.label.metascore {
   margin-right: 0.5em;
   font-size: 2em;
@@ -70,6 +74,15 @@ body {
   background-color: #1C1C1E;
   box-shadow: none;
   -webkit-box-shadow: none;
+  display: block;
+  position: relative;
+  bottom: 2em;
+  border-top-right-radius: 10%;
+  width: 100%;
+}
+
+.ui.embed>.icon:after {
+  background: none;
 }
 
 .ui.header.history-header {
@@ -91,4 +104,19 @@ body {
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) .game-title-header{
   font-size: 2em;
   width: 250px;
+  margin-top: 0.2em;
+}
+
+.back-page-icon {
+  color: white;
+  font-size: 2em;
+  display: block;
+  position: absolute;
+  top: 1em;
+  z-index: 2;
+}
+
+.youtube-video {
+  display: block;
+  position: relative;
 }
