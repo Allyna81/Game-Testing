@@ -99,6 +99,7 @@ body {
   height: 50vh;
   overflow-x: hidden;
   color: #AAAAAA;
+  margin-bottom: 1em;
 }
 
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) .game-title-header{
@@ -119,4 +120,18 @@ body {
 .youtube-video {
   display: block;
   position: relative;
+}
+
+.ui.button.reviews-button {
+  border-radius: 1em;
+  border: solid 0.2em none;
+  background-color: #282828;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  align-items: center;
 }

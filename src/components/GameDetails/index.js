@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardContent } from 'semantic-ui-react';
-import { Rating, Embed, Container, Card, Header, Icon } from 'semantic-ui-react';
+import { Rating, Embed, Container, Card, Header, Icon, Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import './style.scss';
 
@@ -62,6 +62,9 @@ const GameDetails = () => (
         Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
       </p>
       </Container>
+        <div className="button-container">
+          <Button className="reviews-button">View all reviews</Button>
+        </div>
       </Card.Content>
       </Card>
   </div>

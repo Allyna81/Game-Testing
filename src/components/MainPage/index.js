@@ -8,7 +8,7 @@ const mainPage = ({ viewAllGamesButton }) => (
   <div className="main">
     <div className="main-card-category">
       <Header as='h2'>Most Popular</Header>
-      <Button onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>
+      <Button  className="view-all-button" onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>
     </div>
     <div>
       <Card.Group className="" itemsPerRow={2}>
@@ -18,7 +18,7 @@ const mainPage = ({ viewAllGamesButton }) => (
     </div>
     <div className="main-card-category">
       <Header as='h2'>Top Rated</Header>
-      <Button onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
+      <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
     </div>
     <div>
       <Card.Group itemsPerRow={2}>
@@ -28,7 +28,7 @@ const mainPage = ({ viewAllGamesButton }) => (
     </div>
     <div className="main-card-category">
       <Header as='h2'>New Releases</Header>
-      <Button onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
+      <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
     </div>
     <div>
       <Card.Group itemsPerRow={2}>

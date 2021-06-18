@@ -12,7 +12,7 @@ const gameCard = () => (
         src="https://image.jeuxvideo.com/medias/158826/1588264398-815-jaquette-avant.jpg"
         alt="logo"
         />
-        </Link>
+    </Link>
     </div>
     
     <Card.Content className="info-container">
