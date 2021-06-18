@@ -72,7 +72,6 @@ module.exports = {
         try {
 
             const formData = req.body;
-            console.log(formData);
             const errors = [];
 
             if (!emailValidator.validate(formData.email)) {
@@ -89,14 +88,12 @@ module.exports = {
                 });
             }
             const user = await userDataMapper.FindUserInDatabase(formData.email);
-            console.log("Hello 2");
             if (!user) {
                 errors.push({
                     fieldname: 'user',
                     message: `user not found.`
                 });
             }
-            console.log(errors)
             const isPasswordValid = await bcrypt.compare(formData.password, user.password);
 
             if (!isPasswordValid) {

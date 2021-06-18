@@ -144,7 +144,7 @@ module.exports = {
             if(!gameName) {
                 return next();
             }
-
+            gameName = sanitizeHtml(gameName);
             const gameByName = await gamesDataMapper.getGameByName(gameName);
 
             if(!gameByName) {

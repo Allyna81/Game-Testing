@@ -3,6 +3,7 @@ const auth = require('../middleware/auth');
 const gameController = require('../controllers/gameController');
 const reviewController = require('../controllers/reviewController');
 const userController = require('../controllers/userController');
+const adminController = require('../controllers/adminController');
 
 const router = express.Router();
 
@@ -45,4 +46,20 @@ router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/upvote')
 router.route('/games/:id(\\d+)/review/:reviewId(\\d+)/downvote')
     .patch(auth.authenticateToken,reviewController.downVoteReview);
 
+/* ACCES ADMIN */
+
+/* 
+
+TODO 
+
+router.route('/admin/login')
+    .post();
+router.route('/admin/reports')
+    .get();
+router.route('/admin/messages')
+    .get();
+router.route('/admin/reports/:reviewId')
+    .delete()
+    .patch();
+*/
 module.exports = router;
