@@ -1,5 +1,6 @@
 const gamesDataMapper = require('../dataMappers/gamesDataMapper');
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
+const sanitizeHtml = require('sanitize-html');
 module.exports = {
     async homePage(_,res) {
         try {
@@ -93,7 +94,7 @@ module.exports = {
             res.status(500).json("Error server");
         } 
     },
-    async getAllGamesByCategories(req,res,next){
+    async getAllGamesByCategories(req,res,next) {
 
         try {
             const categoryId = parseInt(req.params.categoryId,10);
@@ -130,6 +131,26 @@ module.exports = {
                 res.status(404).json("Ressource not found");
             }
             res.status(200).json(gamesByPlatform);
+        } catch (error) {
+            console.error(error);
+            res.status(500).json("Error server");
+        }
+    },
+    async searchGame(req,res,next) {
+        try {
+
+            const gameName = req.body.name;
+
+            if(!gameName) {
+                return next();
+            }
+            gameName = sanitizeHtml(gameName);
+            const gameByName = await gamesDataMapper.getGameByName(gameName);
+
+            if(!gameByName) {
+                res.status(404).json("Ressource not found");
+            }
+            res.status(200).json(gameByName);
         } catch (error) {
             console.error(error);
             res.status(500).json("Error server");

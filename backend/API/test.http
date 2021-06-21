@@ -87,3 +87,20 @@ PATCH http://localhost:3000/games/520/review/1/report
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Récupération de toutes les reviews d'un jeu
+
+POST http://localhost:3000/search
+Content-Type: application/json
+
+{
+    "name" : "Gear"
+}
+### Recherche de jeu par nom complet ou approximatif
+
+PATCH http://localhost:3000/games/520/review/1/upvote
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
+### Vote positif d'une review
+
+PATCH http://localhost:3000/games/520/review/1/downvote
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc

@@ -1,4 +1,3 @@
-const { reportReview } = require('../dataMappers/reviewDataMapper');
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
 const userDataMapper = require('../dataMappers/userDataMapper');
 
@@ -28,9 +27,13 @@ module.exports = {
             const gameId = parseInt(req.params.id, 10);
             const userId = await userDataMapper.getIdOfMember(req.user);
             const data = req.body;
+
             if(!data){
                 return next();
              }
+
+            data.content = sanitizeHtml(data.content);
+            data.platform = sanitizeHtml(data.platform);
 
             const review = await reviewDataMapper.insertReviewOnGame(data,userId.id,gameId);
             res.status(201).json(review);
@@ -75,5 +78,36 @@ module.exports = {
             res.status(500).json("Error server");
         }
 
+    },
+    async upVoteReview(req,res) {
+        try {
+            const reviewId = parseInt(req.params.reviewId,10);
+            if(!reviewId) {
+                return next();
+            }
+            const report = await reviewDataMapper.upVoteReview(reviewId);
+            res.status(200).json(`Thanks for vote !.`);
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
+
+    },
+    async downVoteReview(req,res) {
+        try {
+            const reviewId = parseInt(req.params.reviewId,10);
+            if(!reviewId) {
+                return next();
+            }
+            const report = await reviewDataMapper.downVoteReview(reviewId);
+            res.status(200).json(`Thanks for vote !.`);
+
+        } catch(error) {
+        
+            console.error(error)
+            res.status(500).json("Error server");
+        }
     }
 }
