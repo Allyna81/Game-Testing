@@ -1,0 +1,62 @@
+footer{
+    width: 100vw;
+
+}
+
+
+
+.main-footer {
+
+    background-color: rgb(22,22,24);
+    color: white;
+    padding: .1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foot-logo {
+    padding: 2rem;
+    /* background: url(src\image\logo.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+
+.foot-item {
+    display: inline;
+    padding: .5rem;
+    line-height: 4rem;
+    color: white;
+    text-decoration: none;
+}
+.foot-item ::after {
+    content: "|";
+    color: white;
+}
+.foot-link {
+    
+    text-decoration: none;
+}
+
+
+.foot-copyright{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: .6rem;
+    text-align: center;
+}
+
+.foot-item:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+    border-radius: 1rem;
+}
+
+.foot-item:active {
+    background-color: grey;
+    transition:.2s;
+}
