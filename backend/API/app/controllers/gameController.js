@@ -136,7 +136,7 @@ module.exports = {
             res.status(500).json("Error server");
         }
     },
-    async searchGame(req,res) {
+    async searchGame(req,res,next) {
         try {
 
             const gameName = req.body.name;

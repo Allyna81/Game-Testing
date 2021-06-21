@@ -12,8 +12,8 @@ VALUES ('emaildetest@visiteur.com','Message de soutien pour GIT');
 
 INSERT INTO TABLE "review" ("content","gameplay_note","soundtrack_note","graphism_note","global_note","userId","gameId",			
     "platform") 
-    VALUES ('Jeu très moyen ...',2,2,3,2,1,1,'PS5'),
-    ('Jeu excellent , une tuerie !',5,5,5,5,2,1,'PS5'),
+    VALUES ('Thief II: The Metal Age est très moyen ...',2,2,3,2,1,1,'PS5'),
+    ('Thief II: The Metal Age ,j eu excellent , une tuerie !',5,5,5,5,2,1,'PS5'),
     ('Lorem ipsum dolor sit amet, consectetur adipiscing elit.
      Suspendisse vitae libero gravida, tincidunt turpis quis, malesuada velit.
       Quisque pharetra nec magna non mollis. Fusce tincidunt enim id fringilla vehicula.
@@ -21,12 +21,12 @@ INSERT INTO TABLE "review" ("content","gameplay_note","soundtrack_note","graphis
         Sed sed lacinia libero. Donec ac velit quis lectus tempor fermentum.
          Nunc vestibulum imperdiet dolor, ut tincidunt neque tempus vel.
           Pellentesque at nibh in urna lacinia imperdiet. Donec ut porttitor tellus',3,2,5,4,3,1,'PS4'),
-    ('Jeu pourri',0,0,0,0,3,2,'PS4'),
-    ('Jeu excellent , une tuerie !',5,5,5,5,4,2,'PS4'),
+    ('Jade Empire: Special Edition est un jeu pourri',0,0,0,0,3,10,'PS4'),
+    ('Jade Empire: Special Edition est un jeu excellent , une tuerie !',5,5,5,5,4,10,'PS4'),
     ('Lorem ipsum dolor sit amet, consectetur adipiscing elit.
      Suspendisse vitae libero gravida, tincidunt turpis quis, malesuada velit.
       Quisque pharetra nec magna non mollis. Fusce tincidunt enim id fringilla vehicula.
        Ut lorem ante, tempor in ornare vitae, ornare sed purus. Sed lacinia nunc vel diam viverra rutrum.
         Sed sed lacinia libero. Donec ac velit quis lectus tempor fermentum.
          Nunc vestibulum imperdiet dolor, ut tincidunt neque tempus vel.
-          Pellentesque at nibh in urna lacinia imperdiet. Donec ut porttitor tellus',3,2,5,4,1,2,'PS4');
+          Pellentesque at nibh in urna lacinia imperdiet. Donec ut porttitor tellus',3,2,5,4,1,10,'PS4');
