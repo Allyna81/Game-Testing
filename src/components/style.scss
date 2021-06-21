@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #1C1C1E;
+  &-card-category {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1em 1em 0 1em;
+  }
+}
+
+.ui.button.view-all-button {
+  background-color: #1C1C1E;
+  color: white;
+  border: solid white 1px;
+  padding: 0.5em;
+}
+
+.ui.header {
+  color: white;
+}
+.h2.ui.header {
+  font-size: 3rem;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  padding: 0.2em 1em 1em 1em;
+}
+
+.ui.rating .active.icon {
+  color: #F7C71B
+}
+
+.ui.cards>.card {
+  background: #3A3A3C;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 1em;
+  position: static;
+
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  color: white;
+  font-size: 0.9em;
+  width: auto;
+  
+}
+
+.ui.card .meta, .ui.cards>.card .meta {
+  color: #C4C4C4;
+  font-size: 0.8em;
+}
+
+.ui.two.cards {
+  margin: 0.5em 0 0 0.5em;
+}
+
+.game-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 1em;
+
+}
+
+.rating-container {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.ui.mini.label.platform {
+  background: #3A3A3C;
+  color: white;
+  border: white solid 0.1em;
+  margin-right: 0.5em;
+}
+
+.ui.mini.label.gametype {
+  border-radius: 3em;
+}
+.tags-container {
+  padding-top: 0.5em;
+}
+
+.ui.disabled.rating {
+  width: 80px;
+}
+
+.button-span {
+  padding-left: 0.3em;
+}
+
+.ui.two.cards {
+  margin-right: .5em;
+}
