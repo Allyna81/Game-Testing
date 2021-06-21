@@ -115,7 +115,7 @@ body {
     font-size: 2em;
     display: block;
     position: absolute;
-    top: 1em;
+    top: 4.2em;
     z-index: 2;
   }
   
@@ -138,3 +138,6 @@ body {
     align-items: center;
   }
   
+  .header.game-title-header {
+    padding: 0 0 0.2em 0
+  }

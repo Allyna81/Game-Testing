@@ -1,6 +1,7 @@
 import React from 'react';
 import { CardContent } from 'semantic-ui-react';
-import { Rating, Embed, Container, Card, Header, Button } from 'semantic-ui-react';
+import { Rating, Embed, Container, Card, Header, Button, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 const GameDetails = () => (
@@ -10,6 +11,11 @@ const GameDetails = () => (
         placeholder= 'https://img.phonandroid.com/2020/11/ac-valhalla-benchmark-video.jpg'
         source='youtube'
       />
+      <Link to={'/'}>
+        <div className="back-page-icon">
+          <Icon link name='angle left' />
+        </div>
+      </Link>
       <Card className="back">
       <Card.Content className="test">
         <Card.Header className="game-title-header">Assassin's Creed Valhalla</Card.Header>
@@ -57,7 +63,9 @@ const GameDetails = () => (
       </p>
       </Container>
         <div className="button-container">
+        <Link to={'/games/:id/reviews'}>
           <Button className="reviews-button">View all reviews</Button>
+        </Link>
         </div>
       </Card.Content>
       </Card>

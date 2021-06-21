@@ -10,6 +10,7 @@ import Register from "../../components/register.component";
 import Home from '../Games/Home';
 import GameDetails from '../Games/GameDetails';
 import Games from '../Games';
+import Reviews from '../Reviews/Reviews';
 import PrivacyTerms from '../PrivacyTerms';
 import AboutUs from '../AboutUs';
 import '../styles/style.css'
@@ -109,13 +110,14 @@ return (
           <div className="reset base">
               <Switch>
            <Route path='/' exact  component={Home} />
-           <Route  path='/games'exact  component={Games} />
+           <Route  path='/games' exact  component={Games} />
            <Route  path='/contact' exact component={AboutUs} />
            <Route  path='/privacy' exact component={PrivacyTerms} />
            <Route  path='/games/:id' exact component={GameDetails} />
+           <Route  path='/games/:id/reviews' exact component={Reviews} />
            <Route  path="/login" exact component={Login} />
               <Route  path="/register" exact component={Register} />
-              <Route  path="/profile"exact  component={Profile} />
+              <Route  path="/profile" exact  component={Profile} />
               <Route  path="/admin" exact component={BoardAdmin} />
               </Switch>
        </div>
