@@ -1,5 +1,7 @@
 import React from 'react';
 
-const Games = () => <div>Games</div>;
+const Games = () => {
+    return <div>Games</div>;
+};
 
 export default Games;

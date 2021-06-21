@@ -1,17 +1,13 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
-import App from 'src/components/App';
-import store from 'src/store';
 
-// rajouter browserRouter au besoin pour route dynamique REACT
+import App from './components/App';
+import store  from './store/index';
+
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
-      <App />
-    </Router>
+    <App />
   </Provider>,
   document.getElementById('root'),
 );
