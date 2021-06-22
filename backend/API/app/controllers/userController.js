@@ -13,8 +13,8 @@ module.exports = {
             const errors = [];
             const formData = req.body;
             
-            if(formData.pseudo == null || formData.email == null || formData.password == null ||
-                formData.passwordConfirm == null) {
+            if(formData.pseudo == null || formData.email == null || formData.password == null /*||
+                formData.passwordConfirm == null*/) {
                     return res.status(400).json('Error , missing parameters')
                 }
 
@@ -37,12 +37,12 @@ module.exports = {
                 });
             }
 
-            if (formData.password !== formData.passwordConfirm) {
+            /*if (formData.password !== formData.passwordConfirm) {
                 errors.push({
                     fieldname: 'passwordConfirm',
                     message: `password and confirm password`
                 });
-            }
+            }*/
             if (formData.email) {
                 const emailAlreadyInDb = await userDataMapper.getEmailInDatabase(formData.email);
             if (emailAlreadyInDb) {
