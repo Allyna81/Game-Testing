@@ -139,7 +139,7 @@ module.exports = {
     async searchGame(req,res,next) {
         try {
 
-            const gameName = req.body.name;
+            let gameName = req.body.name;
 
             if(!gameName) {
                 return next();

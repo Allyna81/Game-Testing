@@ -1,4 +1,3 @@
-const { getAllMessage, deleteReviewReported } = require('../dataMappers/adminDataMapper')
 const adminDataMapper = require('../dataMappers/adminDataMapper')
 
 module.exports = {

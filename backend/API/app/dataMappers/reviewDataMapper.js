@@ -3,7 +3,11 @@ const client = require('../client');
 module.exports = {
     async getAllReviewsOfOneGame(gameId) {
         const result = await client.query(`
-        SELECT * FROM "review" 
+        SELECT "review".*,
+        "user"."pseudo",
+        "user"."picture_url"
+        FROM "review"
+        JOIN "user" ON "user"."id" = "review"."userId" 
         WHERE "gameId" = $1
         ORDER BY "up_vote" DESC`,[gameId]);
         return result.rows;

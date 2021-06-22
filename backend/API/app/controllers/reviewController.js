@@ -1,6 +1,6 @@
 const reviewDataMapper = require('../dataMappers/reviewDataMapper');
 const userDataMapper = require('../dataMappers/userDataMapper');
-
+const sanitizeHtml = require('sanitize-html');
 module.exports = {
     async getAllReviewsOfAGame (req,res,next) {
         try {

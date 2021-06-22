@@ -13,8 +13,8 @@ module.exports = {
             const errors = [];
             const formData = req.body;
             
-            if(formData.pseudo == null || formData.email == null || formData.password == null ||
-                formData.passwordConfirm == null) {
+            if(formData.pseudo == null || formData.email == null || formData.password == null /*||
+                formData.passwordConfirm == null*/) {
                     return res.status(400).json('Error , missing parameters')
                 }
 
@@ -37,12 +37,12 @@ module.exports = {
                 });
             }
 
-            if (formData.password !== formData.passwordConfirm) {
+            /*if (formData.password !== formData.passwordConfirm) {
                 errors.push({
                     fieldname: 'passwordConfirm',
                     message: `password and confirm password`
                 });
-            }
+            }*/
             if (formData.email) {
                 const emailAlreadyInDb = await userDataMapper.getEmailInDatabase(formData.email);
             if (emailAlreadyInDb) {
@@ -165,7 +165,7 @@ module.exports = {
             if (!emailValidator.validate(data.email)) {
                 return res.status(400).json('Email is not valid');
             }
-            formData.content = sanitizeHtml(formData.content);
+            data.content = sanitizeHtml(data.content);
             const message = await userDataMapper.messageToAdmin(data)
             res.status(201).json("Message is sended");
 

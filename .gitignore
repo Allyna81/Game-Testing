@@ -6,3 +6,5 @@ backend/API/data/
 backend/API/.env
 backend/API/sqitch.conf
 .env
+backend/admin/node_modules/
+backend/admin/.env
