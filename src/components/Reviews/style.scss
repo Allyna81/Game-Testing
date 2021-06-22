@@ -1,7 +1,127 @@
-.reviews {
-  background-color: white;
-}
-
 .review-container {
   margin-bottom: 2em;
+  position: relative;
 }
+
+
+.ui.form .field>label {
+  color: white;
+}
+
+.ui.container.write-review-container {
+  background-color: #262627;
+  border: solid 0.1em none;
+  border-radius: 2em;
+}
+
+.ui.form.review-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.write-review-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.write-review-rating-container p {
+  padding-left: 1em;
+}
+
+.write-review-rating-container.global-rate {
+  position: absolute;
+  left: 4em;
+  top: 8em;
+}
+
+.field {
+  position: relative;
+  padding-bottom: 1em;
+}
+
+.field.review-button {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 3em;
+}
+
+.field.review-button button {
+  background-color: #262627;
+  border: solid 0.1em white;
+  border-radius: 0.7em;
+  color: white;
+  padding: 0.5em 2em 0.5em 2em;
+}
+
+.reviews {
+  background-color: #262627;
+  padding: 1em 1em 2.5em 1em;
+  margin: 3em 1em 1em 1em;
+  border: solid 0.1em none;
+  border-radius: 2em;
+  width: auto;
+}
+
+.summary-profile {
+  color:  white;
+  text-decoration: none;
+}
+
+.summary {
+  padding-bottom: 0.3em;
+}
+
+.ui.feed>.event>.content .date {
+  color: #C4C4C4;
+}
+
+.ui.feed>.event>.content .extra.text {
+  color: #C4C4C4;
+  overflow: scroll;
+  height: 15vh;
+  overflow-x: hidden;
+} 
+
+.rating-container.global-rate {
+  padding-top: 1em;
+}
+
+.report-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: auto;
+  border: solid 0.1em none;
+  border-radius: 0.4em;
+  background-color: #201F20;
+  color: #960000;
+  padding: 0.3em;
+
+  position: relative;
+  top: 1em;
+}
+
+.back-page-icon-bis {
+  display: flex;
+  align-items: baseline;
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: -1.5em;
+}
+
+.back-page-icon-bis p {
+  font-size: 0.6em;
+  display: inline-flex;
+  width: auto;
+  position: relative;
+  top: -0.2em
+}
+
