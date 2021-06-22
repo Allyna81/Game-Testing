@@ -83,7 +83,7 @@ Content-Type: application/json
 }
 ### message pour admin
 
-PATCH http://localhost:3000/games/520/review/1/report
+PATCH http://localhost:3000/games/520/review/7/report
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Reporter une review abusive
@@ -105,19 +105,3 @@ PATCH http://localhost:3000/games/520/review/1/downvote
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.Q0JERg.qVUZu2aHgSwK-lTmFX_-pj8u926B5u0jcIznCaL-Fbc
 ### Vote négatif d'une review
-
-GET http://localhost:3000/admin/messages
-Content-Type: application/json
-### Récupération des messages d'admin
-
-GET http://localhost:3000/admin/reports
-Content-Type: application/json
-### Récupération des messages d'admin
-
-DELETE http://localhost:3000/admin/reports/1
-Content-Type: application/json
-### Suppression d'un report
-
-PATCH http://localhost:3000/admin/reports/1
-Content-Type: application/json
-### Nettoyage d'un report abusif

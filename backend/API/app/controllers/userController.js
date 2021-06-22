@@ -165,7 +165,7 @@ module.exports = {
             if (!emailValidator.validate(data.email)) {
                 return res.status(400).json('Email is not valid');
             }
-            formData.content = sanitizeHtml(formData.content);
+            data.content = sanitizeHtml(data.content);
             const message = await userDataMapper.messageToAdmin(data)
             res.status(201).json("Message is sended");
 

@@ -4,7 +4,7 @@ const client = require('./client');
 module.exports = {
    async findAdminInDatabase (email) {
         const result = await client.query(`
-        SELECT * FROM "user" WHERE "email" = $1`,[email])
+        SELECT * FROM "admin" WHERE "email" = $1`,[email])
         return result.rows[0];
    },
    async getAllReports() {
