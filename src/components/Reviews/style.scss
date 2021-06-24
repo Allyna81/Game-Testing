@@ -113,8 +113,10 @@
   align-items: baseline;
   color: white;
   font-size: 2em;
-  position: absolute;
-  top: -1.5em;
+}
+
+.reviews-container a {
+  text-decoration: none;
 }
 
 .back-page-icon-bis p {

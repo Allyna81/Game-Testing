@@ -12,7 +12,7 @@ const GameCard = ({ game }) => {
   
     <Link to={`/games/${game.id}`}>
       <img 
-        src={game.cover.url}
+        src={(game.cover.url).replace('t_thumb','t_cover_big')}
         alt="logo"
         />
     </Link>

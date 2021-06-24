@@ -113,8 +113,8 @@ return (
            <Route  path='/games' exact  component={Games} />
            <Route  path='/contact' exact component={AboutUs} />
            <Route  path='/privacy' exact component={PrivacyTerms} />
-           <Route  path='/games/:id' exact component={GameDetails} />
-           <Route  path='/games/:id/reviews' exact component={Reviews} />
+           <Route  path='/games/:gameId' exact component={GameDetails} />
+           <Route  path='/games/:gameId/review' exact component={Reviews} />
            <Route  path="/login" exact component={Login} />
               <Route  path="/register" exact component={Register} />
               <Route  path="/profile" exact  component={Profile} />

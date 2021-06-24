@@ -2,30 +2,40 @@ import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 import { CardContent } from 'semantic-ui-react';
 import { Rating, Embed, Container, Card, Header, Button, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import ReactPlayer from "react-player";
 import './style.scss';
 
-const GameDetails = ({ game }) => {
-  //const [gameDetail, setGameDetail] = useState([]);
+const GameDetails = () => {
+  const { gameId } = useParams();
+  console.log(gameId)
 
-  /*const getGameDetail = async () => {
-    const response = await axios.get(`https://gametesting1.herokuapp.com/games/${game.id}`)
-    setGameDetail(response.data.game);
+  const [gameDetail, setGameDetail] = useState([]);
+  const [gameRate, setGameRate] = useState([]);
+  const [gameUrl, setGameUrl] = useState('');
+
+  const getGameDetail = async () => {
+    const response = await axios.get(`https://gametesting1.herokuapp.com/games/${gameId}`)
+    setGameDetail(response.data.game[0]);
+    setGameRate(response.data.popularity);
+    setGameUrl(response.data.game[0].videos[0].video_id);
   };
 
   useEffect(() => {
     (async () => {
       await getGameDetail();
     })()
-  }, [])*/
-  
+  }, [])
+  console.log(gameUrl);
   return (
     <div className="game-details-main ">
-    <Embed className="youtube-video"
-      id='ssrNcwxALS4'
-      placeholder= 'https://img.phonandroid.com/2020/11/ac-valhalla-benchmark-video.jpg'
-      source='youtube'
-    />
+    <div className="youtube-container">
+      <ReactPlayer
+        url= {"https://www.youtube.com/watch?v=" + gameUrl}
+        width='100%'
+        height='100%'
+      />
+    </div>
     <Link to={'/'}>
       <div className="back-page-icon">
         <Icon link name='angle left' />
@@ -33,29 +43,29 @@ const GameDetails = ({ game }) => {
     </Link>
     <Card className="back">
     <Card.Content className="test">
-      <Card.Header className="game-title-header"></Card.Header>
+      <Card.Header className="game-title-header">{gameDetail.name}</Card.Header>
       <Card.Meta>
-        <span className="develop-by"> by Ubisoft</span>
+        <span className="develop-by"></span>
         <p className="meta-text">Metascore</p>
       </Card.Meta>
     <CardContent>
       <div className="metascore-container">
-        <Rating defaultRating={4} maxRating={5} disabled />
+        <Rating rating={gameRate.global_note_global} maxRating={5} disabled />
         <div className="ui large label metascore">
-          90
+          {Math.round(gameDetail.aggregated_rating)}
         </div>
       </div>
       <div className="score-container">
         <div className="rating-container">
-          <Rating defaultRating={4} maxRating={5} disabled />
+          <Rating rating={gameRate.gameplay_note_global} maxRating={5} disabled />
           <p>Gameplay</p>  
         </div>
         <div className="rating-container">
-          <Rating defaultRating={2} maxRating={5} disabled />
+          <Rating rating={gameRate.soundtrack_note_global} maxRating={5} disabled />
           <p>SoundTrack</p> 
         </div>
         <div className="rating-container">
-          <Rating defaultRating={5} maxRating={5} disabled />
+          <Rating rating={gameRate.graphism_note_global} maxRating={5} disabled />
           <p>Graphics</p> 
         </div>
       </div>
@@ -63,23 +73,12 @@ const GameDetails = ({ game }) => {
     <Container text>
     <Header className="history-header" as='h2'>History</Header>
     <p className="history-text"> 
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-      ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-      ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-      quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-      arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-      Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras
-      dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-      Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-      viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-      Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+      {gameDetail.summary}
     </p>
     </Container>
       <div className="button-container">
-      <Link to={'/games/:id/reviews'}>
-        <Button className="reviews-button">View all reviews</Button>
+      <Link to={`/games/${gameId}/review`}>
+        <Button className="reviews-button">View all reviews ({gameRate.count})</Button>
       </Link>
       </div>
     </Card.Content>
