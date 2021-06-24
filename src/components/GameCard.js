@@ -10,7 +10,7 @@ const GameCard = ({ game }) => {
   <Card className="main-card">
     <div className="game-img-container">
   
-    <Link to={'/games/:id'}> 
+    <Link to={`/games/${game.id}`}>
       <img 
         src={game.cover.url}
         alt="logo"

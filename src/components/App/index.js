@@ -59,8 +59,8 @@ class App extends Component {
 return (
         <div>
         <Router history={history}>
-       <div className='reset'>
-           <nav className="navbar navbar-expand navbar-dark reset base header">
+          <div className='reset'>
+            <nav className="navbar navbar-expand navbar-dark reset base header">
             <div className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link to={"/"} className="nav-link">
