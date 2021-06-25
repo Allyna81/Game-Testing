@@ -1,25 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { FormField } from 'semantic-ui-react';
-import { Container, Form, Rating, Feed, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Container, Rating, Feed, Icon } from 'semantic-ui-react';
 import './style.scss';
 
 const Review = ({ review }) => {
-
-
-  /*handleChangeGameplay  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-  
-  handleChangeSoundtrack  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-
-  handleChangeGraphics  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-
-  handleChangeGlobalRate = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })*/
-
     return (
     <div className="review-container">
       <Container className="reviews">
