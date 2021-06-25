@@ -30,7 +30,7 @@ const Review = ({ review }) => {
             <Feed.Summary>
               <a className="summary-profile">{review.pseudo}</a>
             </Feed.Summary>
-            <Feed.Date>posted on July 9th 2021</Feed.Date>
+            <Feed.Date>posted on {review.review_date}</Feed.Date>
               <Feed.Extra text>
                 {review.content}
               </Feed.Extra>

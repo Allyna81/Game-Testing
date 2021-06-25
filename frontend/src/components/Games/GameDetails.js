@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 import { CardContent } from 'semantic-ui-react';
-import { Rating, Embed, Container, Card, Header, Button, Icon } from 'semantic-ui-react';
+import { Rating, Container, Card, Header, Button, Icon } from 'semantic-ui-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactPlayer from "react-player";
 import './style.scss';
