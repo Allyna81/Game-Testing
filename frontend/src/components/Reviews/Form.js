@@ -39,7 +39,6 @@ console.log(globalRating);
 console.log(gameplayRating);
 console.log(soundtrackRating);
 console.log(graphicsRating);
-//console.log(JSON.parse(localStorage.getItem("user")));
 
 const handleSubmit = ( e ) => {
   e.preventDefault();

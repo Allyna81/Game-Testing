@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Rating, Feed, Icon, Button } from 'semantic-ui-react';
 import { useParams } from 'react-router-dom';
@@ -7,12 +7,18 @@ import './style.scss';
 const Review = ({ review }) => {
   const reviewId = review.id;
   const { gameId } = useParams();
+  const [showReportMessage, setShowReportMessage] = useState(false);
 
   const handleClickReport = async () => {
     try {
+      setShowReportMessage(!showReportMessage)
+      setTimeout(() => {
+        setShowReportMessage(false)
+      }, 3000)
+      const {accessToken}=JSON.parse(localStorage.getItem("user"));
       await axios.patch(`https://gametesting1.herokuapp.com/games/${gameId}/review/${reviewId}/report`, null, {   
         headers: {
-          "authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.VGVzdFJlcG9ydGluZw.hgnb54DyirsfnL4_FNUUSMkz6eCyYJtFdvfNQ_y_Hq8`,  // Token à enlever quand Login OK !!
+          "authorization": `Bearer ${accessToken}`,
           "Content-Type": "application/json",
         }
       })
@@ -55,6 +61,11 @@ const Review = ({ review }) => {
               <Rating rating={review.global_note} maxRating={5} disabled />
               <p>Global rate</p> 
             </div>
+            {showReportMessage && (
+              <div>
+                <p>This review has been reported !</p>
+              </div>
+            )}
             <div className="report-icon">
               <Icon link name='exclamation' />
               <Button onClick={handleClickReport}>report</Button>

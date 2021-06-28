@@ -19,23 +19,17 @@ const Reviews = () => {
 
   const postGameReview = async (textArea, globalRating, gameplayRating, soundtrackRating, graphicsRating) => {
     try {
-      //const {accessToken}=JSON.parse(localStorage.getItem("user"));
-      console.log(textArea);
-      console.log(globalRating);
-      console.log(gameplayRating);
-      console.log(soundtrackRating);
-      console.log(graphicsRating);
-      //console.log(accessToken);
+      const {accessToken}=JSON.parse(localStorage.getItem("user"));
       const response = await axios.post(`https://gametesting1.herokuapp.com/games/${gameId}/review`,{
         id: parseInt(gameId),
-        content: textArea.json,
+        content: textArea,
         gameplay_note: gameplayRating,
         soundtrack_note: soundtrackRating,
         graphism_note:graphicsRating,
         global_note: globalRating,
       },{
         headers:{
-          "authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.VGVzdFJlcG9ydGluZw.hgnb54DyirsfnL4_FNUUSMkz6eCyYJtFdvfNQ_y_Hq8`,  // Token à enlever quand Login OK !!
+          "authorization": `Bearer ${accessToken}`, 
           "Content-Type": "application/json",
         }
       })

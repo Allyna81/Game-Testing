@@ -8,7 +8,6 @@ import './style.scss';
 
 const GameDetails = () => {
   const { gameId } = useParams();
-  console.log(gameId)
 
   const [gameDetail, setGameDetail] = useState([]);
   const [gameRate, setGameRate] = useState([]);
@@ -26,7 +25,7 @@ const GameDetails = () => {
       await getGameDetail();
     })()
   }, [])
-  console.log(gameUrl);
+  
   return (
     <div className="game-details-main ">
     <div className="youtube-container">
