@@ -20,7 +20,7 @@ const GameCard = ({ game }) => {
     
     <Card.Content className="info-container">
       <Card.Header className="card-title">{game.name}</Card.Header>
-      <Card.Meta>
+      <Card.Meta className="game-develop-container">
         {game.involved_companies.map((develop) => {
           return (
             <span className="develop-by">{develop.company.name}</span>
@@ -45,7 +45,7 @@ const GameCard = ({ game }) => {
             )
           })}
         <div className="rating-container">
-          <Rating defaultRating={3} maxRating={5} disabled />
+          <Rating rating={game.global_rating} maxRating={5} disabled />
         </div>
       </Card.Content>
     </Card.Content>

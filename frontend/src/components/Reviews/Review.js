@@ -1,25 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
-import { FormField } from 'semantic-ui-react';
-import { Container, Form, Rating, Feed, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Container, Rating, Feed, Icon, Button } from 'semantic-ui-react';
+import { useParams } from 'react-router-dom';
 import './style.scss';
 
 const Review = ({ review }) => {
+  const reviewId = review.id;
+  const { gameId } = useParams();
 
+  const handleClickReport = async () => {
+    try {
+      await axios.patch(`https://gametesting1.herokuapp.com/games/${gameId}/review/${reviewId}/report`, null, {   
+        headers: {
+          "authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.VGVzdFJlcG9ydGluZw.hgnb54DyirsfnL4_FNUUSMkz6eCyYJtFdvfNQ_y_Hq8`,  // Token à enlever quand Login OK !!
+          "Content-Type": "application/json",
+        }
+      })
 
-  /*handleChangeGameplay  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-  
-  handleChangeSoundtrack  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-
-  handleChangeGraphics  = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })
-
-  handleChangeGlobalRate = (e, { rating, maxRating }) =>
-    this.setState({ rating, maxRating })*/
-
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
     return (
     <div className="review-container">
       <Container className="reviews">
@@ -56,7 +57,7 @@ const Review = ({ review }) => {
             </div>
             <div className="report-icon">
               <Icon link name='exclamation' />
-              <p>report</p>
+              <Button onClick={handleClickReport}>report</Button>
             </div>
           </div>
       </Container>
