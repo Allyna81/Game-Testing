@@ -27,21 +27,22 @@ const Reviews = () => {
       console.log(graphicsRating);
       //console.log(accessToken);
       const response = await axios.post(`https://gametesting1.herokuapp.com/games/${gameId}/review`,{
-        content: textArea,
+        id: parseInt(gameId),
+        content: textArea.json,
         gameplay_note: gameplayRating,
         soundtrack_note: soundtrackRating,
-        graphism_note: graphicsRating,
+        graphism_note:graphicsRating,
         global_note: globalRating,
       },{
         headers:{
-          "Authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.QUJDREVG.ex2VeQiv1XfCqoXtiRlpisyah5xZW8FOXFwpKr5AYSo`,  // Token à enlever quand Login OK !!
-          "Content-Type": "application/json"
+          "authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.VGVzdFJlcG9ydGluZw.hgnb54DyirsfnL4_FNUUSMkz6eCyYJtFdvfNQ_y_Hq8`,  // Token à enlever quand Login OK !!
+          "Content-Type": "application/json",
         }
       })
       console.log(response.data);
       setGameReviews([response.data, ...gameReviews]);
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   }
 

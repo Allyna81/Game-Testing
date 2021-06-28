@@ -1,8 +1,26 @@
 import React from 'react';
-import { Container, Rating, Feed, Icon } from 'semantic-ui-react';
+import axios from 'axios';
+import { Container, Rating, Feed, Icon, Button } from 'semantic-ui-react';
+import { useParams } from 'react-router-dom';
 import './style.scss';
 
 const Review = ({ review }) => {
+  const reviewId = review.id;
+  const { gameId } = useParams();
+
+  const handleClickReport = async () => {
+    try {
+      await axios.patch(`https://gametesting1.herokuapp.com/games/${gameId}/review/${reviewId}/report`, null, {   
+        headers: {
+          "authorization": `Bearer eyJhbGciOiJIUzI1NiJ9.VGVzdFJlcG9ydGluZw.hgnb54DyirsfnL4_FNUUSMkz6eCyYJtFdvfNQ_y_Hq8`,  // Token à enlever quand Login OK !!
+          "Content-Type": "application/json",
+        }
+      })
+
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
     return (
     <div className="review-container">
       <Container className="reviews">
@@ -39,7 +57,7 @@ const Review = ({ review }) => {
             </div>
             <div className="report-icon">
               <Icon link name='exclamation' />
-              <p>report</p>
+              <Button onClick={handleClickReport}>report</Button>
             </div>
           </div>
       </Container>

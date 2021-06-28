@@ -50,6 +50,7 @@ const handleSubmit = ( e ) => {
     soundtrackRating,
     graphicsRating,
   )
+
 }
   return (
     <Container className="write-review-container">
