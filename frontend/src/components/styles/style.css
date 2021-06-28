@@ -221,3 +221,24 @@
   display: flex;
   flex-wrap: wrap;
 }
+.main-right-arrow {
+    position   : absolute;
+    top        : 50%;
+    right      : -10px;
+    font-size  : 3rem;
+    color      : white;
+    z-index    : 10;
+    cursor     : pointer;
+    user-select: none;
+  }
+  
+  .main-left-arrow {
+    position   : absolute;
+    top        : 50%;
+    left       : -10px;
+    font-size  : 3rem;
+    color      : white;
+    z-index    : 10;
+    cursor     : pointer;
+    user-select: none;
+  }
