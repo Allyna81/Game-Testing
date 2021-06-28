@@ -56,7 +56,7 @@ class Login extends Component {
     const { dispatch, history } = this.props;
 
     if (this.checkBtn.context._errors.length === 0) {
-      dispatch(login(this.state.username, this.state.password))
+      dispatch(login(this.state.email, this.state.password))
         .then(() => {
           history.push("/profile");
           window.location.reload();

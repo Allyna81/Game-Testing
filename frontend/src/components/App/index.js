@@ -14,7 +14,6 @@ import PrivacyTerms from '../PrivacyTerms';
 import AboutUs from '../AboutUs';
 import '../styles/style.css'
 import Profile from "../profile.component";
-import BoardAdmin from "../board-admin.component";
 
 import { logout } from "../../store/actions/auth.action";
 import { clearMessage } from "../../store/actions/message.action";
@@ -28,7 +27,6 @@ class App extends Component {
       this.logOut = this.logOut.bind(this);
   
       this.state = {
-        showAdminBoard: false,
         currentUser: undefined,
       };
   
@@ -43,7 +41,6 @@ class App extends Component {
       if (user) {
         this.setState({
           currentUser: user,
-          showAdminBoard: user.roles.includes("ROLE_ADMIN"),
         });
       }
     }
@@ -53,7 +50,7 @@ class App extends Component {
     }
   
     render() {
-      const { currentUser, showAdminBoard } = this.state;
+      const { currentUser} = this.state;
   
 //* start your project by defining the routes
 return (
@@ -68,13 +65,6 @@ return (
                 </Link>
               </li>
 
-              {showAdminBoard && (
-                <li className="nav-item">
-                  <Link to={"/admin"} className="nav-link">
-                    Admin Board
-                  </Link>
-                </li>
-              )}
             </div>
 
             {currentUser ? (
@@ -118,7 +108,6 @@ return (
            <Route  path="/login" exact component={Login} />
               <Route  path="/register" exact component={Register} />
               <Route  path="/profile" exact  component={Profile} />
-              <Route  path="/admin" exact component={BoardAdmin} />
               </Switch>
        </div>
        </div>
