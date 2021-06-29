@@ -43,10 +43,9 @@ const GameDetails = () => {
     <Card className="back">
     <Card.Content className="test">
       <Card.Header className="game-title-header">{gameDetail.name}</Card.Header>
-      <Card.Meta>
-        <span className="develop-by"></span>
+      <div className="meta-contain">
         <p className="meta-text">Metascore</p>
-      </Card.Meta>
+      </div>
     <CardContent>
       <div className="metascore-container">
         <Rating rating={gameRate.global_note_global} maxRating={5} disabled />

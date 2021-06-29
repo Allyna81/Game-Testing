@@ -1,11 +1,9 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import { Card, Rating } from 'semantic-ui-react';
 import './style.scss';
 import { Link } from 'react-router-dom';
 
 const GameCard = ({ game }) => {
-  //console.log('rep result', results);
   return (
   <Card className="main-card">
     <div className="game-img-container">
@@ -21,7 +19,7 @@ const GameCard = ({ game }) => {
     <Card.Content className="info-container">
       <Card.Header className="card-title">{game.name}</Card.Header>
       <Card.Meta className="game-develop-container">
-        {game.involved_companies.map((develop) => {
+        {game.involved_companies.slice(0,2).map((develop) => {
           return (
             <span className="develop-by">{develop.company.name}</span>
           )

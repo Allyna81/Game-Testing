@@ -14,11 +14,11 @@ body {
     flex-direction: column;
   }
   
-  .meta {
+  .meta-contain {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: flex-end
   }
   
   .metascore-container {
@@ -31,8 +31,10 @@ body {
   .meta-text {
     display: flex;
     width: auto;
-    padding-right: 2.5em;
+    padding-right: 1.5em;
     padding-bottom: 1em;
+    color: #C4C4C4;
+    font-size: 1em;
   }
   
   .score-container {
@@ -77,8 +79,6 @@ body {
     box-shadow: none;
     -webkit-box-shadow: none;
     display: block;
-    position: relative;
-    bottom: 2em;
     border-top-right-radius: 10%;
     width: 100%;
   }

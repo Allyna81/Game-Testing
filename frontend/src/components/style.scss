@@ -60,6 +60,11 @@
   font-size: 0.8em;
 }
 
+.ui.card .meta, .ui.cards>.card .meta .game-develop-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .ui.two.cards {
   margin: 0.5em 0 0 0.5em;
 }
@@ -109,4 +114,8 @@
 
 .game-develop-container{
   overflow: hidden;
+}
+
+.develop-by{
+  padding-right: 1em;
 }
