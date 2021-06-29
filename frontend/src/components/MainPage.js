@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 // import PropTypes from 'prop-types';
-import { Card, Header, Button } from 'semantic-ui-react';
+import { Card, Header, Button, Loader} from 'semantic-ui-react';
 import GameCard from './GameCard';
 import './style.scss';
 
@@ -27,7 +27,9 @@ const MainPage = ({ viewAllGamesButton }) => {
   }, [])
 
 return (
-  loading ? <h1>IT'S LOADING</h1> : (<div className="main mt-5">
+  loading ? 
+      <Loader active inline='centered'>Loading ... wait a moment</Loader> 
+    : (<div className="main mt-5">
     <div className="main-card-category">
       <Header as='h2'>Top Rated</Header>
       <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
