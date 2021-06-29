@@ -128,6 +128,9 @@ body {
   }
   .youtube-container {
     position: relative;
+    display: block;
+    width: 100%;
+    height: 25em;
   }
   
   .ui.button.reviews-button {

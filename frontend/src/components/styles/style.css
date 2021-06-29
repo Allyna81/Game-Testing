@@ -242,3 +242,8 @@
     cursor     : pointer;
     user-select: none;
   }
+
+  .ordered {
+    display: flex;
+    justify-content: center;
+  }

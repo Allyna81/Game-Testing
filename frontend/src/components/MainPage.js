@@ -34,8 +34,8 @@ return (
       <Header as='h2'>Top Rated</Header>
       <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
     </div>
-      <div>
-        <Card.Group itemsPerRow={1}>
+      <div className="overflow-hiden">
+        <Card.Group >
           { gamesTopRated.map((game) => {
               return (
                   <GameCard 
@@ -50,7 +50,7 @@ return (
         <Header as='h2'>Most Popular</Header>
         <Button  className="view-all-button" onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>
       </div>
-      <div>
+      <div className="overflow-hiden">
         <Card.Group itemsPerRow={1}>
         { gamesMorePopular.map((game) => {
               return (
@@ -66,7 +66,7 @@ return (
         <Header as='h2'>New Releases</Header>
         <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
       </div>
-      <div>
+      <div className="overflow-hiden">
         <Card.Group itemsPerRow={1}>
         { gamesMoreRecent.map((game) => {
             return (

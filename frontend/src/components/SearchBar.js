@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Rating from '@material-ui/lab/Rating';
+//import Rating from '@material-ui/lab/Rating';
+import { Rating } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const SearchBar = () => {
@@ -42,15 +44,42 @@ const SearchBar = () => {
 const renderedResults = results.map((result) => {
     return (
         <div className="main-game-card" key={result.id}>
-        <img className="main-game-card-img" src="https://picsum.photos/100/80" alt='popular game' />
+        <Link to={`/games/${result.id}`} >
+        <img className="main-game-card-img" src={(result.cover.url).replace('t_thumb','t_cover_big')} 
+        alt='popular game' 
+        />
+        </Link>
+        
       <div className="main-game-card-details">
       <div className="main-game-card-title">{result.name}</div>
-      <p className="main-game-card-dev">test</p>
-      <span className="main-game-card-platform">PC</span>
-      <span className="main-game-card-tag">test</span>
+      <div>
+      {result.involved_companies.slice(0,2).map((develop) => {
+          return (
+            <span className="main-game-card-dev">{develop.company.name}</span>
+          )
+        })}
+      </div>
+      <span>
+      {result.platforms.map((platform) => {
+            return (
+              <div className="main-game-card-platform">
+                {platform.name}
+              </div>
+            )
+          })}
+      </span>
+      <span>
+      {result.genres.map((type) => {
+            return (
+              <div className="main-game-card-tag">
+                {type.name}
+              </div>
+            )
+          })}
+      </span>
       </div>
       <div className="main-game-card-stars">
-       <Rating name="read-only" value={value} readOnly size="small"/>
+        <Rating rating={result.global_rating} maxRating={5} disabled />
       </div>
       </div>
     );

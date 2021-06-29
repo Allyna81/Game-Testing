@@ -45,8 +45,11 @@
   -webkit-box-shadow: none;
   border-radius: 1em;
   position: static;
+  width: auto;
+  min-width: 290px;
 
 }
+
 
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
   color: white;
@@ -118,4 +121,15 @@
 
 .develop-by{
   padding-right: 1em;
+}
+
+.ui.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.overflow-hiden{
+  overflow: hidden;
 }
