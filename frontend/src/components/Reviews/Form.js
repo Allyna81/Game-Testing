@@ -40,15 +40,20 @@ console.log(gameplayRating);
 console.log(soundtrackRating);
 console.log(graphicsRating);
 
-const handleSubmit = ( e ) => {
+const handleSubmit = async ( e ) => {
   e.preventDefault();
-  postGameReview(
+  await postGameReview(
     textArea,
     globalRating,
     gameplayRating,
     soundtrackRating,
     graphicsRating,
   )
+  setTextArea('')
+  setGlobalRating(0)
+  setGameplayRating(0)
+  setSoundtrackRating(0)
+  setGraphicsRating(0)
 
 }
   return (
@@ -58,7 +63,7 @@ const handleSubmit = ( e ) => {
         <FormField>
         <div className="write-review-rating-container global-rate">
           <Rating
-            value={globalRating}
+            rating={globalRating}
             maxRating={5} 
             onRate={handleChangeGlobalRate} 
           />
@@ -66,7 +71,7 @@ const handleSubmit = ( e ) => {
         </div>
         <div className="write-review-rating-container">
           <Rating
-            value={gameplayRating}
+            rating={gameplayRating}
             maxRating={5} 
             onRate={handleChangeGameplayRate} 
           />
@@ -74,7 +79,7 @@ const handleSubmit = ( e ) => {
         </div>
         <div className="write-review-rating-container">
           <Rating
-            value={soundtrackRating}
+            rating={soundtrackRating}
             maxRating={5}
             onRate={handleChangeSountrackRate}
           />
@@ -82,7 +87,7 @@ const handleSubmit = ( e ) => {
         </div>
         <div className="write-review-rating-container">
           <Rating
-            value={graphicsRating}
+            rating={graphicsRating}
             maxRating={5}
             onRate={handleChangeGraphicsRate}
           />

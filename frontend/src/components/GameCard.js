@@ -27,21 +27,25 @@ const GameCard = ({ game }) => {
       </Card.Meta>
 
       <Card.Content className="tags-container">
-        
-          {game.platforms.map((platform) => {
+        <div>
+        {game.platforms.map((platform) => {
             return (
               <div className="ui mini label platform" >
                 {platform.name}
               </div>
             )
           })}
-          {game.genres.map((type) => {
+        </div>
+        <div>
+        {game.genres.map((type) => {
             return (
               <div className="ui mini label gametype">
                 {type.name}
               </div>
             )
           })}
+        </div>
+          
         <div className="rating-container">
           <Rating rating={game.global_rating} maxRating={5} disabled />
         </div>

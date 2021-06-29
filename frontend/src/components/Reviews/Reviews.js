@@ -34,7 +34,7 @@ const Reviews = () => {
         }
       })
       console.log(response.data);
-      setGameReviews([response.data, ...gameReviews]);
+      setGameReviews(response.data);
     } catch (error) {
       console.log(error.message);
     }
@@ -57,6 +57,7 @@ const Reviews = () => {
           postGameReview={postGameReview}
         />
       { gameReviews.map((review) => {
+        console.log(review)
         return (
           <Review
             key={review.id}
