@@ -1,18 +1,21 @@
+
 import SearchBar from '../SearchBar';
 
-import MainPage from '../MainPage';
-import React from "react";
-import Footer from '../Footer';
-import { SliderData } from '../SliderData';
-import ImageSlider from '../ImageSlider';
+import React, { Component } from "react";
 
-export default function Home () {
-    return <div>
+import MostPopular from '../MostPopular';
+import TopRated from '../TopRated';
+import NewReleases from '../NewReleases';
+
+export default class Home extends Component {
+  render() {
+    return <div className='reset'>
+      
         <SearchBar />
-        <ImageSlider slides={SliderData} />
-        <MainPage />
-        <Footer /> 
+        <MostPopular />
+        <TopRated />
+        <NewReleases />
     </div>;
+  }
 };
-
 
