@@ -72,7 +72,7 @@ const renderedResults = results.map((result) => {
       <div>
       {result.genres.map((type) => {
             return (
-              <div className="main-game-card-tag ui mini label gametype">
+              <div className="ui mini label gametype">
                 {type.name}
               </div>
             )

@@ -5,7 +5,7 @@ import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
 import { connect } from "react-redux";
-import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import { register } from "../store/actions/auth.action";
 
 const required = (value) => {
@@ -114,6 +114,7 @@ class Register extends Component {
 
     return (
       <div className="col-md-12">
+      { this.state.successful && <Redirect to="/login" /> }
         <div className="card card-container">
           <img
             src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
@@ -166,9 +167,7 @@ class Register extends Component {
                 </div>
 
                 <div className="form-group mt-4">
-                <Link to={`/login`}>
                   <button className="btn btn-dark btn-block">Sign Up</button>
-                </Link>
                 </div>
               </div>
             )}

@@ -11,15 +11,17 @@ import Home from '../Games/Home';
 import GameDetails from '../Games/GameDetails';
 import Reviews from '../Reviews/Reviews';
 import PrivacyTerms from '../PrivacyTerms';
-import AboutUs from '../AboutUs';
+import Contact from '../Contact';
 import '../styles/style.css'
 import Profile from "../profile.component";
+import NotFound from "../NotFound";
 
 import { logout } from "../../store/actions/auth.action";
 import { clearMessage } from "../../store/actions/message.action";
 
 import { history } from '../helpers/history';
 import ViewAllGameCard from '../ViewAllGameCard';
+import ScrollToTop from '../ScrollToTop';
 
 class App extends Component {
     constructor(props) {
@@ -31,7 +33,7 @@ class App extends Component {
       };
   
       history.listen((location) => {
-        props.dispatch(clearMessage()); // clear message when changing location
+        props.dispatch(clearMessage());
       });
     }
   
@@ -50,12 +52,11 @@ class App extends Component {
     }
   
     render() {
-      const { currentUser} = this.state;
-  
-//* start your project by defining the routes
-return (
+    const { currentUser} = this.state;
+    return (
         <div>
         <Router history={history}>
+          <ScrollToTop />
           <div className='reset'>
             <nav className="navbar navbar-expand navbar-dark reset base header">
             <div className="navbar-nav mr-auto">
@@ -98,24 +99,25 @@ return (
           </nav>
 
           <div className="reset base">
-              <Switch>
-           <Route path='/' exact  component={Home} />
-           <Route  path='/games' exact  component={ViewAllGameCard} />
-           <Route  path='/contact' exact component={AboutUs} />
-           <Route  path='/privacy' exact component={PrivacyTerms} />
-           <Route  path='/games/:gameId' exact component={GameDetails} />
-           <Route  path='/games/:gameId/review' exact component={Reviews} />
-           <Route  path="/login" exact component={Login} />
+            <Switch>
+              <Route path='/' exact  component={Home} />
+              <Route  path='/games' exact  component={ViewAllGameCard} />
+              <Route  path='/contact' exact component={Contact} />
+              <Route  path='/privacy' exact component={PrivacyTerms} />
+              <Route  path='/games/:gameId' exact component={GameDetails} />
+              <Route  path='/games/:gameId/review' exact component={Reviews} />
+              <Route  path="/login" exact component={Login} />
               <Route  path="/register" exact component={Register} />
               <Route  path="/profile" exact  component={Profile} />
-              </Switch>
-       </div>
-       </div>
-   </Router>
-   </div>
-     );
-    }
+              <Route component={NotFound} />
+            </Switch>
+      </div>
+    </div>
+  </Router>
+  </div>
+    );
   }
+}
   
   function mapStateToProps(state) {
     const { user } = state.auth;
