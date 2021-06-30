@@ -171,6 +171,8 @@
     background-color: rgb(58, 58, 60);
     border-radius   : 10px;
     margin          : 1.3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-game-card-img {

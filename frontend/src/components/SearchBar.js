@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 //import Rating from '@material-ui/lab/Rating';
 import { Rating } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import './style.scss'; 
 import axios from 'axios';
 
 const SearchBar = () => {
@@ -59,24 +60,24 @@ const renderedResults = results.map((result) => {
           )
         })}
       </div>
-      <span>
+      <div>
       {result.platforms.map((platform) => {
             return (
-              <div className="main-game-card-platform">
+              <div className="main-game-card-platform ui mini label platform">
                 {platform.name}
               </div>
             )
           })}
-      </span>
-      <span>
+      </div>
+      <div>
       {result.genres.map((type) => {
             return (
-              <div className="main-game-card-tag">
+              <div className="main-game-card-tag ui mini label gametype">
                 {type.name}
               </div>
             )
           })}
-      </span>
+      </div>
       </div>
       <div className="main-game-card-stars">
         <Rating rating={result.global_rating} maxRating={5} disabled />

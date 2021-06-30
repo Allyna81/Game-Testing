@@ -5,6 +5,7 @@ import CheckButton from "react-validation/build/button";
 import { isEmail } from "validator";
 
 import { connect } from "react-redux";
+import { Link } from 'react-router-dom';
 import { register } from "../store/actions/auth.action";
 
 const required = (value) => {
@@ -165,11 +166,13 @@ class Register extends Component {
                 </div>
 
                 <div className="form-group mt-4">
+                <Link to={`/login`}>
                   <button className="btn btn-dark btn-block">Sign Up</button>
+                </Link>
                 </div>
               </div>
             )}
-
+          
             {message && (
               <div className="form-group">
                 <div className={ this.state.successful ? "alert alert-success" : "alert alert-danger" } role="alert">
