@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Form } from 'semantic-ui-react';
+import { Container, Form, Header } from 'semantic-ui-react';
 import axios from 'axios';
 
 const Contact = () => {
@@ -33,6 +33,7 @@ const Contact = () => {
   }
     return(
       <Container>
+        <Header as='h1'>Contact Us</Header>
         <Form onSubmit={handleSubmit}>
           <Form.TextArea className="review-label" label='Your message:' 
             value={textArea} 
