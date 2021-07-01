@@ -32,7 +32,7 @@ return (
     : (<div className="main mt-5">
     <div className="main-card-category">
       <Header as='h2'>Top Rated</Header>
-      <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
+      {/*<Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>*/}
     </div>
       <div className="overflow-hiden">
         <Card.Group >
@@ -48,7 +48,7 @@ return (
       </div>
       <div className="main-card-category">
         <Header as='h2'>Most Popular</Header>
-        <Button  className="view-all-button" onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>
+        {/*<Button  className="view-all-button" onClick={viewAllGamesButton}>View All<span className="button-span">+</span></Button>*/}
       </div>
       <div className="overflow-hiden">
         <Card.Group itemsPerRow={1}>
@@ -64,7 +64,7 @@ return (
       </div>
       <div className="main-card-category">
         <Header as='h2'>New Releases</Header>
-        <Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>
+        {/*<Button className="view-all-button" onClick={viewAllGamesButton}>View All <span className="button-span">+</span></Button>*/}
       </div>
       <div className="overflow-hiden">
         <Card.Group itemsPerRow={1}>
