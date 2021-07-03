@@ -1,3 +1,3 @@
 # projet-game-testing
 
-test git
+test git 2 
